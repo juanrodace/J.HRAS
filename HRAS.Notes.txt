@@ -1,0 +1,20 @@
+Modelación Hidráulica HEC-RAS
+
+J.HRAS
+https://github.com/juanrodace/J.HRAS.git
+Clone local directory D:\J.HRAS
+
+J.HRAS.wiki
+https://github.com/juanrodace/J.HRAS/wiki
+Clone local directory D:\J.HRAS.wiki
+
+✓✕
+
+Tasks
+	Duration and dates.
+	
+
+Referencias
+
+	Open Source Python Packages in Hydrology
+	https://github.com/raoulcollenteur/Python-Hydrology-Tools

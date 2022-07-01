@@ -11,10 +11,19 @@ Clone local directory D:\J.HRAS.wiki
 ✓✕
 
 Tasks
-	Duration and dates.
+	Material modulo 1 - Introduccion y fundamentos generales 
 	
 
 Referencias
 
 	Open Source Python Packages in Hydrology
 	https://github.com/raoulcollenteur/Python-Hydrology-Tools
+
+	HEC-RAS User’s Manual. US Army Corps of Engineers. 
+	https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest
+	
+	HEC-RAS 2D User’s Manual. US Army Corps of Engineers. 
+	https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/latest
+
+	HEC-RAS Documentation. US Army Corps of Engineers. 
+	https://www.hec.usace.army.mil/confluence/rasdocs

@@ -1,4 +1,4 @@
 import sys
-print('Curso LTWB'
+print('Curso HRAS'
       '\nPython version: ',
       sys.version)

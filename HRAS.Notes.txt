@@ -11,8 +11,7 @@ Clone local directory D:\J.HRAS.wiki
 ✓✕
 
 Tasks
-	Material modulo 1 - Introduccion y fundamentos generales 
-	
+	Material sección 1.2. - Conceptos básics de flujo a superficie libre.
 
 Referencias
 

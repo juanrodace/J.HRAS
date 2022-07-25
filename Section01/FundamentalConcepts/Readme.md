@@ -150,7 +150,7 @@ Las
 
 ### Autores
 
-* Creado por ing.juanrodace@gmail.com (5 horas)
+* Creado por ing.juanrodace@gmail.com (6 horas)
 
 
 ### Compatibilidad

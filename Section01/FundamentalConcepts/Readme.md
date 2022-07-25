@@ -104,9 +104,8 @@ En FGV se puede trabajar con la velocidad media unidimensional, tal y como se tr
 
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification_Space.png" width="70%"><br>
-<sub>Convenciones del esquema: Flujo uniforme (FU, UF por sus siglas en inglés), flujo gradualmente variado (FGV, GVF por sus siglas en inglés)</sub></br>
-<sub> y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal
-abierto.</sub><br>
+<sub>Convenciones del esquema: Flujo uniforme (FU, UF por sus siglas en inglés), flujo gradualmente variado (FGV, GVF por sus siglas en inglés)<br>
+y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal abierto.</sub><br><br>
 </div>
 
 > Flujo uniforme y variado en canales a superficie libre.[^1]

@@ -5,7 +5,7 @@ _Explicación general de conceptos requeridos para entender el flujo a superfici
 
 <div align="center">
 
-![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpg)
+![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpeg)
 </div>
 
 > En la ilustración, estructura de derivación en Arroyo Las Ánimas, Cesar, Col.

@@ -52,7 +52,7 @@ En un canal a superficie libre, la velocidad del flujo es cero sobre las superfi
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/VelocityChannelSections.png" width="70%">
 </div>
 
-> Distribución típica de velocidad en secciones de canal abierto.[^2].
+> Distribución típica de velocidad en secciones de canal abierto.[^2]
 
 La distribución de velocidades en una sección de canal depende también de otros factores, como una forma inusual de la sección, la rugosidad del canal y la presencia de curvas. En una corriente ancha, rápida y poco profunda o en un canal muy liso, la velocidad máxima por lo general se encuentra en la superficie libre. La rugosidad del canal causa un incremento en la curvatura del perfil vertical de velocidades.
 
@@ -60,7 +60,7 @@ La distribución de velocidades en una sección de canal depende también de otr
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/VelocityProfile.png" width="70%">
 </div>
 
-> Distribución típica del perfil de velocidades en canal a superficie libre.[^3].
+> Distribución típica del perfil de velocidades en canal a superficie libre.[^3]
 
 ### Elementos geométricos de la sección transversal
 
@@ -72,16 +72,41 @@ Los **elementos geométricos** son propiedades de una sección de canal que pued
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="70%">
 </div>
 
-> Propiedades geométricas comunes en canales a superficie libre.[^2].
+> Propiedades geométricas comunes en canales a superficie libre.[^2]
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse mateméticamente en terminos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebráica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo. 
 
 
-### Tipos de flujo y clasificación
+### Clasificación
 
-En el movimiento o dinámica de los fluidos existes diferentes clasificaciones en función de sus variables y características. A continuación revisamos de forma general estas clasificaciones.
+En la dinámica de los fluidos existes diferentes clasificaciones en función de sus variables y características. En el caso de los canales a superficie libre, generalmente la clasificación se realiza de acuerdo con el cambio en la profundidad de flujo con respecto al tiempo y el espacio, como se muestra en el siguiente diagráma. 
 
-#### Flujo permanente y no permanente
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification.png" width="70%"><br>
+<sub>Clasificación de flujo según la variación de la profundidad de flujo en el tiempo y espacio.</sub><br>
+</div>
+
+#### En función del tiempo. Flujo permanente y no permanente.
+
+Se dice que un flujo es **permanente** si la profundidad del flujo no varía con el tiempo en cualquier lugar o sección dado a lo largo del canal (aunque éste podría variar de un lugar a otro). De otra manera, es no permanente. En este sentido, si el flujo es permanente, la velocidad media en cualquier sección se mantendrá constante en el tiempo y consecuente,ente el cadal es constante y continuo.
+
+Cuando a lo largo del curso del canal, una parte del caudal entra o sale del sistema, se presenta un flujo permanente no uniforme, conocido como **flujo espacialmente variado (FEV)** o discontnuo.
+
+#### En función de espacio. Flujo uniforme y variado.
+
+El flujo en canales a superficie libre también se clasifica como uniforme o variado, esto depende de cómo la profundidad del flujo _(y)_ y la profundidad de flujo de la sección _(d)_, varía a lo largo del canal. Se dice que el flujo en un canal es **uniforme** si la profundidad del flujo _(y)_ y la velocidad media se mantiene constante. De otra manera, el flujo es no uniforme o variado, lo cual indica que la profundidad varía con la distancia en la dirección del flujo. 
+
+Las condiciones del flujo uniforme comúnmente se encuentran en la práctica en tramos largos y rectos de canales con pendiente y sección transversal constantes. En canales abiertos de pendiente y sección transversal constantes, el líquido acelera hasta que la pérdida de carga debida a los efectos de fricción se iguala a la caída de elevación. El líquido en este punto alcanza su velocidad final y se establece un flujo uniforme. El flujo se mantiene uniforme siempre que la pendiente, la sección transversal y la rugosidad del canal no tengan algún cambio. 
+
+La presencia de un obstaculo o un cambio de la pendiente o de sección transversal, ocasiona que la profundidad del flujo cambie y en consecuencia el flujo se convierta en **variado** o no uniforme. Estos flujos variados son comunes en canales naturales o artificiales como ríos, sistemas de irrigación y canales de desagüe. Dentro del flujo variado tenemos el **flujo de rápidamente variado (FRV)** o de variación rápida, si la profundidad del flujo cambia considerablemente sobre una distancia relativamente corta en la dirección del flujo, como el paso del flujo de agua a través de una compuerta parcialmente abierta. Por otro lado tenemos el **flujo gradualmente variado (FGV)** o de variación gradual, cuando la profundidad del flujo cambia gradualmente en una distancia larga a lo extenso del canal. 
+
+En FGV se puede trabajar con la velocidad media unidimensional, tal y como se trabaja con ella en flujos uniformes. Sin embargo, la velocidad promedio no siempre es la más útil o el parámetro más apropiado para FRV. Por lo tanto, el análisis de flujos de variación rápida es bastante complicado, en especial cuando el flujo es no permanente.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification_Space.png" width="70%"><br>
+<sub>Flujo uniforme (FU, UF por sus siglas en inglés), flujo gradualmente variado (FGV, GVF por sus siglas en inglés), y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal
+abierto.</sub><br>
+</div>
 
 #### Flujo laminar y turbulento
 
@@ -113,14 +138,17 @@ Las
 
 #### Ecuación de Manning
 
-### Flujo gradualmente variado
+### Flujo gradualmente variado (FGV)
+
+ Para una razón de flujo o caudal conocido, la altura del flujo en una región de FGV en un canal en específico, puede determinarse en un modo de paso a paso, cuando se empieza por analizar en la sección transversal de control, donde las condiciones del flujo se conocen, y se evalúa la perdida de carga, la caída de elevación y la velocidad promedio para cada paso.
+
 
 ### Flujo no permanente
 
 
 ### Autores
 
-* Creado por ing.juanrodace@gmail.com (3 horas)
+* Creado por ing.juanrodace@gmail.com (5 horas)
 
 
 ### Compatibilidad
@@ -133,11 +161,12 @@ Las
 ### Control de versiones
 
 
-| Versión    | Descripción                                                                                                                     |
-|------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 2022.07.19 | Creación estructura general y contenido. |
-| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades, características y elementos geométricos.              |
-
+| Versión    | Descripción                                                                                                                       |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 2022.07.19 | Creación estructura general y contenido.                                                                                          |
+| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. |
+| 2022.07.26| Inclusión conceptos: ecuaciones fundamentales, energía y fuerza especifica, profundidad crítica, flujo uniforme|
+| 2022.07.xx| Inclusión conceptos: flujo gradualmente variado y flujo no permanente.|  
 
 ### Licencia, cláusulas y condiciones de uso
 

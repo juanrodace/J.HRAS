@@ -8,7 +8,7 @@ _Explicación general de conceptos requeridos para entender el flujo a superfici
 ![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpg)
 </div>
 
-> En la ilustración, perfil de flujo en canal a superficie libre.
+> En la ilustración, estructura de derivación en Arroyo Las Ánimas, Cesar, Col.
 ___
 
 ### Objetivos

@@ -1,11 +1,15 @@
 ## Conceptos básicos
 Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy equation` `Manning` `FGV (GVF)`
 
-Explicación general de conceptos requeridos para entender el flujo a superficie libre, en condición permanente y no permanente. 
+_Explicación general de conceptos requeridos para entender el flujo a superficie libre, en condición permanente y no permanente._
 
-![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpg)
+<div align="center">
 
-> En la ilustración, perfil de flujo en canal a superficie libre.
+![OpenChannelFlow.jpg](E:\J.HRAS\Section01\FundamentalConcepts\Graph\OpenChannelFlow.jpg)
+</div>
+
+> En la ilustración, perfil de flujo en canal a superficie libre. _Creative Commons_
+___
 
 ### Objetivos
 
@@ -18,7 +22,7 @@ Explicación general de conceptos requeridos para entender el flujo a superficie
 * Estudiar los conceptos del flujo no permanente en canales.
 
 > Se incluye actividad para estimación de parámetros. 
-> Estudiantes que aplicaron para curso certificado, desarrollan...........
+> Estudiantes que aplicaron para curso certificado, desarrollan su propia hoja de calculo o script python .
 
 ### Requerimientos
 
@@ -26,7 +30,39 @@ Explicación general de conceptos requeridos para entender el flujo a superficie
 * Microsoft Excel
 * Python (Opcional)
 
+___
+
+### Flujo a superficie libre
+
+El flujo a superficie libre implica que el fluido está expuesto a la atmósfera, esto puede darse en un canal abierto o en un conducto cuyo líquido no ocupa la sección por completo, y, por lo tanto, hay una superficie libre. Este flujo se distingue del flujo en tuberías o conductos cerrados a presión, los cuales permiten el transporte de liquidos y gases. Sin embargo, el flujo a superficie libre implica la existencia de una interfaz líquido-gas.
+
+El flujo en tuberías se conduce por una diferencia de presión, mientras que el flujo a superficie libre se conduce de manera natural por gravedad. El flujo del agua en un río, por ejemplo, se conduce por la diferencia de elevación entre río corriente arriba y río corriente abajo. La razón de flujo en un canal a superficie libre está establecida por el balance dinámico entre gravedad y fricción. [^1]
+
+<div align="center">
+<img alt="J.HRAS" src="E:\J.HRAS\Section01\FundamentalConcepts\Graph\NaturalChannel_Animas.jpeg" width="85%">
+</div>
+
+>  En la ilustración, Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
+
+ La mayoría de los flujos naturales encontrados en la práctica, como los de agua en riachuelos, ríos e inundaciones además de cunetas a los lados de carreteras, estacionamientos o techos, son también flujos en canales abiertos. Los sistemas de flujo en canal abierto hechos por el hombre incluyen sistemas de irrigación, alcantarillas, desagües y cunetas.
+
 ### Distribución de velocidades
+
+En un canal a superficie libre, la velocidad del flujo es cero sobre las superficies laterales y en el fondo del canal debido a la condición de no deslizamiento, y máxima ocurre abajo de la superficie libre en algún lugar entre 25% de profundidad como se muestra en la figura. Además, la velocidad varía en la dirección del flujo varía en la en la mayoría de los casos. Por lo tanto, la distribución de la velocidad (y en consecuencia el flujo) en canales es en general tridimensional. [^1]
+
+<div align="center">
+<img alt="J.HRAS" src="E:\J.HRAS\Section01\FundamentalConcepts\Graph\VelocityChannelSections.png" width="80%">
+</div>
+
+> Distribución típica de velocidad en secciones de canal abierto.[^2].
+
+Ahora bien, en la práctica de la ingeniería las ecuaciones se trabajan en términos de la velocidad media en secciones transversales del canal. Debido a que la velocidad media varía solamente en la durección del flujo. Esta hipótesis de unidimensionalidad hace posible resolver problemas importantes de la vida real de manera simple, precisa y aplicada comúnmente en la práctica.
+
+<div align="center">
+<img alt="J.HRAS" src="E:\J.HRAS\Section01\FundamentalConcepts\Graph\VelocityProfile.png" width="80%">
+</div>
+
+> Distribución típica del perfil de velocidades en canal a superficie libre.[^3].
 
 ### Elementos geométricos de la sección transversal
 
@@ -75,7 +111,7 @@ Las
 
 ### Autores
 
-* Creado por ing.juanrodace@gmail.com (1 horas)
+* Creado por ing.juanrodace@gmail.com (3 horas)
 
 
 ### Compatibilidad
@@ -88,10 +124,10 @@ Las
 ### Control de versiones
 
 
-| Versión      | Descripción                                                                                                 |
-|--------------|-------------------------------------------------------------------------------------------------------------|
-| 2022.07.19   | Creación estructura. Inclusión de distribución de velocidades, características geométricasy tipos de flujo. |
-| 2022.xx.xx   | Inclusión de.......                                                                      |
+| Versión    | Descripción                                                                                                                     |
+|------------|---------------------------------------------------------------------------------------------------------------------------------|
+| 2022.07.19 | Creación estructura general y contenido. |
+| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades, características y elementos geométricos.              |
 
 
 ### Licencia, cláusulas y condiciones de uso
@@ -99,12 +135,15 @@ Las
 J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License).
 
 
-| [Actividad anterior]() | [Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [Actividad siguiente]()  |
-|------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------|
+| [Actividad anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [Actividad siguiente](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
+|------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------------|
 
 _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repositorio con una ⭐_
 
-[^1]:
-[^2]: 
-[^3]: 
-[^4]: https://www.udocz.com/apuntes/45448/hidraulica-de-tuberias-y-canales-arturo-rocha
+
+[^1]: Mecánica de fluidos, fundamentos y aplicaciones. Cengel Y., Cimbala J. McGraw-Hill.2006.
+[^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
+[^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004._Fig.1.2._
+[^4]:
+
+Hidráulica de tuberías y canales. Rocha Arturo. 

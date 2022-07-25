@@ -11,7 +11,7 @@ Clone local directory D:\J.HRAS.wiki
 ✓✕
 
 Tasks
-	Material sección 1.2. - Conceptos básics de flujo a superficie libre.
+	Material sección 1.2. - Conceptos básicos de flujo a superficie libre.
 
 Referencias
 
@@ -26,3 +26,63 @@ Referencias
 
 	HEC-RAS Documentation. US Army Corps of Engineers. 
 	https://www.hec.usace.army.mil/confluence/rasdocs
+
+
+Markdown
+	https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+	https://github.com/tchapi/markdown-cheatsheet
+	
+	
+Sugerencias Contenido Para Revisar (falta ver https://www.euroinnova.us/curso-hec-ras#seccion-opiniones)
+
+	FUNDAMENTOS
+		- Generalidades (Ecuación de Bernoulli, concepto de energía específica, tipos de flujo)
+		- Flujo estacionario (flujo uniforme y gradualmente variado)
+		- Estructuras hidráulicas (vertederos, compuertas, box-culvert)
+		- Flujo no estacionario (ecuaciones de conservación de masa y momentum, tránsito hidráulico)
+		- Transporte de sedimentos (generalidades, ecuación de Exner, modelos de Meyer-Peter Müller, Ackers-White, Yang)
+	
+	MODELACIÓN
+		- Definición de modelo numérico.
+		- Mallas.
+		- Ecuaciones de Saint Venant .
+		- Ecuaciones de Onda Difusa.
+		- Método de Volúmenes Finitos – Solución implícita.
+		
+	INICIACIÓN HEC-RAS
+		- Requerimientos computacionales y consideraciones iniciales.
+		- Configuración del PC: región, punto decimal.
+		- Descarga e Instalación de HEC-RAS.
+		- Interfaz de HEC-RAS
+		- Creación de un proyecto.
+		
+
+	HEC-RAS Básico
+		- Definición de geometría básica.
+		- Datos de flujo y condiciones de contorno: Flujo estacionario.
+		- Datos de flujo y condiciones de contorno: No estacionario.
+		- Visualización de resultados I.
+		- Generación en GeoRAS y xportación de geometría a HEC-RAS
+		- Optimización geometrias importadas
+		
+	HEC-RAS opciones avanzadas
+		- Interpolación de Secciones. 
+		- Cauces tributarios o efluentes.
+		- Estructuras hidráulicas: Puente/Culvert.
+		- Estructuras hidráulicas: Estructura en Línea.
+		- Estructuras hidráulicas: Estructura Lateral.
+		- Visualización de resultados II.
+
+	HEC-RAS 2D
+		- Modelos de terreno - ver R.LTBW 
+		- Creación del terreno en HEC RAS.
+		- Creación del mapa de coeficiente de rugosidad de Manning.
+		- Creación de Área 2D.
+		- Construcción de malla.
+		- Definición de líneas 2D.
+		- Datos de Flujo y condiciones iniciales.
+		- Creación del plan
+			* Tamaño de Celda y Paso del tiempo.
+			* Ventana de tiempo de simulación.
+		- Visualización de Resultados y Conclusiones.
+			* Mapas, tablas, gráficas.

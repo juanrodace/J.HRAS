@@ -69,7 +69,7 @@ Los canales pueden ser naturales o artificiales. Un canal que tiene la misma sec
 Los **elementos geométricos** son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. La **profundidad de flujo**, _'y'_, en una sección es la distancia vertical desde el punto más bajo de la sección del canal hasta la superficie libre. La **profundidad de flujo de la sección**, _'d'_, es la profundidad de flujo normal o perpendicular a la dirección del flujo. El **ancho superficial**, _T_, es el ancho de la sección del canal en la superficie libre. El **área de flujo** o área mojada, _'A'_, es el área de la sección transversal del canal normal a la dirección del flujo. El **perímetro mojado** o perímetro hidráulico, _'P'_ se define como la longitud de la línea de intersección de la superficie mojada del canal con un plano transversal perpendicular a la dirección del flujo. El **radio hidráulico**, _'R'_, es la relación del área (A) y el perímetro mojado (P). la **profundidad hidráulica**, _'D'_, es la relación entre el área mojada (A) y el ancho superficial (T). Y el **factor de sección** para la estimación del flujo crítico,_'Z'_, se definen como el producto del área (A) y la raíz cuadrada de la profundidad hidráulica (D).
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="70%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="50%">
 </div>
 
 > Propiedades geométricas comunes en canales a superficie libre.[^2]
@@ -159,6 +159,34 @@ El número de Froude es un parámetro importante que gobierna el tipo del flujo 
 El denominador del número de Froude es un parámetro adimnsional, es decir que su demominador tiene la dimensión de la velocidad, y éste representa la velocidad o celeridad de la onda **c<sub>o</sub>**. Por consiguiente, a velocidades de flujo lentas (Fr<1), una pequeña alteración viaja corriente arriba _(con una velocidad c<sub>o</sub> - V relativa al observador en reposo)_ y afecta las condiciones de flujo corriente arriba. Éste se llama flujo tranquilo o **subcrítico** e indica que eñ flujo es dominado por las fuerzas de gravedad. Pero, a velocidades de flujo altas (Fr>1), una pequeña alteración no puede viajar corriente arriba _(la onda es llevada corriente abajo con una velocidad V - c<sub>o</sub> relativa)_ así que las condiciones de flujo corriente arriba no pueden ser influidas por las condiciones
 de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuando las fuerzas de inercia dominan el flujo y es controlado por las condiciones corriente arriba. [^1]
 
+### Conservación de la energía en flujo permanente
+
+En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía ($/alpha$), permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
+ 
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="15%"><br>
+<sub>Donde, <b>z</b> es la elevación por encima del nivel de referencia,<br>
+<b>y</b> es la profundidad vertical de flujo, <b>V</b> es la velocidad media de flujo,<br>
+<b>$/alpha$</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
+</div>
+
+De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/ConservacionEnergia.png" width="25%"><br>
+</div>
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/EnergyConservation.png" width="75%"><br>
+</div>
+
+> Conservación de la energía en flujo a superficie libre.[^5]
+ 
+* **Energía específica**: La energía intrínseca del fluido a través de la sección transversal puede expresarse con mayor realidad si se toma como punto de referencia el fondo del canal y de esa manera z=0 en ese punto. Entonces, la energía mecánica total del fluido en términos de altura o carga, será la suma de la altura de presión y la altura dinámica. A esta suma se le denomina energía específica **Es**.
+
+### Conservación del momentum en flujo permanente
+* Fuerza específica
+
 ### Profundidad crítica
 
 Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la velocidad media del flujo es igual a la celeridad de onda ($V = \sqrt{gD}$). Estas pequeñas ondas graviatcionales pueden ocurrir en aguas poco profundas como resultado de cualquier cambio momentáneo en la frofundidad local del agua, como perturbaciones y obstaculos en el canal. El estado crítico del flujo también se caracteríza por otras condiciones importantes: la energía específica es mínima para un caudal determinado, el caudal es máximo para una determinada nergía específica y la fuerza específica es mínima para un caudal determinado. [^4]
@@ -168,20 +196,6 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FactorCritico.png" width="15%"><br>
 </div>
-
-### Ecuaciones fundamentales en flujo a superficie libre
-
-Las  
-
-#### Continuidad
-
-#### Conservación de la energía
-
-#### Conservación del momentum
-
-### Energía específica
-
-### Fuerza específica
 
 ### Flujo uniforme
 
@@ -197,7 +211,7 @@ Las
 
 ### Autores
 
-* Creado por ing.juanrodace@gmail.com (8 horas)
+* Creado por ing.juanrodace@gmail.com (10 horas)
 
 
 ### Compatibilidad
@@ -232,8 +246,7 @@ _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repo
 [^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
 [^4]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-[^5]:
+[^5]: Hidráulica de tuberías y canales. Rocha Arturo. 
 [^6]:
 [^7]:
 
-Hidráulica de tuberías y canales. Rocha Arturo. 

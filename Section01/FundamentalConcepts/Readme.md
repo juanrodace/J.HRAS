@@ -165,8 +165,8 @@ Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la 
 
 Los análisis sobre el estado crítico se refieren comumente a una sección particular del canal, conocida como **sección crítica**. A partir de la ecuación del número de Froude, podemos despejar la profundidad de flujo para esta sección, conocida como **profundidad crítica**, **y<sub>c</sub>**, la cuál depende de las características geométricas de la sección y de la velocidad de flujo o caudal. Considerando que y<sub>c</sub> no puede despejarse facilmente de la función, se suele utilizar el factor de sección (Z) en función del caudal, la gravedad y el coeficiende de energía. Cuando se conoce el caudal, de la ecuación se obtiene el factor de sección crítico **Z<sub>c</sub>** y, por consiguiente, la profundidad crítica **y<sub>c</sub>**.
 
-<div align="center"><h2>
-$Z_{c}=\frac{Q}{\sqrt{g/\alpha}}$</h2>
+<div align="center"><h3>
+$Z_{c}=\frac{Q}{\sqrt{g/\alpha}}$</h3>
 </div>
 
 ### Ecuaciones fundamentales en flujo a superficie libre

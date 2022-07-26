@@ -126,21 +126,44 @@ Si se considera que con frecuencia los canales a superficie libre tienen seccion
 <div align="center">
 
 | Número de Reynolds | Tipo de flujo |
-|--------------------|---------------|
-| ≤ 500              | Laminar       |
-| entre 500 y 2500   | Transición    |
-| ≥ 2500             | Turbulento    |
+|:------------------:|:-------------:|
+|       ≤ 500        |    Laminar    |
+|  entre 500 y 2500  |  Transición   |
+|       ≥ 2500       |  Turbulento   |
 </div>
 
-
+El flujo laminar en canales a superficie libre ocurre con muy poca frecuencia, ya que la mayoría de los canales transportan el liquido en condiciones de flujo turbulento. Sin embargo, se puede encontrar flujo laminar cuando una delgada capa de agua (como el agua que fluye por cunetas de carreteras o estacionamientos) se mueve a baja velocidad.
 
 #### Efecto de gravedad. Flujo crítico, subcrítico y supercrítico.
 
-| Número de Froude  | Tipo de flujo        |
-|-------------------|----------------------|
-| menor a 1         | Subcrítco            |
-| igual a 1         | Crítico              |
-| mayor a 1         | Supercritico         |
+El efecto de la gravedad sobre el estado de flujo se presenta por la relación entre las fuerzas inerciales y las fuerzas gravitacionales. Esta relación esta dada por el **_número de Froude_**, definido como
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Froude.png" width="15%"><br>
+<sub>Donde, <b>V</b> es la velocidad media de flujo,<br>
+<b>L</b> es la longitud característica (considerada como la profundidad hidráulico, D)<br>
+y <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
+</div>
+
+El número de Froude es un parámetro importante que gobierna el tipo del flujo en canales a superficie libre y se clasifica como:
+
+<div align="center">
+
+| Número de Froude |  Tipo de flujo   |
+|:----------------:|:----------------:|
+|       > 1        |    Subcrítco     |
+|        1         |     Crítico      |
+|       > 1        |   Supercritico   |
+</div>
+
+El denominador del número de Froude es un parámetro adimnsional, es decir que su demominador tiene la dimensión de la velocidad, y éste representa la velocidad o celeridad de la onda **c<sub>o</sub>**. Por consiguiente, a velocidades de flujo lentas (Fr<1), una pequeña alteración viaja corriente arriba _(con una velocidad c<sub>o</sub> - V relativa al observador en reposo)_ y afecta las condiciones de flujo corriente arriba. Éste se llama flujo tranquilo o **subcrítico** e indica que eñ flujo es dominado por las fuerzas de gravedad. Pero, a velocidades de flujo altas (Fr>1), una pequeña alteración no puede viajar corriente arriba _(la onda es llevada corriente abajo con una velocidad V - c<sub>o</sub> relativa)_ así que las condiciones de flujo corriente arriba no pueden ser influidas por las condiciones
+de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuando las fuerzas de inercia dominan el flujo y es controlado por las condiciones corriente arriba. [^1]
+
+### Profundidad crítica
+
+Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la velocidad media del flujo es igual a la celeridad de onda(V = $\sqrt{gD}$). Estas pequeñas ondas graviatcionales pueden ocurrir en aguas poco profundas como resultado de cualquier cambio momentáneo en la frofundidad local del agua, como perturbaciones y obstaculos en el canal. El estado crítico del flujo también se caracteríza por otras condiciones importantes: la energía específica es mínima para un caudal determinado, el caudal es máximo para una determinada nergía específica y la fuerza específica es mínima para un caudal determinado. [^4]
+
+Los análisis sobre el estado crítico se refieren comumente a una sección particular del canal, conocida como **sección crítica**. A partir de la ecuación del número de Froude, podemos despejar la profundidad de flujo para esta sección, conocida como **profundidad crítica**, **y<sub>c</sub>**, la cuál depende de las características geométricas de la sección (área _A_ y profundidad hidráulica _D_ particularmente) y de la velocidad de flujo o caudal.
 
 ### Ecuaciones fundamentales en flujo a superficie libre
 
@@ -156,8 +179,6 @@ Las
 
 ### Fuerza específica
 
-### Profundidad crítica
-
 ### Flujo uniforme
 
 #### Ecuación de Manning
@@ -172,7 +193,7 @@ Las
 
 ### Autores
 
-* Creado por ing.juanrodace@gmail.com (6 horas)
+* Creado por ing.juanrodace@gmail.com (8 horas)
 
 
 ### Compatibilidad
@@ -189,8 +210,8 @@ Las
 |------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 2022.07.19 | Creación estructura general y contenido.                                                                                          |
 | 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. |
-| 2022.07.26| Inclusión conceptos: ecuaciones fundamentales, energía y fuerza especifica, profundidad crítica, flujo uniforme|
-| 2022.07.xx| Inclusión conceptos: flujo gradualmente variado y flujo no permanente.|  
+| 2022.07.26| Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              |
+| 2022.07.xx| Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   |  
 
 ### Licencia, cláusulas y condiciones de uso
 
@@ -206,7 +227,7 @@ _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repo
 [^1]: Mecánica de fluidos, fundamentos y aplicaciones. Cengel Y., Cimbala J. McGraw-Hill.2006.
 [^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
-[^4]:
+[^4]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 [^5]:
 [^6]:
 [^7]:

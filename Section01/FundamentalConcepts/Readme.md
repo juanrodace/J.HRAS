@@ -5,10 +5,10 @@ _Explicación general de conceptos requeridos para entender el flujo a superfici
 
 <div align="center">
 
-![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpeg)
+![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpg)
 </div>
 
-> En la ilustración, estructura de derivación en Arroyo Las Ánimas, Cesar, Col.
+> En la ilustración, canal de riego recubierto. Foto de Armenta Humberto.
 ___
 
 ### Objetivos
@@ -110,9 +110,31 @@ y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal ab
 
 > Flujo uniforme y variado en canales a superficie libre.[^1]
 
-#### Flujo laminar y turbulento
+#### Efecto de viscosidad. Flujo laminar y turbulento.
 
-#### Flujo crítico, subcrítico y supercrítico
+El estado o comportamiento del flujo en canales a superficie libre está gobernado básicamente por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo. El flujo se puede clasificar el flujo en laminar, turbulento o transicional, según el efecto de la viscosidad en relación con la inercia. El flujo es **laminar** si las fuerzas viscosas son muy fuertes en relación con las fuerzas inerciales, de tal manera que la viscosidad es relevante en el comportamiento del flujo. El flujo es turbulento si las fuerzas viscosas son debiles en relación con las fuerzas inerciales. Entre los estados de flujo laminar y turbulento existe un estado mixto o transicional. La clasificación del flujo o el efecto de la viscosidad en relacion con la inercia se representa mediante el número de Reynolds, definido por la siguiente ecuación:
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equation/Reynolds.png" width="50%"><br>
+<sub>Donde, <b>V</b> es la velocidad media de flujo,<br>
+<b>L</b> es la longitud característica (considerada como radio hidráulico, R)<br>
+y <b><i>v</i></b> la viscosidad cinemática del fluido .</sub><br><br>
+</div>
+
+Si se considera que con frecuencia los canales a superficie libre tienen secciones transversales irregulares, el radio hidráulico **R** sirve como la longitud característica y da uniformidad al tratamiento de canales. También, el número de Reynolds es constante para toda la sección del flujo uniforme de un canal. El flujo en canales es laminar si el número de Reynolds (Re) es pequeño y turbulento si es grande. Experimentalmente se han definido los siguientes rangos para la clasificación del flujo.
+
+<div align="center">
+
+| Número de Reynolds | Tipo de flujo |
+|--------------------|---------------|
+| ≤ 500              | Laminar       |
+| entre 500 y 2500   | Transición    |
+| ≥ 2500             | Turbulento    |
+</div>
+
+
+
+#### Efecto de gravedad. Flujo crítico, subcrítico y supercrítico.
 
 | Número de Froude  | Tipo de flujo        |
 |-------------------|----------------------|

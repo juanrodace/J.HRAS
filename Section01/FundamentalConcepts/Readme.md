@@ -69,7 +69,7 @@ Los canales pueden ser naturales o artificiales. Un canal que tiene la misma sec
 Los **elementos geométricos** son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. La **profundidad de flujo**, _'y'_, en una sección es la distancia vertical desde el punto más bajo de la sección del canal hasta la superficie libre. La **profundidad de flujo de la sección**, _'d'_, es la profundidad de flujo normal o perpendicular a la dirección del flujo. El **ancho superficial**, _T_, es el ancho de la sección del canal en la superficie libre. El **área de flujo** o área mojada, _'A'_, es el área de la sección transversal del canal normal a la dirección del flujo. El **perímetro mojado** o perímetro hidráulico, _'P'_ se define como la longitud de la línea de intersección de la superficie mojada del canal con un plano transversal perpendicular a la dirección del flujo. El **radio hidráulico**, _'R'_, es la relación del área (A) y el perímetro mojado (P). la **profundidad hidráulica**, _'D'_, es la relación entre el área mojada (A) y el ancho superficial (T). Y el **factor de sección** para la estimación del flujo crítico,_'Z'_, se definen como el producto del área (A) y la raíz cuadrada de la profundidad hidráulica (D).
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="50%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="60%">
 </div>
 
 > Propiedades geométricas comunes en canales a superficie libre.[^2]
@@ -82,7 +82,7 @@ Para secciones de canal regulares y simples, los elementos geométricos pueden e
 En la dinámica de los fluidos existes diferentes clasificaciones en función de sus variables y características. En el caso de los canales a superficie libre, generalmente la clasificación se realiza de acuerdo con el cambio en la profundidad de flujo con respecto al tiempo y el espacio, como se muestra en el siguiente diagráma. 
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification.png" width="70%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification.png" width="75%"><br>
 <sub>Clasificación de flujo según la variación de la profundidad de flujo en el tiempo y espacio.</sub><br>
 </div>
 
@@ -170,15 +170,16 @@ En dinámica de fluidos se sabe que la energía total del agua en unidades de al
 <b>$/alpha$</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
 </div>
 
-De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
-
-<div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/ConservacionEnergia.png" width="25%"><br>
-</div>
-
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/EnergyConservation.png" width="75%"><br>
 </div>
+
+De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/ConservacionEnergia.png" width="45%">
+<br></div>
+
 
 > Conservación de la energía en flujo a superficie libre.[^5]
  

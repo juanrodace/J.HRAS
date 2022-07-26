@@ -164,7 +164,7 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía ($/alpha$), permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
  
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="15%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="25%"><br>
 <sub>Donde, <b>z</b> es la elevación por encima del nivel de referencia,<br>
 <b>y</b> es la profundidad vertical de flujo, <b>V</b> es la velocidad media de flujo,<br>
 <b>$/alpha$</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
@@ -174,6 +174,8 @@ En dinámica de fluidos se sabe que la energía total del agua en unidades de al
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/EnergyConservation.png" width="75%"><br>
 </div>
 
+> Esuema de conservación de la energía en flujo a superficie libre.[^4]
+
 De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
 
 <div align="center">
@@ -181,7 +183,7 @@ De acuerdo con el principio de conservación de la energía, la altura de energ�
 <br></div>
 
 
-> Conservación de la energía en flujo a superficie libre.[^5]
+
  
 * **Energía específica**: La energía intrínseca del fluido a través de la sección transversal puede expresarse con mayor realidad si se toma como punto de referencia el fondo del canal y de esa manera z=0 en ese punto. Entonces, la energía mecánica total del fluido en términos de altura o carga, será la suma de la altura de presión y la altura dinámica. A esta suma se le denomina energía específica **Es**.
 
@@ -190,7 +192,7 @@ De acuerdo con el principio de conservación de la energía, la altura de energ�
 
 ### Profundidad crítica
 
-Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la velocidad media del flujo es igual a la celeridad de onda ($V = \sqrt{gD}$). Estas pequeñas ondas graviatcionales pueden ocurrir en aguas poco profundas como resultado de cualquier cambio momentáneo en la frofundidad local del agua, como perturbaciones y obstaculos en el canal. El estado crítico del flujo también se caracteríza por otras condiciones importantes: la energía específica es mínima para un caudal determinado, el caudal es máximo para una determinada nergía específica y la fuerza específica es mínima para un caudal determinado. [^4]
+Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la velocidad media del flujo es igual a la celeridad de onda ($V = \sqrt{gD}$). Estas pequeñas ondas graviatcionales pueden ocurrir en aguas poco profundas como resultado de cualquier cambio momentáneo en la frofundidad local del agua, como perturbaciones y obstaculos en el canal. El estado crítico del flujo también se caracteríza por otras condiciones importantes: la energía específica es mínima para un caudal determinado, el caudal es máximo para una determinada nergía específica y la fuerza específica es mínima para un caudal determinado. [^5]
 
 Los análisis sobre el estado crítico se refieren comumente a una sección particular del canal, conocida como **sección crítica**. A partir de la ecuación del número de Froude, podemos despejar la profundidad de flujo para esta sección, conocida como **profundidad crítica**, **y<sub>c</sub>**, la cuál depende de las características geométricas de la sección y de la velocidad de flujo o caudal. Considerando que y<sub>c</sub> no puede despejarse facilmente de la función, se suele utilizar el factor de sección (Z) en función del caudal (Q), la gravedad (g) y el coeficiende de energía($/alpha$). Cuando se conoce el caudal, de la ecuación se obtiene el factor de sección crítico **Z<sub>c</sub>** y, por consiguiente, la profundidad crítica **y<sub>c</sub>**.
 
@@ -246,8 +248,8 @@ _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repo
 [^1]: Mecánica de fluidos, fundamentos y aplicaciones. Cengel Y., Cimbala J. McGraw-Hill.2006.
 [^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
-[^4]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-[^5]: Hidráulica de tuberías y canales. Rocha Arturo. 
+[^4]: Hidráulica de tuberías y canales. Rocha Arturo.
+[^5]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 [^6]:
 [^7]:
 

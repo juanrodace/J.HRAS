@@ -163,10 +163,10 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 
 Cuando *Fr* es igual a 1, se dice que el flujo esta en estado **crítico** y la velocidad media del flujo es igual a la celeridad de onda ($V = \sqrt{gD}$). Estas pequeñas ondas graviatcionales pueden ocurrir en aguas poco profundas como resultado de cualquier cambio momentáneo en la frofundidad local del agua, como perturbaciones y obstaculos en el canal. El estado crítico del flujo también se caracteríza por otras condiciones importantes: la energía específica es mínima para un caudal determinado, el caudal es máximo para una determinada nergía específica y la fuerza específica es mínima para un caudal determinado. [^4]
 
-Los análisis sobre el estado crítico se refieren comumente a una sección particular del canal, conocida como **sección crítica**. A partir de la ecuación del número de Froude, podemos despejar la profundidad de flujo para esta sección, conocida como **profundidad crítica**, **y<sub>c</sub>**, la cuál depende de las características geométricas de la sección y de la velocidad de flujo o caudal. Considerando que y<sub>c</sub> no puede despejarse facilmente de la función, se suele utilizar el factor de sección (Z) en función del caudal, la gravedad y el coeficiende de energía. Cuando se conoce el caudal, de la ecuación se obtiene el factor de sección crítico **Z<sub>c</sub>** y, por consiguiente, la profundidad crítica **y<sub>c</sub>**.
+Los análisis sobre el estado crítico se refieren comumente a una sección particular del canal, conocida como **sección crítica**. A partir de la ecuación del número de Froude, podemos despejar la profundidad de flujo para esta sección, conocida como **profundidad crítica**, **y<sub>c</sub>**, la cuál depende de las características geométricas de la sección y de la velocidad de flujo o caudal. Considerando que y<sub>c</sub> no puede despejarse facilmente de la función, se suele utilizar el factor de sección (Z) en función del caudal (Q), la gravedad (g) y el coeficiende de energía($/alpha$). Cuando se conoce el caudal, de la ecuación se obtiene el factor de sección crítico **Z<sub>c</sub>** y, por consiguiente, la profundidad crítica **y<sub>c</sub>**.
 
-<div align="center"><h3>
-$Z_{c}=\frac{Q}{\sqrt{g/\alpha}}$</h3>
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FactorCritico.png" width="15%"><br>
 </div>
 
 ### Ecuaciones fundamentales en flujo a superficie libre

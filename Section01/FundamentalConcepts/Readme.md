@@ -192,7 +192,7 @@ La energía intrínseca del fluido a través de la sección transversal puede ex
 Esta ecuación es muy instructiva para evaluar la variación de la energía específica respecto a la profundidad del flujo. En un canal a superficie libre en condición de flujo permanente la razón de flujo (Q) es constante y se puede observar lo siguiente:
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/SpecificEnergyCurve.png" width="75%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/SpecificEnergyCurve.png" width="65%"><br>
 </div>
 
 > Curva de energía específica en flujo a superficie libre.[^1]

@@ -80,7 +80,7 @@ Para secciones de canal regulares y simples, los elementos geométricos pueden e
 En la dinámica de los fluidos existes diferentes clasificaciones en función de sus variables y características. En el caso de los canales a superficie libre, generalmente la clasificación se realiza de acuerdo con el cambio en la profundidad de flujo con respecto al tiempo y el espacio, como se muestra en el siguiente diagráma. 
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification.png" width="75%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/FlowClassification.png" width="85%"><br>
 <sub>Clasificación de flujo según la variación de la profundidad de flujo en el tiempo y espacio.</sub><br>
 </div>
 

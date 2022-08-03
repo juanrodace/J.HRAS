@@ -1,7 +1,7 @@
 ## Conceptos básicos
 Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy equation` `Manning` `FGV (GVF)`
 
-_Explicación general de conceptos requeridos para entender el flujo a superficie libre, en condición permanente y no permanente._
+_En esta clase se presentan los conceptos generales requeridos para entender el flujo a superficie libre, en diferentes condiciones, considerando sus características geométricas, cinéticas y dinámicas._
 
 <div align="center">
 
@@ -9,7 +9,6 @@ _Explicación general de conceptos requeridos para entender el flujo a superfici
 </div>
 
 > En la ilustración, canal de riego recubierto. Foto de Armenta Humberto.
-___
 
 ### Objetivos
 
@@ -30,7 +29,6 @@ ___
 * Microsoft Excel
 * Python (Opcional)
 
-___
 
 ## Flujo a superficie libre
 
@@ -267,10 +265,7 @@ _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/juanrodace) en GitHub._
 
-_¡Encontraste útil este microcontenido!, apoya su difusión marcando este repositorio con una ⭐_
-
-
-[^1]: Mecánica de fluidos, fundamentos y aplicaciones. Cengel Y., Cimbala J. McGraw-Hill.2006.
+[^1]: Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
 [^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
 [^4]: Hidráulica de tuberías y canales. Rocha Arturo.

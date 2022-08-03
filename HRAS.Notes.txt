@@ -11,7 +11,9 @@ Clone local directory D:\J.HRAS.wiki
 ✓✕
 
 Tasks
-	Material sección 1.2. - Conceptos básicos de flujo a superficie libre.
+	Finalizar material actividad 1.2. - Conceptos básicos de flujo a superficie libre.
+	Finalizar lectura sección 1.3. - Modelación hidráulica.
+	Desarrollar contenido sección 1.3. - Modelación hidráulica.
 
 Referencias
 
@@ -26,7 +28,22 @@ Referencias
 
 	HEC-RAS Documentation. US Army Corps of Engineers. 
 	https://www.hec.usace.army.mil/confluence/rasdocs
+	
+	Fluid mechanics. Fundamentals and Applications. Cengel Y., Cimbala J. McGraw-Hill.2006.
+	
+	Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
+	
+	The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. 
+	
+	Hidráulica de tuberías y canales. Rocha Arturo.	
 
+	Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
+	
+	Hydraulic modeling. Lyatkher, Victor; Proudovsky Alexander. Scrivener Publishing. 2016.
+	
+	Hydraulic modeling. Concepts and practice. American Society of Civil Engineers, ASCE. 2000.
+
+	Flood Risk Assessment and Management. Chapter 9, Hydraulic Modelling. Schuman Andreas H. Springer. 2011.
 
 Markdown
 	https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
@@ -41,8 +58,14 @@ Sugerencias Contenido Para Revisar (falta ver https://www.euroinnova.us/curso-he
 		- Estructuras hidráulicas (vertederos, compuertas, box-culvert)
 		- Flujo no estacionario (ecuaciones de conservación de masa y momentum, tránsito hidráulico)
 		- Transporte de sedimentos (generalidades, ecuación de Exner, modelos de Meyer-Peter Müller, Ackers-White, Yang)
-	
-	MODELACIÓN
+		
+		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/Educacion/Books/Engineering/Hydraulic%20-%20HIDRAULICA%20DE%20CANALES%20ABIERTOS,%20Ven%20Te%20Chow%20.pdf
+		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/Educacion/Books/Engineering/Hydraulic%20-%20Flow%20in%20Open%20Channels,%20Subramanya%20K.%20(2009).pdf
+		
+		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/LSS/MFLU/Books/Fluid%20Mechanics%20-%20Pritchard-Fox-McDonalds_2011_8ed_.pdf
+		
+				
+	 MODELACIÓN
 		- Definición de modelo numérico.
 		- Mallas.
 		- Ecuaciones de Saint Venant .

@@ -260,11 +260,12 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 
 ### Licencia, cláusulas y condiciones de uso
 
-J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License).
+| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
+|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 
-| [Actividad anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Actividad siguiente](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
-|------------------------|----------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/juanrodace) en GitHub._
 
 _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repositorio con una ⭐_
 

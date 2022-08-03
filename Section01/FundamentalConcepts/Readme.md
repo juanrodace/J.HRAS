@@ -115,7 +115,7 @@ y flujo rápidamente variado (FRV, RVF por sus siglas en inglés) en un canal ab
 El estado o comportamiento del flujo en canales a superficie libre está gobernado básicamente por los efectos de viscosidad y gravedad en relación con las fuerzas inerciales del flujo. El flujo se puede clasificar el flujo en laminar, turbulento o transicional, según el efecto de la viscosidad en relación con la inercia. El flujo es **laminar** si las fuerzas viscosas son muy fuertes en relación con las fuerzas inerciales, de tal manera que la viscosidad es relevante en el comportamiento del flujo. El flujo es turbulento si las fuerzas viscosas son debiles en relación con las fuerzas inerciales. Entre los estados de flujo laminar y turbulento existe un estado mixto o transicional. La clasificación del flujo o el efecto de la viscosidad en relacion con la inercia se representa mediante el número de Reynolds, definido por la siguiente ecuación:
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Reynolds.png" width="15%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Reynolds.png" width="10%"><br>
 <sub>Donde, <b>V</b> es la velocidad media de flujo,<br>
 <b>L</b> es la longitud característica (considerada como radio hidráulico, R)<br>
 y <b><i>v</i></b> la viscosidad cinemática del fluido .</sub><br><br>
@@ -139,7 +139,7 @@ El flujo laminar en canales a superficie libre ocurre con muy poca frecuencia, y
 El efecto de la gravedad sobre el estado de flujo se presenta por la relación entre las fuerzas inerciales y las fuerzas gravitacionales. Esta relación esta dada por el **_número de Froude_**, definido como
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Froude.png" width="15%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Froude.png" width="10%"><br>
 <sub>Donde, <b>V</b> es la velocidad media de flujo,<br>
 <b>L</b> es la longitud característica (considerada como la profundidad hidráulico, D)<br>
 y <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
@@ -164,7 +164,7 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía ($/alpha$), permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
  
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="25%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="20%"><br>
 <sub>Donde, <b>z</b> es la elevación por encima del nivel de referencia,<br>
 <b>y</b> es la profundidad vertical de flujo, <b>V</b> es la velocidad media de flujo,<br>
 <b>$/alpha$</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
@@ -186,7 +186,7 @@ De acuerdo con el principio de conservación de la energía, la altura de energ�
 
 La energía intrínseca del fluido a través de la sección transversal puede expresarse con mayor realidad si se toma como punto de referencia el fondo del canal y de esa manera z=0 en ese punto. Entonces, la energía mecánica total del fluido en términos de altura o carga, será la suma de la altura de presión y la altura dinámica. A esta suma se le denomina energía específica **E<sub>s</sub>**.
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaEspecifica.png" width="25%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaEspecifica.png" width="20%"><br>
 <br><br></div>
 
 Esta ecuación es muy instructiva para evaluar la variación de la energía específica respecto a la profundidad del flujo. En un canal a superficie libre en condición de flujo permanente la razón de flujo (Q) es constante y se puede observar lo siguiente:
@@ -195,7 +195,7 @@ Esta ecuación es muy instructiva para evaluar la variación de la energía espe
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/SpecificEnergyCurve.png" width="65%"><br>
 </div>
 
-> Curva de energía específica en flujo a superficie libre.[^1]
+> Curva de energía específica en flujo a superficie libre._Tomado de Fig.11.7_ [^2]
 
 - La distancia desde un punto en el eje vertical y, a la curva, representa la energía específica correspondiente a este valor de profundidad y. La parte entre la línea **E<sub>s</sub> = y** y la curva corresponden a la carga dinámica (o energía cinética) del líquido, y la parte restante, a la carga de presión (o energía del flujo).
 
@@ -241,11 +241,6 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 ## Flujo no permanente
 
 
-### Autores
-
-* Creado por ing.juanrodace@gmail.com (10 horas)
-
-
 ### Compatibilidad
 
 * Esta actividad puede ser desarrollada .......
@@ -256,20 +251,20 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 ### Control de versiones
 
 
-| Versión    | Descripción                                                                                                                       |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 2022.07.19 | Creación estructura general y contenido.                                                                                          |
-| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. |
-| 2022.07.26| Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              |
-| 2022.07.xx| Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   |  
+| Versión    | Descripción   |   Autor | Horas |
+|------------|---------------|:-------:|:-----:| 
+| 2022.07.19 | Versión inicial con deficinición de estructura general y contenido.                                                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. | [juanrodace](https://github.com/juanrodace) |  4.0  | 
+| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
+| 2022.08.xx | Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso
 
 J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License).
 
 
-| [Actividad anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [Actividad siguiente](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
-|------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [Actividad anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Actividad siguiente](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
+|------------------------|----------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 
 _¡Encontraste útil este microcontenido!, apoya su difusión marcando este repositorio con una ⭐_
 

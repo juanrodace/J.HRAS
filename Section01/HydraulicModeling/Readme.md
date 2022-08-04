@@ -8,7 +8,7 @@ _Igualmente, se presentan los conceptos relacionados a la definición de condici
 
 <div align="center">
 
-![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Engineering.jpg)
+![Engineering.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Engineering.jpeg)
 </div>
 
 

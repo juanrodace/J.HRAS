@@ -61,6 +61,11 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 
 > Las herramientas computacionales requeridas, librerías, complementos y sus versiones son especificadas en cada actividad del curso.
 
+### Referencias
+- Hydraulic modeling. Lyatkher, Victor; Proudovsky Alexander. Scrivener Publishing. 2016
+- Hydraulic modeling. Concepts and practice. American Society of Civil Engineers, ASCE. 2000.
+- Flood Risk Assessment and Management. Chapter 9, Hydraulic Modelling. Schuman Andreas H. Springer. 2011.
+    
 
 ### Control de versiones
 
@@ -68,7 +73,7 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 | Versión    | Descripción                                                                 |   Autor | Horas |
 |------------|-----------------------------------------------------------------------------|:-------:|:-----:| 
 | 2022.08.03 | Versión inicial con definición de estructura general y contenido.         | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.03 | Inclusión de conceptos: modelación en la ingeniría y modelación hidráulica. | [juanrodace](https://github.com/juanrodace) |  2.0  | 
+| 2022.08.04 | Inclusión de conceptos: modelación en la ingeniría y modelación hidráulica. | [juanrodace](https://github.com/juanrodace) |  2.0  | 
 | 2022.08.xx | Inclusión conceptos: complemento modelación hidráulica.                     | [juanrodace](https://github.com/juanrodace) |  XX   | 
 | 2022.08.xx | Inclusión conceptos: xxxxxxxxxxxxx.                                         | [juanrodace](https://github.com/juanrodace) |       |
 

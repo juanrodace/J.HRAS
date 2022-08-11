@@ -74,7 +74,6 @@ Los **elementos geométricos** son propiedades de una sección de canal que pued
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse mateméticamente en terminos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebráica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo. 
 
-
 ## Clasificación del flujo
 
 En la dinámica de los fluidos existes diferentes clasificaciones en función de sus variables y características. En el caso de los canales a superficie libre, generalmente la clasificación se realiza de acuerdo con el cambio en la profundidad de flujo con respecto al tiempo y el espacio, como se muestra en el siguiente diagráma. 
@@ -157,6 +156,16 @@ El número de Froude es un parámetro importante que gobierna el tipo del flujo 
 El denominador del número de Froude es un parámetro adimnsional, es decir que su demominador tiene la dimensión de la velocidad, y éste representa la velocidad o celeridad de la onda **c<sub>o</sub>**. Por consiguiente, a velocidades de flujo lentas (Fr<1), una pequeña alteración viaja corriente arriba _(con una velocidad c<sub>o</sub> - V relativa al observador en reposo)_ y afecta las condiciones de flujo corriente arriba. Éste se llama flujo tranquilo o **subcrítico** e indica que eñ flujo es dominado por las fuerzas de gravedad. Pero, a velocidades de flujo altas (Fr>1), una pequeña alteración no puede viajar corriente arriba _(la onda es llevada corriente abajo con una velocidad V - c<sub>o</sub> relativa)_ así que las condiciones de flujo corriente arriba no pueden ser influidas por las condiciones
 de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuando las fuerzas de inercia dominan el flujo y es controlado por las condiciones corriente arriba. [^1]
 
+## Continuidad en flujo permanente
+
+Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi constantes y por lo tanto la al evaluar la conservación de la masa de un flujo permanente unidimensional o la ecuación de continuidad se concluye que el flujo volumétrico es constante. Y al expresar dicho flujo como el producto del área de la sección trasversar de flujo y la melocidad media en el canal, la ecuación de continuidad entre dos secciones a lo largo de un canal se expresa como:
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="45%"><br>
+<sub>Donde, <b>Q</b> es elflujo volumétrico o caudal,<br>
+<b>A</b> es el área de la sección transversal y <b>V</b> es la velocidad media de flujo.</sub><br><br>
+</div>
+
 ## Conservación de la energía en flujo permanente
 
 En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía ($/alpha$), permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
@@ -165,7 +174,7 @@ En dinámica de fluidos se sabe que la energía total del agua en unidades de al
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="20%"><br>
 <sub>Donde, <b>z</b> es la elevación por encima del nivel de referencia,<br>
 <b>y</b> es la profundidad vertical de flujo, <b>V</b> es la velocidad media de flujo,<br>
-<b>$/alpha$</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
+<b>$/alpha$α</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
 </div>
 
 <div align="center">
@@ -174,15 +183,16 @@ En dinámica de fluidos se sabe que la energía total del agua en unidades de al
 
 > Esquema de conservación de la energía en flujo a superficie libre.[^4]
 
-De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
+De acuerdo con el principio de conservación de la energía, la altura de energía total en una sección '1' localizada aguas arriba debe ser igual a la altura de energía total en una sección '2' aguas abajo más las perdidas de energía *(h<sub>f</sub>)* entre las dos secciones. Esta ecuación es aplicable a flujos uniformes y gradualmente variados.
 
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/ConservacionEnergia.png" width="45%">
 <br><br></div>
- 
+
 ### Energía específica
 
 La energía intrínseca del fluido a través de la sección transversal puede expresarse con mayor realidad si se toma como punto de referencia el fondo del canal y de esa manera z=0 en ese punto. Entonces, la energía mecánica total del fluido en términos de altura o carga, será la suma de la altura de presión y la altura dinámica. A esta suma se le denomina energía específica **E<sub>s</sub>**.
+
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaEspecifica.png" width="20%"><br>
 <br><br></div>
@@ -213,6 +223,22 @@ diferencia entre las profundidades alternas y podría causar una violenta fluctu
 
 
 ## Conservación del momentum en flujo permanente
+
+La segunda ley del movimiento de newton dice que la resultante de las fuerzas externas a un sistema es igual al cambio de la cantidad de movimiento por unidad de tiempo. Dicho cambio de momentum del flujo en una sección por unidad de tiempo se expresa como **$\beta.\rho$QV**, donde **β** es el coeficiente de corrección de *momentum*, **ρ** es la densidad del fluido, **Q** es el caudal o flujo volumétrico y **V** es la velocidad media en la sección. Siendo así, al aplicar este principio en un tramo de canal, al considerar las fuerzas externas de presión, las fuerzas gravitacionales y las fuerzas de fricción o de resistencia externa, puede escribirse la siguiente expresión para el cambio de *momentum* por unidad de tiempo entre las secciones 1 y 2.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/Momentum.png" width="65%"><br>
+</div>
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Momentum.png" width="45%"><br>
+<sub>Donde, <b>P<sub>1</sub> y P<sub>2</sub></b> son las presiones resultantes que actuan en las dos secciones trasversales,<br>
+<b>W</b> es el peso del agua contenida entre las dos secciones, <b>θ</b> es angulo de inclinación del canal<br>
+y <b>F<sub>f</sub></b> es la fuerza de fricción y de resistencia totales externas que actúan en el canal.</sub><br><br>
+</div>
+
+Cuando el flujo es uniforme o gradualmente variado, los valores de P<sub>1</sub> y P<sub>2</sub> pueden calcularse suponiendo una distribución hidrostática. Para el caso de flujos rápidamente variados, la distribución de presiones no es hidrostática y deben corregirse para tener en cuenta los efectos de curvatura de las líneas e corriente. 
+
 ### Fuerza específica
 
 ## Profundidad crítica
@@ -225,7 +251,7 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FactorCritico.png" width="15%"><br>
 </div>
 
-### Secciones de control
+#### Secciones de control
 
 ## Flujo uniforme
 

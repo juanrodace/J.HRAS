@@ -219,7 +219,6 @@ volumétrico (Q) dado.
 - Un pequeño cambio en la energía específica cerca del punto crítico causa gran
 diferencia entre las profundidades alternas y podría causar una violenta fluctuación en el nivel del flujo. Por lo tanto, las operaciones cerca del punto crítico deben evitarse en el diseño de canales abiertos.
 
-
 ## Conservación del momentum en flujo permanente
 
 La segunda ley del movimiento de newton dice que la resultante de las fuerzas externas a un sistema es igual al cambio de la cantidad de movimiento por unidad de tiempo. Dicho cambio de momentum del flujo en una sección por unidad de tiempo se expresa como **βρQV**, donde **β** es el coeficiente de corrección de *momentum*, **ρ** es la densidad del fluido, **Q** es el caudal o flujo volumétrico y **V** es la velocidad media en la sección. Siendo así, al aplicar este principio en un tramo de canal, al considerar las fuerzas externas de presión, las fuerzas gravitacionales y las fuerzas de fricción o de resistencia externa, puede escribirse la siguiente expresión para el cambio de *momentum* por unidad de tiempo entre las secciones 1 y 2.
@@ -281,6 +280,16 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 
 ### Secciones de control
 
+Consiste en el control del flujo en una sección trasversal de un canal a superficie libre, donde existe una relación definitiva entre el nivel del fluido y el caudal. Esta condición le permite a la sección de control regular el flujo aguas arriba y/o aguas abajo. Adicionalmente, es útil como sección de aforo o calibración. Algunos casos de secciones de control son: secciones de flujo crítico, vertederos, canaletas de flujo crítico, compuertas, orificios o cualquier otra estructura.   
+
+La localización de la sección de control en general está gobernada por el estado de flujo y por la pendiente del canal. Por ejemplo en un canal prismático recto, en general se puede decir que un flujo en condición subcrítico tendrá una sección de control aguas abajo, mientras que un flujo en condición supercrítico tendra su sección de control aguas arriba. 
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/ControlSection.jpeg" width="60%">
+</div>
+
+>  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
+
 ### Compatibilidad
 
 * Esta actividad puede ser desarrollada .......
@@ -294,8 +303,8 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 |------------|-----------------------------------------------------------------------------------------------------------------------------------|:-------:|:-----:| 
 | 2022.07.19 | Versión inicial con deficinición de estructura general y contenido.                                                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. | [juanrodace](https://github.com/juanrodace) |  4.0  | 
-| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  6.0  | 
-| 2022.08.12 | Inclusión conceptos: secciones de control.                                                                                        | [juanrodace](https://github.com/juanrodace) |  0.5  |
+| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
+| 2022.08.12 | Inclusión conceptos: ecuaciones funamentales y secciones de control.                                                              | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

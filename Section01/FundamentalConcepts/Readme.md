@@ -161,20 +161,20 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi constantes y por lo tanto la al evaluar la conservación de la masa de un flujo permanente unidimensional o la ecuación de continuidad se concluye que el flujo volumétrico es constante. Y al expresar dicho flujo como el producto del área de la sección trasversar de flujo y la melocidad media en el canal, la ecuación de continuidad entre dos secciones a lo largo de un canal se expresa como:
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="45%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="20%"><br>
 <sub>Donde, <b>Q</b> es elflujo volumétrico o caudal,<br>
 <b>A</b> es el área de la sección transversal y <b>V</b> es la velocidad media de flujo.</sub><br><br>
 </div>
 
 ## Conservación de la energía en flujo permanente
 
-En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía ($/alpha$), permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
+En dinámica de fluidos se sabe que la energía total del agua en unidades de altura de energía de cualquier linea de corriente que pasa a través de una sección de canal puede expresarse comola suma de la elevación por encima del nivel de referencia, la altura de presión y la altura de velocidad. Para propositos prácticos, se suele utilizar la velocidad media, es decir asumir un flujo uniforme para toda la sección y utilizar el coeficiente de energía **α**, permitiendo definir la energía mecánica total en una sección transversal del canal como se muestra a continuación.
  
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/EnergiaTotal.png" width="20%"><br>
 <sub>Donde, <b>z</b> es la elevación por encima del nivel de referencia,<br>
 <b>y</b> es la profundidad vertical de flujo, <b>V</b> es la velocidad media de flujo,<br>
-<b>$/alpha$α</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
+<b>α</b> es el coeficiente de energía o coriollisy <b><i>g</i></b> es la aceleración gravitacional.</sub><br><br>
 </div>
 
 <div align="center">
@@ -224,14 +224,16 @@ diferencia entre las profundidades alternas y podría causar una violenta fluctu
 
 ## Conservación del momentum en flujo permanente
 
-La segunda ley del movimiento de newton dice que la resultante de las fuerzas externas a un sistema es igual al cambio de la cantidad de movimiento por unidad de tiempo. Dicho cambio de momentum del flujo en una sección por unidad de tiempo se expresa como **$\beta.\rho$QV**, donde **β** es el coeficiente de corrección de *momentum*, **ρ** es la densidad del fluido, **Q** es el caudal o flujo volumétrico y **V** es la velocidad media en la sección. Siendo así, al aplicar este principio en un tramo de canal, al considerar las fuerzas externas de presión, las fuerzas gravitacionales y las fuerzas de fricción o de resistencia externa, puede escribirse la siguiente expresión para el cambio de *momentum* por unidad de tiempo entre las secciones 1 y 2.
+La segunda ley del movimiento de newton dice que la resultante de las fuerzas externas a un sistema es igual al cambio de la cantidad de movimiento por unidad de tiempo. Dicho cambio de momentum del flujo en una sección por unidad de tiempo se expresa como **βρQV**, donde **β** es el coeficiente de corrección de *momentum*, **ρ** es la densidad del fluido, **Q** es el caudal o flujo volumétrico y **V** es la velocidad media en la sección. Siendo así, al aplicar este principio en un tramo de canal, al considerar las fuerzas externas de presión, las fuerzas gravitacionales y las fuerzas de fricción o de resistencia externa, puede escribirse la siguiente expresión para el cambio de *momentum* por unidad de tiempo entre las secciones 1 y 2.
 
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/Momentum.png" width="65%"><br>
 </div>
 
+> Esquema de conservación del momentum a superficie libre._Tomado de Fig.7.18_ [^4]
+
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Momentum.png" width="45%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Momentum.png" width="50%"><br>
 <sub>Donde, <b>P<sub>1</sub> y P<sub>2</sub></b> son las presiones resultantes que actuan en las dos secciones trasversales,<br>
 <b>W</b> es el peso del agua contenida entre las dos secciones, <b>θ</b> es angulo de inclinación del canal<br>
 y <b>F<sub>f</sub></b> es la fuerza de fricción y de resistencia totales externas que actúan en el canal.</sub><br><br>
@@ -240,6 +242,34 @@ y <b>F<sub>f</sub></b> es la fuerza de fricción y de resistencia totales extern
 Cuando el flujo es uniforme o gradualmente variado, los valores de P<sub>1</sub> y P<sub>2</sub> pueden calcularse suponiendo una distribución hidrostática. Para el caso de flujos rápidamente variados, la distribución de presiones no es hidrostática y deben corregirse para tener en cuenta los efectos de curvatura de las líneas e corriente. 
 
 ### Fuerza específica
+
+Si analizamos la ecuación anterior de cantidad de movimiento en un tramo horizontal de canal corto y prismático, se puede considerar la presión hidrostática y se pueden ignorar los efectos externos de fricción, y del peso del agua, obteniendo la siguiente expresión.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Momentum2.png" width="25%"><br>
+<sub>Donde, <b>y<sub>1</sub> y y<sub>2</sub></b> son las profundidad al centroide de la sección trasversal,<br>
+<b>A</b> es el área de las dos secciones trasversales, <b>Q</b> es el flujo volumétrico o caudal<br>
+y <b>g</b> es la constante gravitacional.</sub><br><br>
+</div>
+
+Los dos lados de esta ecuación son análogos y cada uno corresponde a la **fuerza específica** de la sección. Esta fuerza específica se compone de dos terminos, el primero **$Q<sup>2</sup>/gA** corresponde al flujo de *momentum* por unidad de peso de la sección y el segundo, **yA** equivale a la fuerza del fluido por unidad de peso.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FuerzaEspecifica.png" width="20%"><br>
+</div>
+
+Al igual que la energía específica, esta ecuación nos permite evaluar la variación de la fuerza epecífica con respecto a la profundidad del flujo para un caudal constante y se puede observar lo siguiente:
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/SpecificForce.png" width="65%"><br>
+</div>
+
+> Curva de fuerza específica en flujo a superficie libre._Tomado de Fig.7.19_ [^4]
+
+- Para una fuerza específica **M** hay dos profundidades posibles y<sub>1</sub> y y<sub>2</sub>, excepto para la F<sub>e</sub> mínima. Estas profundidades se conocen como profundidad inicial y profundidad secuente o profundidades conjugadas.
+- Existe un valor mínimo de la fuerza específica el cuál corresponde a la profundidad crítica, tal como ocurre con la energía específica mínima.
+- Al revisar las profundidades conjugadas y<sub>1</sub> y y<sub>2</sub>, se evidencia que la primera se encuentra en condición supercrítica y la otra en condición subcrítica, similar a la curva de energía específica. Sin embargo, la profundidad secuente y<sub>2</sub> tiene menos energía que la profundidad y<sub>1</sub>.
+- Las profundidades conjugadas corresponder a las encontradas en el fenomeno del resalto hidráulico.
 
 ## Profundidad crítica
 

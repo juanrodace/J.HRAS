@@ -161,7 +161,7 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi constantes y por lo tanto la al evaluar la conservación de la masa de un flujo permanente unidimensional o la ecuación de continuidad se concluye que el flujo volumétrico es constante. Y al expresar dicho flujo como el producto del área de la sección trasversar de flujo y la melocidad media en el canal, la ecuación de continuidad entre dos secciones a lo largo de un canal se expresa como:
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="20%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="15%"><br>
 <sub>Donde, <b>Q</b> es elflujo volumétrico o caudal,<br>
 <b>A</b> es el área de la sección transversal y <b>V</b> es la velocidad media de flujo.</sub><br><br>
 </div>
@@ -281,19 +281,7 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FactorCritico.png" width="15%"><br>
 </div>
 
-#### Secciones de control
-
-## Flujo uniforme
-
-### Ecuación de Manning
-
-## Flujo gradualmente variado (FGV)
-
- Para una razón de flujo o caudal conocido, la altura del flujo en una región de FGV en un canal en específico, puede determinarse en un modo de paso a paso, cuando se empieza por analizar en la sección transversal de control, donde las condiciones del flujo se conocen, y se evalúa la perdida de carga, la caída de elevación y la velocidad promedio para cada paso.
-
-
-## Flujo no permanente
-
+### Secciones de control
 
 ### Compatibilidad
 
@@ -304,13 +292,12 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 
 ### Control de versiones
 
-
-| Versión    | Descripción   |   Autor | Horas |
-|------------|---------------|:-------:|:-----:| 
+| Versión    | Descripción                                                                                                                       |   Autor | Horas |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------|:-------:|:-----:| 
 | 2022.07.19 | Versión inicial con deficinición de estructura general y contenido.                                                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. | [juanrodace](https://github.com/juanrodace) |  4.0  | 
-| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
-| 2022.08.xx | Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   | [juanrodace](https://github.com/juanrodace) |       |
+| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  6.0  | 
+| 2022.08.12 | Inclusión conceptos: secciones de control.                                                                                        | [juanrodace](https://github.com/juanrodace) |  0.5  |
 
 ### Licencia, cláusulas y condiciones de uso
 
@@ -326,6 +313,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
 [^4]: Hidráulica de tuberías y canales. Rocha Arturo.
 [^5]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-[^6]:
-[^7]:
 

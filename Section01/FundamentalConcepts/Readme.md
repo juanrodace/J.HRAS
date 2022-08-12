@@ -286,9 +286,9 @@ La localización de la sección de control en general está gobernada por el est
 
 <div align="center">
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/ControlSection.jpeg" width="70%">
->  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
 </div>
 
+>  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
 
 
 ### Compatibilidad

@@ -67,8 +67,10 @@ Los canales pueden ser naturales o artificiales. Un canal que tiene la misma sec
 Los **elementos geométricos** son propiedades de una sección de canal que pueden ser definidos por completo por la geometría de la sección y la profundidad de flujo. La **profundidad de flujo**, _'y'_, en una sección es la distancia vertical desde el punto más bajo de la sección del canal hasta la superficie libre. La **profundidad de flujo de la sección**, _'d'_, es la profundidad de flujo normal o perpendicular a la dirección del flujo. El **ancho superficial**, _T_, es el ancho de la sección del canal en la superficie libre. El **área de flujo** o área mojada, _'A'_, es el área de la sección transversal del canal normal a la dirección del flujo. El **perímetro mojado** o perímetro hidráulico, _'P'_ se define como la longitud de la línea de intersección de la superficie mojada del canal con un plano transversal perpendicular a la dirección del flujo. El **radio hidráulico**, _'R'_, es la relación del área (A) y el perímetro mojado (P). la **profundidad hidráulica**, _'D'_, es la relación entre el área mojada (A) y el ancho superficial (T). Y el **factor de sección** para la estimación del flujo crítico,_'Z'_, se definen como el producto del área (A) y la raíz cuadrada de la profundidad hidráulica (D).
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.svg" width="60%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/GeometricPropierties.png" width="60%">
 </div>
+
+> Propiedades geométricas comunes en canales a superficie libre.[^2]
 
 Para secciones de canal regulares y simples, los elementos geométricos pueden expresarse mateméticamente en terminos de la profundidad de flujo y de otras dimensiones de la sección. Para el caso de secciones complicadas y secciones naturales (irregulares), no se puede escribir una expresión algebráica simple, pero pueden prepararse curvas que representen la relación entre estos elementos y la profundidad de flujo. 
 
@@ -159,7 +161,7 @@ de flujo corriente abajo. Éste se llama flujo rápido o **supercrítico**, cuan
 Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi constantes y por lo tanto la al evaluar la conservación de la masa de un flujo permanente unidimensional o la ecuación de continuidad se concluye que el flujo volumétrico es constante. Y al expresar dicho flujo como el producto del área de la sección trasversar de flujo y la melocidad media en el canal, la ecuación de continuidad entre dos secciones a lo largo de un canal se expresa como:
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="15%"><br>
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/Continuity.png" width="20%"><br>
 <sub>Donde, <b>Q</b> es elflujo volumétrico o caudal,<br>
 <b>A</b> es el área de la sección transversal y <b>V</b> es la velocidad media de flujo.</sub><br><br>
 </div>
@@ -279,7 +281,19 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Equations/FactorCritico.png" width="15%"><br>
 </div>
 
-### Secciones de control
+#### Secciones de control
+
+## Flujo uniforme
+
+### Ecuación de Manning
+
+## Flujo gradualmente variado (FGV)
+
+ Para una razón de flujo o caudal conocido, la altura del flujo en una región de FGV en un canal en específico, puede determinarse en un modo de paso a paso, cuando se empieza por analizar en la sección transversal de control, donde las condiciones del flujo se conocen, y se evalúa la perdida de carga, la caída de elevación y la velocidad promedio para cada paso.
+
+
+## Flujo no permanente
+
 
 ### Compatibilidad
 
@@ -290,12 +304,13 @@ Los análisis sobre el estado crítico se refieren comumente a una sección part
 
 ### Control de versiones
 
-| Versión    | Descripción                                                                                                                       |   Autor | Horas |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------|:-------:|:-----:| 
+
+| Versión    | Descripción   |   Autor | Horas |
+|------------|---------------|:-------:|:-----:| 
 | 2022.07.19 | Versión inicial con deficinición de estructura general y contenido.                                                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. | [juanrodace](https://github.com/juanrodace) |  4.0  | 
-| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  6.0  | 
-| 2022.08.12 | Inclusión conceptos: secciones de control.                                                                                        | [juanrodace](https://github.com/juanrodace) |  0.5  |
+| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
+| 2022.08.xx | Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso
 
@@ -311,4 +326,6 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^3]: The Hydraulics of Channel Flow: An Introdution. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004. _(Fig.1.2.)_
 [^4]: Hidráulica de tuberías y canales. Rocha Arturo.
 [^5]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
+[^6]:
+[^7]:
 

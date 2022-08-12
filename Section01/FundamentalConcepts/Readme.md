@@ -285,10 +285,11 @@ Consiste en el control del flujo en una sección trasversal de un canal a superf
 La localización de la sección de control en general está gobernada por el estado de flujo y por la pendiente del canal. Por ejemplo en un canal prismático recto, en general se puede decir que un flujo en condición subcrítico tendrá una sección de control aguas abajo, mientras que un flujo en condición supercrítico tendra su sección de control aguas arriba. 
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/ControlSection.jpeg" width="60%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/ControlSection.jpeg" width="70%">
+>  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
 </div>
 
->  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
+
 
 ### Compatibilidad
 

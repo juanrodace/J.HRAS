@@ -297,8 +297,8 @@ La localización de la sección de control en general está gobernada por el est
 | 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
 | 2022.08.12 | Inclusión conceptos: ecuaciones funamentales y secciones de control.                                                              | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
-| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
-|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/wiki) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/VariedFlow) |
+|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

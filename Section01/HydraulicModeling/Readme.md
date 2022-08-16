@@ -1,33 +1,23 @@
-## Estudios hidráulicos y modelación 
+## Modelación Hidráulica
 Keywords: `Engineering` `Hydraulics` `Hydraulic Modelling` `Open Channel Flow` `HEC-RAS` 
 
-_En esta clase se presentan los conceptos básicos requeridos para realizar los estudios requeridos asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Este tipo de intervenciones requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Se tratarán temas relacionados con análisis de frecuencias de caudales, obtención de caudales, análisis de batimetrías, modelamiento hidráulico para flujos estacionarios y no estacionarios, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas._
-
-_Igualmente, se presentan los conceptos relacionados a la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas._
-._
+_En esta clase se presentan los conceptos relacionados a la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas._
 
 <div align="center">
 
-![Engineering.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Engineering.jpeg)
+![Engineering.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Channel.jpeg)
 </div>
-
 
 ### Objetivos
 
-* Conocer los conceptos y características básicas de un estudio hidráulico.
-* Conocer los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
-* Entender la deficinión de modelación en la ingenieria.
+* Conocer la deficinión de modelación en la ingenieria.
 * Entender las conceptos y características relacionadas con la modelación hidráulica.
-
-> Se incluye actividad para estimación de parámetros. 
-> Estudiantes que aplicaron para curso certificado, desarrollan su propia hoja de calculo o script python .
+* Estudiar los conceptos de calibración de un modelo.
 
 ### Requerimientos
 
-* Conocimientos en xxxxxxxxx.
-* Microsoft Excel
-
-## Estudios hidráulicos 
+* Conocimientos básicos en ingeniería.
+* Conocimientos básicos en hidráuliaca.
 
 ## Modelación en la ingeniería
 
@@ -54,13 +44,6 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 
 ### Modelo HEC-RAS 2D
 
-
-### Compatibilidad
-
-* Esta actividad puede ser desarrollada .......
-
-> Las herramientas computacionales requeridas, librerías, complementos y sus versiones son especificadas en cada actividad del curso.
-
 ### Referencias
 - Hydraulic modeling. Lyatkher, Victor; Proudovsky Alexander. Scrivener Publishing. 2016
 - Hydraulic modeling. Concepts and practice. American Society of Civil Engineers, ASCE. 2000.
@@ -77,14 +60,12 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 | 2022.08.xx | Inclusión conceptos: complemento modelación hidráulica.                     | [juanrodace](https://github.com/juanrodace) |  XX   | 
 | 2022.08.xx | Inclusión conceptos: xxxxxxxxxxxxx.                                         | [juanrodace](https://github.com/juanrodace) |       |
 
-### Licencia, cláusulas y condiciones de uso
-
-| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/FundamentalConcepts) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HECRAS) |
-|----------------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicSystems) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/5) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicStructures) |
+|-------------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 
-_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/juanrodace) en GitHub._
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
 [^1]:
 

@@ -20,9 +20,6 @@ _En esta clase se presentan los conceptos generales requeridos para entender el 
 * Analizar las características del flujo gradualmente variado.
 * Estudiar los conceptos del flujo no permanente en canales.
 
-> Se incluye actividad para estimación de parámetros. 
-> Estudiantes que aplicaron para curso certificado, desarrollan su propia hoja de calculo o script python .
-
 ### Requerimientos
 
 * Conocimientos en mecánica de fluidos.
@@ -291,13 +288,6 @@ La localización de la sección de control en general está gobernada por el est
 >  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
 
 
-### Compatibilidad
-
-* Esta actividad puede ser desarrollada .......
-
-> Las herramientas computacionales requeridas, librerías, complementos y sus versiones son especificadas en cada actividad del curso.
-
-
 ### Control de versiones
 
 | Versión    | Descripción                                                                                                                       |   Autor | Horas |
@@ -307,14 +297,12 @@ La localización de la sección de control en general está gobernada por el est
 | 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
 | 2022.08.12 | Inclusión conceptos: ecuaciones funamentales y secciones de control.                                                              | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
-### Licencia, cláusulas y condiciones de uso
-
 | [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 
-_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/juanrodace) en GitHub._
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
 [^1]: Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
 [^2]: Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 

@@ -1,4 +1,4 @@
-## Estudios Hidráulicos
+## Sistemas Hidráulicos
 Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` 
 
 _En esta clase se presentan los conceptos básicos requeridos para realizar los estudios requeridos asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Este tipo de intervenciones requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Se tratarán temas relacionados con análisis de frecuencias de caudales, obtención de caudales, análisis de batimetrías, modelamiento hidráulico para flujos estacionarios y no estacionarios, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas._
@@ -18,7 +18,7 @@ _En esta clase se presentan los conceptos básicos requeridos para realizar los 
 * Conocimientos básicos en ingeniería.
 * Conocimientos básicos en hidráulica e hdrología.
 
-## Proyectos Hidraulicos
+## Estudios Hidraulicos
 
 ### Ciclo de un estudio de ingeniería
 

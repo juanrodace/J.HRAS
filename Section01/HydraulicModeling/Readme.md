@@ -5,7 +5,7 @@ _En esta clase se presentan los conceptos relacionados a la definición de condi
 
 <div align="center">
 
-![Engineering.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Channel.jpeg)
+![Channel.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Channel.jpg)
 </div>
 
 ### Objetivos

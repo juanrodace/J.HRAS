@@ -19,7 +19,7 @@ _En esta clase se presentan los conceptos relacionados a la definición de condi
 * Conocimientos básicos en ingeniería.
 * Conocimientos básicos en hidráuliaca.
 
-## Modelación en la ingeniería
+### Modelación en la ingeniería
 
 La modelación es una importante vía para el desarrollo de conocimiento, en donde se estudia un sustituto del objeto (prototipo, naturaleza) llamado modelo. Si la naturaleza del objeto _‘N’_ se caracteriza por una serie de valores _X<sub>N</sub>_, entonces, al modelar, se crea un objeto _‘M’_ de este tipo, cuyas características _X<sub>M</sub>_. 
 
@@ -29,16 +29,16 @@ La calidad de los modelos depende del éxito de la esquematización, algunos mod
 
 Particularmente en el modelado en ingeniería, es posible distinguir dos grandes clases. La modelación numérica, cuya solución resulta de un proceso computacional sobre varios operadores, con valores base y resultados de acuerdo con un plan y funciones definidas. El orden de las operaciones en la solución del problema se denomina algoritmo de su solución.  La segunda clase es la modelación análoga, la cual utiliza métodos y herramientas con representación directa, que incluyen dispositivos analógicos que representan físicamente una clase particular de problemas matemáticos. 
 
-## Modelación hidráulica
+### Modelación hidráulica
 Los fenómenos hidráulicos pueden ser estudiados mediante modelos físicos y numéricos. La modelación física es un método tradicional de ingeniería hidráulica, utilizado con éxito en el siglo pasado, el modelado numérico con el uso de computadoras es el último logro. La solución de problemas y aplicaciones desarrolladas por medio de modelos numéricos está en constante expansión, creando nuevas perspectivas en la solución de problemas hidráulicos complejos. 
 
 Entre la modelación **física** y la **numérica** existe una gran relación, ambos se basan en un modelo matemático del fenómeno, reflejando el lado más significativo del objeto estudiado, y por otro lado, ambos modelan el objeto significativamente esquematizado. Las diferencias entre la modelación física y numérica pueden deberse a las siguientes circunstancias: La modelación física es una herramienta altamente especializada, mientras que las computadoras pueden ser una solución para los más diversos problemas, al tener la posibilidad de recibir la decisión en su resolución algorítmica de un problema sobre el conjunto seleccionado de operadores. 
 
-## Modelación numérica en hidráulica
+### Modelación numérica en hidráulica
 
-### Definición de un modelo
+#### Definición de un modelo
 
-### Ecuaciones
+#### Ecuaciones
 
 ### Modelo HEC-RAS 1D
 

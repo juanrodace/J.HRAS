@@ -18,15 +18,15 @@ _En esta clase se presentan los conceptos básicos requeridos para realizar los 
 * Conocimientos básicos en ingeniería.
 * Conocimientos básicos en hidráulica e hdrología.
 
-## Estudios Hidraulicos
+### Estudios Hidraulicos
 
-### Ciclo de un estudio de ingeniería
+#### Ciclo de un estudio de ingeniería
 
-### Estudios previos requeridos
+#### Estudios previos requeridos
 
-### Parámetros hidráulicos e hidrológicos
+#### Parámetros hidráulicos e hidrológicos
 
-### Periodos de retorno.
+#### Periodos de retorno.
 
 
 ### Referencias

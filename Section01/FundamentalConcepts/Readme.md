@@ -1,7 +1,5 @@
 ## Conceptos fundamentales
-Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy equation` `Manning` `FGV (GVF)`
-
-_En esta clase se presentan los conceptos generales requeridos para entender el flujo a superficie libre, en diferentes condiciones, considerando sus características geométricas, cinéticas y dinámicas._
+Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy equation` `CriticalDepth`
 
 <div align="center">
 
@@ -10,22 +8,21 @@ _En esta clase se presentan los conceptos generales requeridos para entender el 
 
 > En la ilustración, canal de riego recubierto. Foto de Armenta Humberto.
 
+### Alcance
+
+En esta clase se presentan los conceptos generales requeridos para entender el flujo a superficie libre, en diferentes condiciones, considerando sus características geométricas, cinéticas y dinámicas.
+
 ### Objetivos
 
 * Estudiar las características de un canal a superficie libre.
-* Estudiar los conceptos básicos del flujo a superficie libre.
-* Calcular la profundidad crítica en un canal a superficie libre.
-* Calcular el caudal en un canal regular en condiciones de flujo uniforme.
-* Calcular diferentes parámetros asociados a un canal regular en condiciones de flujo permanente.
-* Analizar las características del flujo gradualmente variado.
-* Estudiar los conceptos del flujo no permanente en canales.
+* Comprender los conceptos básicos del flujo a superficie libre.
+* Revisar el concepto de profundidad crítica en un canal a superficie libre.
 
 ### Requerimientos
 
 * Conocimientos en mecánica de fluidos.
 * Microsoft Excel
 * Python (Opcional)
-
 
 ### Flujo a superficie libre
 
@@ -297,8 +294,8 @@ La localización de la sección de control en general está gobernada por el est
 | 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
 | 2022.08.12 | Inclusión conceptos: ecuaciones funamentales y secciones de control.                                                              | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
-| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/wiki) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/VariedFlow) |
-|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/Introduction) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
+|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

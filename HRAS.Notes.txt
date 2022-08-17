@@ -52,20 +52,7 @@ Markdown
 	
 Sugerencias Contenido Para Revisar (falta ver https://www.euroinnova.us/curso-hec-ras#seccion-opiniones)
 
-	FUNDAMENTOS
-		- Generalidades (Ecuación de Bernoulli, concepto de energía específica, tipos de flujo)
-		- Flujo estacionario (flujo uniforme y gradualmente variado)
-		- Estructuras hidráulicas (vertederos, compuertas, box-culvert)
-		- Flujo no estacionario (ecuaciones de conservación de masa y momentum, tránsito hidráulico)
-		- Transporte de sedimentos (generalidades, ecuación de Exner, modelos de Meyer-Peter Müller, Ackers-White, Yang)
-		
-		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/Educacion/Books/Engineering/Hydraulic%20-%20HIDRAULICA%20DE%20CANALES%20ABIERTOS,%20Ven%20Te%20Chow%20.pdf
-		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/Educacion/Books/Engineering/Hydraulic%20-%20Flow%20in%20Open%20Channels,%20Subramanya%20K.%20(2009).pdf
-		
-		file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/LSS/MFLU/Books/Fluid%20Mechanics%20-%20Pritchard-Fox-McDonalds_2011_8ed_.pdf
-		
-				
-	 MODELACIÓN
+	MODELACIÓN
 		- Definición de modelo numérico.
 		- Mallas.
 		- Ecuaciones de Saint Venant .
@@ -89,12 +76,15 @@ Sugerencias Contenido Para Revisar (falta ver https://www.euroinnova.us/curso-he
 		- Optimización geometrias importadas
 		
 	HEC-RAS opciones avanzadas
-		- Interpolación de Secciones. 
+		- Interpolación de Secciones.
+		- Bifurcaciones.
 		- Cauces tributarios o efluentes.
 		- Estructuras hidráulicas: Puente/Culvert.
 		- Estructuras hidráulicas: Estructura en Línea.
 		- Estructuras hidráulicas: Estructura Lateral.
 		- Visualización de resultados II.
+		- Rotura de presas.
+		-
 
 	HEC-RAS 2D
 		- Modelos de terreno - ver R.LTBW 

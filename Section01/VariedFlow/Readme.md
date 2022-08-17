@@ -3,7 +3,7 @@ Keywords: `Hydraulics` ` Open Channel flow` `Manning` `FGV (GVF)` `FRV (RVF)`
 
 <div align="center">
 
-![ChannelFlow.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/ChannelFlow.jpeg)
+![ChannelFlow.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/ChannelFlow.jpg)
 </div>
 
 > En la ilustración, canal en hidroeléctrica de Colombia. _Fuente anónima_.

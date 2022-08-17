@@ -36,12 +36,11 @@ Como se revisó en la actividad anterior, el flujo en canales a superficie libre
 ### Control de versiones
 
 
-| Versión    | Descripción   |   Autor | Horas |
-|------------|---------------|:-------:|:-----:| 
-| 2022.07.19 | Versión inicial con deficinición de estructura general y contenido.                                                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.07.25 | Inclusión de conceptos: flujo superficie libre, distribución velocidades,  elementos geométricos, tipos de flujo y clasificación. | [juanrodace](https://github.com/juanrodace) |  4.0  | 
-| 2022.07.26 | Inclusión conceptos: tipos de flujo, profundidad crítica y ecuaciones fundamentales.                                              | [juanrodace](https://github.com/juanrodace) |  5.0  | 
-| 2022.08.xx | Inclusión conceptos: flujo uniforme, FGV y flujo no permanente.                                                                   | [juanrodace](https://github.com/juanrodace) |       |
+| Versión    | Descripción                                                                          |   Autor | Horas |
+|------------|--------------------------------------------------------------------------------------|:-------:|:-----:| 
+| 2022.08.17 | Versión inicial con deficinición de estructura general y contenido.                  | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08.18 | Inclusión de conceptos: flujo uniforme                                               | [juanrodace](https://github.com/juanrodace) |    | 
+| 2022.07.xx | Inclusión conceptos:  | [juanrodace](https://github.com/juanrodace) |    | 
 
 ### Licencia, cláusulas y condiciones de uso
 

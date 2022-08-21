@@ -52,7 +52,7 @@ Desde el punto de vista dinámico, el establecimiento del flujo uniforme será p
 En 1889 el ingeniero irlandés Robert Manning presentó esta ecuación, la cual es la más utilizada para cálculos de flujo en canales a superficie libre.
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="20%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/Manning.png" width="20%"><br>
 <sub>Donde, <b>V</b> es la velocidad media del flujo, <b>n</b> corresponde al coeficiente de rugosidad o de Manning,<br>
 <b>R</b> es el radio hidráulico de la sección transversal (relación de área y perímetro, A/P) <br>
 y <b>S<sub>o</sub></b> es la pendiente del fondo del canal.</sub><br><br>
@@ -66,7 +66,7 @@ La mayor dificultad en la aplicación de la ecuación, está en la definición d
 
 Como una muy buena referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow (T.5-6)[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño.
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://www.usgs.gov/themes/custom/usgs_tantalum/usgs_logo.png" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>https://www.usgs.gov/media/videos/selection-roughness-coefficients</sub><br><br><</div>
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>https://www.usgs.gov/media/videos/selection-roughness-coefficients</sub><br><br></div>
 
 ### Flujo gradualmente variado
 

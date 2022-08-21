@@ -282,6 +282,12 @@ La localización de la sección de control en general está gobernada por el est
 
 >  En la ilustración, estructura de control y derivación de Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.
 
+### Referencias
+- Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
+- Introduction to Fluid Mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
+- The Hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
+- Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
+- Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009.
 
 ### Control de versiones
 

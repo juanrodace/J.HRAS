@@ -32,7 +32,7 @@ Se dice que un sistema a superficie libre se encuentra en condición de flujo un
 <img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/UniformFlow.png" width="65%">
 </div>
 
-> Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1.[^2]
+> Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1.[^1]
 
 Esta condición de flujo estrictamente uniforme es muy difícil de encontrar y casi imposible en canales naturales. Este flujo ses puede encontrar en canales largos y rectos con una pendiente y
 sección transversal constantes y un revestimiento de las superficies homogéneo.
@@ -44,11 +44,29 @@ La profundidad del flujo en flujos uniformes se le llama profundidad normal `Yn`
 Desde el punto de vista dinámico, el establecimiento del flujo uniforme será posible cuando las fuerzas gravitacionales y las fuerzas de resistencia al flujo encuentren un equilibrio. Dicha resistencia se relaciona con los esfuerzos de corte los cuales dependen de la velocidad.  Si al inicio o al final de un canal no se encuentra este equilibrio, se presentará una aceleración o desaceleración del flujo, aumentando o reduciendo su velocidad y consecuentemente su resistencia de manera gradual, hasta encontrar el balance entre las fuerzas y, por lo tanto, el flujo uniforme. En este sentido, se puede llegar una expresión matemática que representa el flujo uniforme como la relación entre el esfuerzo de corte `τ`, el peso específico `γ`, el radio hidráulico `R` y la pendiente del canal `So`.
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="25%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="20%">
 </div>
 
 #### Ecuación de Manning
 
+En 1889 el ingeniero irlandés Robert Manning presentó esta ecuación, la cual es la más utilizada para cálculos de flujo en canales a superficie libre.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="20%">
+<sub>Donde, <b>V</b> es la velocidad media del flujo, <b>n</b> corresponde al coeficiente de rugosidad o de Manning,<br>
+<b>R</b> es el radio hidráulico de la sección transversal (relación de área y perímetro, A/P) <br>
+y <b>S<sub>o</sub></b> es la pendiente del fondo del canal.</sub><br><br>
+</div>
+
+La mayor dificultad en la aplicación de la ecuación, está en la definición del coeficiente `n`. Para su determinación, Ven T. Chow[^2] recomienda tener en cuenta las siguientes consideraciones: 
+- Entender los factores que afectan su valor.
+- Consultar una tabla de valores comunes para canales de diferentes tipos.
+- Examinar y familiarizarse con la apariencia de algunos canales comunes con coeficientes conocidos.
+- Determinar el valor de **n** mediante un proceso analítico basado en la distribución de velocidades en la sección y datos medidos de velocidad y rugosidad.
+
+Como una muy buena referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow (T.5-6)[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño.
+
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://www.usgs.gov/themes/custom/usgs_tantalum/usgs_logo.png" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>https://www.usgs.gov/media/videos/selection-roughness-coefficients</sub><br><br><</div>
 
 ### Flujo gradualmente variado
 
@@ -80,6 +98,6 @@ _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
-[^1]: Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
-[^2]: Hidráulica de tuberías y canales. Rocha Arturo.
+[^1]: Hidráulica de tuberías y canales. Rocha Arturo.
+[^2]: Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 

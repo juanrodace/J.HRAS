@@ -64,9 +64,11 @@ La mayor dificultad en la aplicación de la ecuación, está en la definición d
 - Examinar y familiarizarse con la apariencia de algunos canales comunes con coeficientes conocidos.
 - Determinar el valor de **n** mediante un proceso analítico basado en la distribución de velocidades en la sección y datos medidos de velocidad y rugosidad.
 
-Como una muy buena referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow (T.5-6)[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño.
+Como referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño. Y la [Guía](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Guide%20for%20selecting%20Manning's%20Roughness%20Coef.%20USGS.%20P2339..pdf)[^3] del USGS. 
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>https://www.usgs.gov/media/videos/selection-roughness-coefficients</sub><br><br></div>
+Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
+
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>[Selección del coeficiente de rugosidad](https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
 
 ### Flujo gradualmente variado
 

@@ -29,7 +29,7 @@ El flujo en canales a superficie libre también se clasifica como uniforme (FU) 
 Se dice que un sistema a superficie libre se encuentra en condición de flujo uniforme y permanente cuando sus propiedades permanecen constantes a lo largo del canal. Específicamente, cuando la profundidad de flujo `y`, la velocidad media `V` y el flujo o caudal `Q` permanecen constantes en todas las secciones. Así mismo, se afirma que las pendientes de su superficie libre `Sw`, su línea de energía `Se` y su fondo `So` son iguales, es decir, son líneas paralelas. 
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/UniforFlow.png" width="65%">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/UniformFlow.png" width="65%">
 </div>
 
 > Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1.[^2]

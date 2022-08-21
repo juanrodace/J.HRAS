@@ -88,7 +88,7 @@ Como material adicional, puedes acceder al siguiente video de la USGS sobre sele
 | Versión    | Descripción                                                       |                    Autor                    | Horas |
 |------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08.17 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.20 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08.20 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.07.xx | Inclusión conceptos:                                              | [juanrodace](https://github.com/juanrodace) |       | 
 
 ### Licencia, cláusulas y condiciones de uso

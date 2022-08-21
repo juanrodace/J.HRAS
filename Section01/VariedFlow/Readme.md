@@ -10,7 +10,7 @@ Keywords: `Hydraulics` ` Open Channel flow` `Manning` `FGV (GVF)` `FRV (RVF)`
 
 ### Alcance
 
-El flujo en canales a superficie libre también se clasifica como uniforme (FU) o variado, dependiendo del cambio o no de la profundidad del flujo _(y)_ a lo largo del canal. Así mismo, los flujos variados se clasifican en flujo de rápidamente variado (FRV) y flujo gradualmente variado (FGV). En esta clase se revisan los conceptos particulares del flujo uniforme, gradualmente variado y rápidamente variado en un sistema de flujo a superficie libre en condiciones permanentes.
+El flujo en canales a superficie libre también se clasifica como uniforme (FU) o variado, dependiendo del cambio o no de la profundidad del flujo `y` a lo largo del canal. Así mismo, los flujos variados se clasifican en flujo de rápidamente variado (FRV) y flujo gradualmente variado (FGV). En esta clase se revisan los conceptos particulares del flujo uniforme, gradualmente variado y rápidamente variado en un sistema de flujo a superficie libre en condiciones permanentes.
 
 ### Objetivos
 
@@ -37,9 +37,18 @@ Se dice que un sistema a superficie libre se encuentra en condición de flujo un
 Esta condición de flujo estrictamente uniforme es muy difícil de encontrar y casi imposible en canales naturales. Este flujo ses puede encontrar en canales largos y rectos con una pendiente y
 sección transversal constantes y un revestimiento de las superficies homogéneo.
 
-La profundidad del flujo en flujos uniformes se le llama profundidad normal `y<sub>n</sub>`. El flujo permanecera en la condición uniforme mientras la pendiente `So`, el área de la sección `A` y la rugosidad del canal no tengan algún cambio. 
+La profundidad del flujo en flujos uniformes se le llama profundidad normal `Yn`. El flujo permanecerá en la condición uniforme mientras la pendiente `So`, el área de la sección `A` y la rugosidad del canal no tengan algún cambio. 
+
+#### Establecimiento
+
+Desde el punto de vista dinámico, el establecimiento del flujo uniforme será posible cuando las fuerzas gravitacionales y las fuerzas de resistencia al flujo encuentren un equilibrio. Dicha resistencia se relaciona con los esfuerzos de corte los cuales dependen de la velocidad.  Si al inicio o al final de un canal no se encuentra este equilibrio, se presentará una aceleración o desaceleración del flujo, aumentando o reduciendo su velocidad y consecuentemente su resistencia de manera gradual, hasta encontrar el balance entre las fuerzas y, por lo tanto, el flujo uniforme. En este sentido, se puede llegar una expresión matemática que representa el flujo uniforme como la relación entre el esfuerzo de corte `τ`, el peso específico `γ`, el radio hidráulico `R` y la pendiente del canal `So`.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="25%">
+</div>
 
 #### Ecuación de Manning
+
 
 ### Flujo gradualmente variado
 
@@ -59,7 +68,7 @@ La profundidad del flujo en flujos uniformes se le llama profundidad normal `y<s
 | Versión    | Descripción                                                       |                    Autor                    | Horas |
 |------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08.17 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.18 | Inclusión de conceptos: flujo uniforme                            | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08.20 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.07.xx | Inclusión conceptos:                                              | [juanrodace](https://github.com/juanrodace) |       | 
 
 ### Licencia, cláusulas y condiciones de uso

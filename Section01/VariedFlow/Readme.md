@@ -68,7 +68,7 @@ Como referencia para la definición del coeficiente **n**, se recomienda consult
 
 Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>[Selección del coeficiente de rugosidad](https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="480" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
 
 ### Flujo gradualmente variado
 
@@ -102,4 +102,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 [^1]: Hidráulica de tuberías y canales. Rocha Arturo.
 [^2]: Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-
+[^3]: [Guide for selecting Manning's roughness coefficients for natural channels and flood plains. Water Supply Paper 2339. USGS.](https://pubs.usgs.gov/wsp/2339/report.pdf)

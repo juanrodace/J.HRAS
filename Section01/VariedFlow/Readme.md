@@ -68,7 +68,9 @@ Como referencia para la definición del coeficiente **n**, se recomienda consult
 
 Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://water.usgs.gov/fisp/logos/usgs.jpg" alt="IMAGE ALT TEXT HERE" width="360" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="360" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
+
+IMG_USGS_Clip
 
 ### Flujo gradualmente variado
 

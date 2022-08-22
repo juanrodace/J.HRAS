@@ -70,11 +70,11 @@ Como material adicional, puedes acceder al siguiente video de la USGS sobre sele
 
 <div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="420" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
 
-IMG_USGS_Clip
-
 ### Flujo gradualmente variado
 
-### Flujo gradualmente variado
+El movimiento o flujo gradualmente variado (FGV), es aquel en el cual hay un cambio suave en la profundidad de flujo a lo largo del canal, y consecuentemente, un cambio en su velocidad. A diferencia del flujo uniforme, las pendientes de energía, flujo y fondo serán diferentes. Esta es una condición mucho más aproximada al flujo a superficie libre en canales naturales y artificiales, considerando los posibles cambios de sección, pendiente, rugosidad y alineamiento.   
+
+### Flujo rápidamente variado
 
 ### Referencias
 - Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.

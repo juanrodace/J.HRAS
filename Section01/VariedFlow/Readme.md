@@ -64,11 +64,11 @@ La mayor dificultad en la aplicación de la ecuación, está en la definición d
 - Examinar y familiarizarse con la apariencia de algunos canales comunes con coeficientes conocidos.
 - Determinar el valor de **n** mediante un proceso analítico basado en la distribución de velocidades en la sección y datos medidos de velocidad y rugosidad.
 
-Como referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño. Y la [Guía](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Guide%20for%20selecting%20Manning's%20Roughness%20Coef.%20USGS.%20P2339..pdf)[^3] del USGS. 
+Como referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño. Y la [Guía](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Guide%20for%20selecting%20Manning's%20Roughness%20Coef.%20USGS.%20P2339..pdf)[^3] o [Reporte](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Roughness Characteristics of Natural Channels.USGS)[^4] del USGS. 
 
 Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="360" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="420" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
 
 IMG_USGS_Clip
 
@@ -104,4 +104,5 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 [^1]: Hidráulica de tuberías y canales. Rocha Arturo.
 [^2]: Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-[^3]: [Guide for selecting Manning's roughness coefficients for natural channels and flood plains. Water Supply Paper 2339. USGS.](https://pubs.usgs.gov/wsp/2339/report.pdf)
+[^3]: [Guide for selecting Manning's roughness coefficients for natural channels and flood plains. Paper 2339. USGS.](https://pubs.usgs.gov/wsp/2339/report.pdf)
+[^4]: [Roughness Characteristics of Natural Channels. Paper 1849. USGS.](https://pubs.usgs.gov/wsp/wsp_1849/pdf/wsp_1849.pdf)

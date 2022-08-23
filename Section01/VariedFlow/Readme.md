@@ -1,4 +1,4 @@
-## Flujo uniforme y variado
+## Flujo uniforme y variado en condición permanente
 Keywords: `Hydraulics` ` Open Channel flow` `Manning` `FGV (GVF)` `FRV (RVF)`
 
 <div align="center">
@@ -73,6 +73,20 @@ Como material adicional, puedes acceder al siguiente video de la USGS sobre sele
 ### Flujo gradualmente variado
 
 El movimiento o flujo gradualmente variado (FGV), es aquel en el cual hay un cambio suave en la profundidad de flujo a lo largo del canal, y consecuentemente, un cambio en su velocidad. A diferencia del flujo uniforme, las pendientes de energía, flujo y fondo serán diferentes. Esta es una condición mucho más aproximada al flujo a superficie libre en canales naturales y artificiales, considerando los posibles cambios de sección, pendiente, rugosidad y alineamiento.   
+
+En el FGV se parte de la hipótesis donde la pérdida de carga en una sección es la misma que corresondería a un flujo uniforme que tuviese la misma velocidad y radio hidráulico que la sección mencionada. Esto quiere decir la ecuación de Manning puede usarse para la estimación de la línea de energía en un perfil de FGV. Así mismo, al realizar su análisis se consideran las siguientes suposiciones:
+
+- La pendiente del canal es pequeña.
+- La distribución de presiones en cada sección es hidrostática.
+- El canal es prismático y recto.
+- El coeficiente de rugosidad es constante e independiente de la profundidad.
+- La distribución de velocidades es invariable en las secciones.
+
+<div align="center">
+<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/FGV.png" width="65%">
+</div>
+
+> Flujo gradualmente variado en un canal a superficie libre. _Tomado de Fig.8.6.[^1]
 
 ### Flujo rápidamente variado
 

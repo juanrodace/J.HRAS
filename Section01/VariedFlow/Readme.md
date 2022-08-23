@@ -72,12 +72,15 @@ Como material adicional, puedes acceder al siguiente video de la USGS sobre sele
 
 ### Flujo gradualmente variado
 
-El movimiento o flujo gradualmente variado (FGV), es aquel en el cual hay un cambio suave en la profundidad de flujo a lo largo del canal, y consecuentemente, un cambio en su velocidad. A diferencia del flujo uniforme, las pendientes de energía, flujo y fondo serán diferentes. Esta es una condición mucho más aproximada al flujo a superficie libre en canales naturales y artificiales, considerando los posibles cambios de sección, pendiente, rugosidad y alineamiento.   
+El movimiento o flujo gradualmente variado (FGV), es aquel en el cual hay un cambio suave en la profundidad de flujo a lo largo del canal, y consecuentemente, un cambio en su velocidad. A diferencia del flujo uniforme, las pendientes de energía, flujo y fondo serán diferentes. Esta es una condición mucho más aproximada al flujo a superficie libre en canales naturales y artificiales, considerando los posibles cambios de sección, pendiente, rugosidad y alineamiento. El remanso producido por una presa o vertedero a través de un canal o rio y la caída producida por una caída o desnivel repentino son algunos ejemplos típicos de FGV.
 
-En el FGV se parte de la hipótesis donde la pérdida de carga en una sección es la misma que corresondería a un flujo uniforme que tuviese la misma velocidad y radio hidráulico que la sección mencionada. Esto quiere decir la ecuación de Manning puede usarse para la estimación de la línea de energía en un perfil de FGV. Así mismo, al realizar su análisis se consideran las siguientes suposiciones:
+El análisis del FGV parte dos supuestos básicos:
+- La pérdida de carga en una sección es la misma que corresondería a un flujo uniforme que tuviese la misma velocidad y radio hidráulico que la sección mencionada. Esto quiere decir la ecuación de Manning puede usarse para la estimación de la línea de energía en un perfil de FGV. Así mismo, al realizar su análisis se consideran las siguientes suposiciones:
+- La distribución de presiones en cada sección es hidrostática, al considerar que los cambios en la superficie libre y fondo son graduales, dando lugar a aceleraciones normales insignificantes.
 
+En el planteamiento del análisis y sus cálculos es común considerar además las siguientes hipótesis:
+- 
 - La pendiente del canal es pequeña.
-- La distribución de presiones en cada sección es hidrostática.
 - El canal es prismático y recto.
 - El coeficiente de rugosidad es constante e independiente de la profundidad.
 - La distribución de velocidades es invariable en las secciones.
@@ -105,7 +108,8 @@ En el FGV se parte de la hipótesis donde la pérdida de carga en una sección e
 |------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08.17 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.08.20 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2022.08.22 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |       | 
+| 2022.08.23 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  | 
+| 2022.08.24 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso
 

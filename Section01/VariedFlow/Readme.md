@@ -114,19 +114,16 @@ Para el desarrollo del análisis, la pendiente del fondo del canal se clasifica 
 
 ### Control de versiones
 
-
-| Versión     | Descripción                                                       |                    Autor                    | Horas |
-|-------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-| 2022.08.17  | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.20  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2022.08.23  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  | 
-| 2022.08.25  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
- | 2022.09.14  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+|  Versión   | Descripción                                                       |                    Autor                    | Horas |
+|:----------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+|  2022.08   | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+|  2022.08   | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  4.0  |
+|  2022.09   | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/FundamentalConcepts) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/UnstadyFlow) |
-|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [:arrow_backward:Anterior](Section01/FundamentalConcepts) | [:house: Inicio](J.HRAS/README.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](Section01/UnstadyFlow) |
+|----------------------------------------------------------------------------------------------------------|------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

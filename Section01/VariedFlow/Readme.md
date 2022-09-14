@@ -122,7 +122,7 @@ Para el desarrollo del análisis, la pendiente del fondo del canal se clasifica 
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](Section01/FundamentalConcepts) | [:house: Inicio](J.HRAS/README.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](Section01/UnstadyFlow) |
+| [:arrow_backward:Anterior](../FundamentalConcepts) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../UnstadyFlow) |
 |----------------------------------------------------------------------------------------------------------|------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

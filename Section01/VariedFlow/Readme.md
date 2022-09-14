@@ -3,7 +3,7 @@ Keywords: `Hydraulics` ` Open Channel flow` `Manning` `FGV (GVF)` `FRV (RVF)`
 
 <div align="center">
 
-![ChannelFlow.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/ChannelFlow.jpg)
+![ChannelFlow.jpeg](Graph/ChannelFlow.jpg)
 </div>
 
 > En la ilustración, canal en hidroeléctrica de Colombia. _Fuente anónima_.
@@ -29,7 +29,7 @@ El flujo en canales a superficie libre también se clasifica como uniforme (FU) 
 Se dice que un sistema a superficie libre se encuentra en condición de flujo uniforme y permanente cuando sus propiedades permanecen constantes a lo largo del canal. Específicamente, cuando la profundidad de flujo `y`, la velocidad media `V` y el flujo o caudal `Q` permanecen constantes en todas las secciones. Así mismo, se afirma que las pendientes de su superficie libre `Sw`, su línea de energía `Se` y su fondo `So` son iguales, es decir, son líneas paralelas. 
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/UniformFlow.png" width="65%">
+<img alt="J.HRAS" src="Graph/UniformFlow.png" width="65%">
 </div>
 
 > Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1.[^1]
@@ -44,7 +44,7 @@ La profundidad del flujo en flujos uniformes se le llama profundidad normal `Yn`
 Desde el punto de vista dinámico, el establecimiento del flujo uniforme será posible cuando las fuerzas gravitacionales y las fuerzas de resistencia al flujo encuentren un equilibrio. Dicha resistencia se relaciona con los esfuerzos de corte los cuales dependen de la velocidad.  Si al inicio o al final de un canal no se encuentra este equilibrio, se presentará una aceleración o desaceleración del flujo, aumentando o reduciendo su velocidad y consecuentemente su resistencia de manera gradual, hasta encontrar el balance entre las fuerzas y, por lo tanto, el flujo uniforme. En este sentido, se puede llegar una expresión matemática que representa el flujo uniforme como la relación entre el esfuerzo de corte `τ`, el peso específico `γ`, el radio hidráulico `R` y la pendiente del canal `So`.
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/UniformFlow.png" width="20%">
+<img alt="J.HRAS" src="Equations/UniformFlow.png" width="20%">
 </div>
 
 #### Ecuación de Manning
@@ -52,7 +52,7 @@ Desde el punto de vista dinámico, el establecimiento del flujo uniforme será p
 En 1889 el ingeniero irlandés Robert Manning presentó esta ecuación, la cual es la más utilizada para cálculos de flujo en canales a superficie libre.
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Equations/Manning.png" width="20%"><br>
+<img alt="J.HRAS" src="Equations/Manning.png" width="20%"><br>
 <sub>Donde, <b>V</b> es la velocidad media del flujo, <b>n</b> corresponde al coeficiente de rugosidad o de Manning,<br>
 <b>R</b> es el radio hidráulico de la sección transversal (relación de área y perímetro, A/P) <br>
 y <b>S<sub>o</sub></b> es la pendiente del fondo del canal.</sub><br><br>
@@ -68,7 +68,7 @@ Como referencia para la definición del coeficiente **n**, se recomienda consult
 
 Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
 
-<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="420" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
+<div align="center"><a href="https://www.usgs.gov/media/videos/selection-roughness-coefficients" target="_blank"><img src="Graph/IMG_USGS_Clip.png" alt="IMAGE ALT TEXT HERE" width="420" border="10" /></a><sub><br>(https://www.usgs.gov/media/videos/selection-roughness-coefficients)</sub><br><br></div>
 
 ### Flujo gradualmente variado
 
@@ -79,7 +79,7 @@ El análisis del FGV parte dos supuestos básicos:
 - La distribución de presiones en cada sección es hidrostática, al considerar que los cambios en la superficie libre y fondo son graduales, dando lugar a aceleraciones normales insignificantes. 
  
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/VariedFlow/Graph/FGV.png" width="65%">
+<img alt="J.HRAS" src="Graph/FGV.png" width="65%">
 </div>
 
 > Flujo gradualmente variado en un canal a superficie libre. _Tomado de Fig.8.6._[^1]
@@ -94,7 +94,12 @@ $\frac{dy}{dx}=\frac{S_{0}-S_{f}}{1-\frac{\alpha Q^{2}T}{gA^{3}}}$
 
 #### Características de los perfiles
 
-### Flujo rápidamente variado
+La ecuación dinámica del FGV, expresa la pendiente de la superficie libre del flujo, por lo que se usa para describir las características de varios perfiles. En FGV, se pueden presentar perfiles de remanso y perfiles de caída. Los perfiles o curvas de remanso se presentan cuando la profundidad de flujo se incrementa a lo largo del canal, es decir *dy/dx* es positivo. En caso contrario, cuando la profundidad disminuye *(dy/dx negativo)*, se tendrá una curva de caída.
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/FGV_Characteristics.png" width="65%">
+</div>
+
 
 ### Referencias
 - Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
@@ -107,12 +112,13 @@ $\frac{dy}{dx}=\frac{S_{0}-S_{f}}{1-\frac{\alpha Q^{2}T}{gA^{3}}}$
 ### Control de versiones
 
 
-| Versión    | Descripción                                                       |                    Autor                    | Horas |
-|------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-| 2022.08.17 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.20 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2022.08.23 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  | 
-| 2022.08.25 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| Versión     | Descripción                                                       |                    Autor                    | Horas |
+|-------------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2022.08.17  | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08.20  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2022.08.23  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  | 
+| 2022.08.25  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+ | 2022.09.14  | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

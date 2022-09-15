@@ -104,6 +104,8 @@ La ecuación dinámica del FGV, expresa la pendiente de la superficie libre del 
 
 Para el desarrollo del análisis, la pendiente del fondo del canal se clasifica en adversa ($S_{0}<0$), horizontal ($S_{0}=0$), subcrítica ($S_{0}<S_{c}$), crítica ($S_{0}=S_{c}$) y supercrítica ($S_{0}>S_{c}$). Así mismo, considerando la ecuación dinámica y las profundidades de flujo crítico y uniforme, se pueden tener dos condiciones generales para los perfiles de flujo: que la profundidad del flujo sea mayor a la profundidad normal ($y>y_{n}$), y que la profundidad sea mayor a la profundidad crítica ($y>y_{c}$). Este análisis y características da como resultado la posibilidad de 13 tipos de perfil de FGV, clasificadas en los cinco tipos de pendiente y tres zonas en relación con la profundidad normal y crítica.
 
+La formación de los diferentes perfiles del FGV, dependerá de las características del flujo y de las secciones de control que se puedan presentar a lo largo del sistema hidráulico a superficie libre, considerando los posibles cambios de pendiente y sección que se puedan presentar. En la siguiente imagen se ilustra un ejemplo de FGV para un canal prismático con dos cambios de pendiente, en las cuales se presentan 6 tipos de perfil.
+
 ### Referencias
 - Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
 - Introduction to fluid mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 

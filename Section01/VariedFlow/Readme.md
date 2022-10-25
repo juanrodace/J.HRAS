@@ -116,11 +116,10 @@ La formación de los diferentes perfiles del FGV, dependerá de las característ
 
 ### Control de versiones
 
-|  Versión   | Descripción                                                       |                    Autor                    | Horas |
-|:----------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-|  2022.08   | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-|  2022.08   | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  4.0  |
-|  2022.09   | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.09 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  5.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

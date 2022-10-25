@@ -3,7 +3,7 @@ Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy eq
 
 <div align="center">
 
-![OpenChannelFlow.jpg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/OpenChannelFlow.jpg)
+![OpenChannelFlow.jpg](Graph/OpenChannelFlow.jpg)
 </div>
 
 > En la ilustración, canal de riego recubierto. Foto de Armenta Humberto.
@@ -29,7 +29,7 @@ En esta clase se presentan los conceptos generales requeridos para entender el f
 El flujo a superficie libre implica que el fluido está expuesto a la atmósfera, esto puede darse en un canal abierto o en un conducto cuyo líquido no ocupa la sección por completo, y, por lo tanto, hay una superficie libre. Este flujo se distingue del flujo en tuberías o conductos cerrados a presión, los cuales permiten el transporte de líquidos y gases. Sin embargo, el flujo a superficie libre implica la existencia de una interfaz líquido-gas. El flujo en tuberías se conduce por una diferencia de presión, mientras que el flujo a superficie libre se conduce de manera natural por gravedad. El flujo del agua en un río, por ejemplo, se conduce por la diferencia de elevación entre río corriente arriba y río corriente abajo. La razón de flujo en un canal a superficie libre está establecida por el balance dinámico entre gravedad y fricción. [^1]
 
 <div align="center">
-<img alt="J.HRAS" src="https://github.com/juanrodace/J.HRAS/blob/main/Section01/FundamentalConcepts/Graph/NaturalChannel_Animas.jpeg" width="75%">
+<img alt="J.HRAS" src="Graph/NaturalChannel_Animas.jpeg" width="75%">
 </div>
 
 >  En la ilustración, Arroyo Las Ánimas, Cesar, Col. _Fuente propia_.

@@ -2,6 +2,7 @@
 <br>
 <img alt="J.HRAS" src=".icons/0_HRAS.png" width="250px">
 <br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
+<br>
 </div>
 
 La modelación hidráulica pretende reproducir determinados fenómenos o procesos relacionados con el flujo o transporte del agua. Sus resultados se emplean en el ámbito de la ingeniería para tratar diferentes aspectos, como los relacionados con el transporte y distribución del agua, la intervención de cauces, el desarrollo de estructuras o vías, la hidráulica fluvial, entre otros. Los sistemas computacionales son hoy en día una poderosa herramienta en la modelación numérica, permitiendo reducir el tiempo y mejorar la calidad de los estudios hidráulicos en la ingeniería. HEC-RAS es quizás una de las herramientas más aprobadas y utilizadas desde el punto de vista práctico, ya que además de contar con modelos 1D y 2D, tiene la ventaja de ser un software de libre acceso, volviéndolo muy accesible por los diferentes usuarios a través de todo el mundo.
@@ -56,7 +57,9 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 * Software QGIS o similar.
 
 ##
-**<kbd>[Inicia aquí](Section01/Readme.md)</kbd>**
+
+<div align="center"><a href="Section01/Readme.md"><img src=".icon/Start.png" alt="IMAGE ALT TEXT HERE" width="210" border="10" /></a><br></div>
+
 
 ## Contenido
 ### Sección 1. Introducción y fundamentos generales

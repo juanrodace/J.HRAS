@@ -41,9 +41,8 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 ## Ecuación dinámica para flujo no permanente
 
 
+
 ### Referencias
-- Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
-- Introduction to fluid mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 - The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 

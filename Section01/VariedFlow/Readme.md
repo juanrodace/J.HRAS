@@ -32,7 +32,7 @@ Se dice que un sistema a superficie libre se encuentra en condición de flujo un
 <img alt="J.HRAS" src="Graph/UniformFlow.png" width="65%">
 </div>
 
-> Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1.[^1]
+> Flujo uniforme en canal a superficie libre. _Tomado de Fig.2.1._[^1]
 
 Esta condición de flujo estrictamente uniforme es muy difícil de encontrar y casi imposible en canales naturales. Este flujo ses puede encontrar en canales largos y rectos con una pendiente y
 sección transversal constantes y un revestimiento de las superficies homogéneo.
@@ -64,7 +64,7 @@ La mayor dificultad en la aplicación de la ecuación, está en la definición d
 - Examinar y familiarizarse con la apariencia de algunos canales comunes con coeficientes conocidos.
 - Determinar el valor de **n** mediante un proceso analítico basado en la distribución de velocidades en la sección y datos medidos de velocidad y rugosidad.
 
-Como referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño. Y la [Guía](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Guide%20for%20selecting%20Manning's%20Roughness%20Coef.%20USGS.%20P2339..pdf)[^3] o [Reporte](https://github.com/juanrodace/J.HRAS/blob/main/.refs/Roughness%20Characteristics%20of%20Natural%20Channels.%20USGS.pdf)[^4] del USGS. 
+Como referencia para la definición del coeficiente **n**, se recomienda consultar la tabla de coeficientes de rugosidad de Chow[^2], el cual considera varios tipos de canal con descripción y algunos valores generalmente recomendados para el diseño. Y la [Guía](../../.refs/Guide%20for%20selecting%20Manning's%20Roughness%20Coef.%20USGS.%20P2339..pdf)[^3] o [Reporte](../../.refs/Roughness%20Characteristics%20of%20Natural%20Channels.%20USGS.pdf)[^4] del USGS. 
 
 Como material adicional, puedes acceder al siguiente video de la USGS sobre selección del coeficiente de rugosidad. 
 

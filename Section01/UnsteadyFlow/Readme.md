@@ -31,7 +31,7 @@ El análisis de los flujos no permanentes suele ser más complejo que el de los 
 ## Ecuación de continuidad del flujo no permanente
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/UnsteadyFlow.svg" width="85%">
+<img alt="J.HRAS" src="Graph/UnsteadyFlow.svg" width="75%">
 </div>
 
 > Continuidad de flujo no permanente.

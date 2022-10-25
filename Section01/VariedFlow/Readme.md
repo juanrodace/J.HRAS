@@ -22,7 +22,6 @@ El flujo en canales a superficie libre también se clasifica como uniforme (FU) 
 
 * Conocimientos en mecánica de fluidos.
 * Microsoft Excel
-* Python (Opcional)
 
 ### Flujo uniforme
 

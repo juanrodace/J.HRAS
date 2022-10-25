@@ -48,12 +48,14 @@ Clone local directory D:\J.HRAS
 
 	FUNDAMENTOS
 	 - Varied Flow - Flujo Rápidamente Variado
-        - Hydraulic Modeling
-            - Definición de modelo numérico.
-            - Mallas.
-            - Ecuaciones de Saint Venant.
-            - Ecuaciones de Onda Difusa.
-            - Método de Volúmenes Finitos – Solución implícita.
+     - Hydraulic Modeling 
+        - Definición de modelo numérico.
+        - Mallas.
+        - Ecuaciones de Saint Venant.
+        - Ecuaciones de Onda Difusa.
+        - Método de Volúmenes Finitos – Solución implícita.
+		- Refs:
+			file:///E:/OneDrive%20-%20ESCUELA%20COLOMBIANA%20DE%20INGENIERIA%20JULIO%20GARAVITO/Educacion/Books/Engineering/Hydraulic%20-%20Hydraulics%20of%20Open%20Channel%20Flow%20-%20An%20Introduction%202nd%20ed%20-%20Hubert%20Chanson%20(BH,%202004).pdf
 		
 	INICIACIÓN HEC-RAS
 		- Requerimientos computacionales y consideraciones iniciales.

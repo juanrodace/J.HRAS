@@ -22,7 +22,6 @@ En esta clase se presentan los conceptos generales requeridos para entender el f
 
 * Conocimientos en mecánica de fluidos.
 * Microsoft Excel
-* Python (Opcional)
 
 ### Flujo a superficie libre
 

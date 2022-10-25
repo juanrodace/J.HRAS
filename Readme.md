@@ -55,6 +55,9 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 * Software de modelación hidráulica HEC-RAS.
 * Software QGIS o similar.
 
+##
+**<kbd>[Inicia aquí](Section01/Readme.md)</kbd>**
+
 ## Contenido
 ### Sección 1. Introducción y fundamentos generales
 

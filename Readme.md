@@ -58,7 +58,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ##
 
-<div align="center"><a href="Section01/Readme.md"><img src=".icon/Start.png" alt="IMAGE ALT TEXT HERE" width="210" border="10" /></a><br></div>
+<div align="center"><a href="Section01/Readme.md"><img src=".icons/Start.png" alt="INICIO" width="210" border="10" /></a><br></div>
 
 
 ## Contenido

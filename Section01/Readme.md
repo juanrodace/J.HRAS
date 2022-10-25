@@ -1,10 +1,8 @@
 <div align="center">
-<br>
-<img alt="J.HRAS" src=".icons/0_HRAS.png" width="250px">
+<br><img alt="J.HRAS" src="../.icons/0_HRAS.png" width="250px">
 <br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
-<br><b>Sección 1 - Introducción y fundamentos</b><br>
+<b>Sección 1 - Introducción y fundamentos</b><br>
 </div>
-HRAS by ing.juanrodace@gmail.com
 
 ## Introducción y fundamentos
 En esta sección se presenta la intruducción y fundamentos generales relacionados con el transporte de fluidos a superficie libre, modelación hidráulica y generalidades del software HEC-RAS.

@@ -58,7 +58,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ##
 
-<div align="center"><a href="Section01/Readme.md"><img src=".icons/Start.png" alt="INICIO" width="210" border="10" /></a><br></div>
+<div align="center"><a href="Section01/Readme.md"><img src=".icons/Start.png" alt="INICIO" width="210" border="10" /></a></div>
 
 
 ## Contenido
@@ -109,3 +109,13 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | Simulaciones de flujo bidimensional.               |
 | Visualización y generación de mapas de inundación. |
 | Obras hidráulicas en modelaciones bidimensionales. |
+
+##
+
+_:beginner: Ayuda / Colabora: a través de la pestaña _[Discussions](https://github.com/juanrodace/J.HRAS/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios o noticias_](https://github.com/juanrodace/J.HRAS/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/juanrodace/J.HRAS/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/juanrodace/J.HRAS/discussions/categories/q-a) y realizar [_publicaciones o consultas generales_](https://github.com/juanrodace/J.HRAS/discussions/categories/general) públicas._
+
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](License.md)._
+
+_Clonación: para compatibilidad completa de las rutas utilizadas en los scripts y herramientas de J.HRAS, en Microsoft Windows clonar y/o descomprimir en _D:\J.HRAS_. Enlace para clonación https://github.com/juanrodace/J.HRAS.git._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/juanrodace) en GitHub._

@@ -72,7 +72,7 @@ Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó 
 | Versión | Descripción                                                       |                    Autor                    | Horas |
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.10 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

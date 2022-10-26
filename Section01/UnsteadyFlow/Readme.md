@@ -39,11 +39,9 @@ El análisis de los flujos no permanentes suele ser más complejo que el de los 
 De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para flujo no permanente puede establecerse considerando la conservación de masa en un espacio infinitesimal entre dos secciones de canal **dx**. En un flujo no permanente el caudal cambia con la distancia a una tasa **$\frac{\partial Q}{\partial x}$**, y la profundidad cambia con el tiempo a una tasa de **$\frac{\partial y}{\partial t}$**. Al considerar el cambio del flujo a través del espacio en el tiempo **dt**, el cambio correspondiente en el almacenamiento dentro del canal en el espacio **dx** y la incompresibilidad del líquido, se puede plantear que el cambio neto en el caudal más el cambio en el almacenamiento debería ser cero. Llegando a la _ecuación de flujo no permanente para canales abiertos_. 
 
 <div align="center">
-<img alt="J.HRAS" src="Equations/Unsteady_Eq1.svg" width="30%"><br>
-<sub>Donde, <b>Q</b> es el caudal o flujo volumétrico,<br>
-<b>A</b> es el área de la sección transversal, <br>
-<b>dx</b> corresponde al cambio de la variable espacial 'x', <br>
-y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
+<img alt="J.HRAS" src="Equations/Unsteady_Eq1.svg" width="15%"><br>
+<sub>Donde, <b>Q</b> es el caudal o flujo volumétrico,<b>A</b> es el área de la sección transversal, <br>
+<b>dx</b> corresponde al cambio de la variable espacial 'x' y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
 ## Ecuación dinámica para flujo no permanente

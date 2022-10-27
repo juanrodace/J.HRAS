@@ -70,7 +70,6 @@ Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó 
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
 
-
 ### Control de versiones
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |
@@ -88,4 +87,4 @@ _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._
 
 [^1]: Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-[^2]: 
+[^2]:

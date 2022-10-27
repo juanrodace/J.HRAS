@@ -55,7 +55,6 @@ El análisis de las ecuaciones de flujo permanente, puede simplificarse al consi
 
 > Representación simplificada de la energía en flujo no permanente.
 
-
 De acuerdo con la figura de representación simplificada de energía en el flujo no permanente, se puede decir que el cambio total de la energía **(H)** en la longitud infinitesimal **dx** puede tratarse exactamente igual que en el caso de flujo permanente, excepto que debe incluirse una la pérdida adicional debida a la aceleración. Es decir que la pérdida total de energía se compone de pérdida debida a la fricción **$h_{f}=S_{f} dx$** y la pérdida debida a la aceleración **$h_{a}=S_{a}dx$**. Donde **$S_{f}$** corresponde a la pendiente de la línea de energía y **$S_{a}$** es conocida como pendiente de la línea de aceleración. Al plantear la ecuación de conservación de energía en la longitud infinitesimal de canal y simplificar, podemos llegar a la _ecuación dinámica general para flujo no permanente gradualmente variado_.
 
 <div align="center">
@@ -65,7 +64,6 @@ y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
 Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez Saint-Venan. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricas de paso aproximados o basados en suposiciones simplificadas. 
-
 
 ### Referencias
 - The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.

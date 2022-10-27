@@ -49,6 +49,13 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 
 El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **_dx_**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
 
+<div align="center">
+<img alt="J.HRAS" src="Graph/Energy_UnsteadyFlow.svg" width="60%">
+</div>
+
+> Representación simplificada de la energía en flujo no permanente.
+
+
 De acuerdo con la figura de representación simplificada de energía en el flujo no permanente, se puede decir que el cambio total de la energía **(H)** en la longitud infinitesimal **dx** puede tratarse exactamente igual que en el caso de flujo permanente, excepto que debe incluirse una la pérdida adicional debida a la aceleración. Es decir que la pérdida total de energía se compone de pérdida debida a la fricción **$h_{f}=S_{f} dx$** y la pérdida debida a la aceleración **$h_{a}=S_{a}dx$**. Donde **$S_{f}$** corresponde a la pendiente de la línea de energía y **$S_{a}$** es conocida como pendiente de la línea de aceleración. Al plantear la ecuación de conservación de energía en la longitud infinitesimal de canal y simplificar, podemos llegar a la _ecuación dinámica general para flujo no permanente gradualmente variado_.
 
 <div align="center">

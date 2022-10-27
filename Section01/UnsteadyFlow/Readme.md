@@ -49,13 +49,12 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 
 El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **_dx_**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
 
-De acuerdo con la figura de representación simplificada de energía en el flujo no permanente, se puede decir que el cambio total de la energía **(H)** en la longitud infinitesimal **dx** puede tratarse exactamente igual que en el caso de flujo permanente, excepto que debe incluirse una la pérdida adicional debida a la aceleración. Es decir que la pérdida total de energía se compone de pérdida debida a la fricción **$h_{f}=S_{f}dx$** y la pérdida debida a la aceleración **h_{a}=S_{a}dx**. Donde **S_{f}** corresponde a la pendiente de la línea de energía y **S_{a}** es conocida como pendiente de la línea de aceleración. Al plantear la ecuación de conservación de energía en la longitud infinitesimal de canal y simplificar, podemos llegar a la _ecuación dinámica general para flujo no permanente gradualmente variado_.
+De acuerdo con la figura de representación simplificada de energía en el flujo no permanente, se puede decir que el cambio total de la energía **(H)** en la longitud infinitesimal **dx** puede tratarse exactamente igual que en el caso de flujo permanente, excepto que debe incluirse una la pérdida adicional debida a la aceleración. Es decir que la pérdida total de energía se compone de pérdida debida a la fricción **$h_{f}=S_{f} dx$** y la pérdida debida a la aceleración **$h_{a}=S_{a}dx$**. Donde **$S_{f}$** corresponde a la pendiente de la línea de energía y **$S_{a}$** es conocida como pendiente de la línea de aceleración. Al plantear la ecuación de conservación de energía en la longitud infinitesimal de canal y simplificar, podemos llegar a la _ecuación dinámica general para flujo no permanente gradualmente variado_.
 
 <div align="center">
-<img alt="J.HRAS" src="Equations/Unsteady_Eq2.svg" width="10%"><br>
-<sub>Donde, <b>Q</b> es el caudal o flujo volumétrico,<b>A</b> es el área de la sección transversal, <br>
-<b>q</b> es el caudal unitario ,<b>y</b> es la profundidad de flujo, <br>
-<b>dx</b> corresponde al cambio de la variable espacial 'x' y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
+<img alt="J.HRAS" src="Equations/Unsteady_Eq2.svg" width="30%"><br>
+<sub>Donde, <b>V</b> es la velocidad media de flujo, <b>dx</b> corresponde al cambio de la variable espacial 'x'<br>
+y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
 Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez Saint-Venan. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricas de paso aproximados o basados en suposiciones simplificadas. 

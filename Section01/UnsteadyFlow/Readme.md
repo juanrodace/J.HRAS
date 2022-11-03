@@ -47,7 +47,7 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 
 ## Ecuación dinámica para flujo no permanente
 
-El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **_dx_**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
+El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **$dx$**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Energy_UnsteadyFlow.svg" width="60%">

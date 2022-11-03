@@ -1,7 +1,7 @@
 ## Sistemas Hidráulicos
 Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` 
 
-_En esta clase se presentan los conceptos básicos requeridos para realizar los estudios requeridos asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Este tipo de intervenciones requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Se tratarán temas relacionados con análisis de frecuencias de caudales, obtención de caudales, análisis de batimetrías, modelamiento hidráulico para flujos estacionarios y no estacionarios, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas._
+_En esta clase se presentan los conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Este tipo de intervenciones requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Se tratarán temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas._
 
 <div align="center">
 
@@ -16,31 +16,42 @@ _En esta clase se presentan los conceptos básicos requeridos para realizar los 
 ### Requerimientos
 
 * Conocimientos básicos en ingeniería.
-* Conocimientos básicos en hidráulica e hdrología.
+* Conocimientos básicos en hidráulica e hidrología.
 
-### Estudios Hidraulicos
+### Sistemas de Recursos Hidráulicos
+
+
+
+### Estudios Hidráulicos
 
 #### Ciclo de un estudio de ingeniería
 
 #### Estudios previos requeridos
+* Topografía
+* Batimetría
+* Hidrología
+* Aforos
+* Estructuras
+* Transporte de sedimentos
 
 #### Parámetros hidráulicos e hidrológicos
 
 #### Periodos de retorno.
 
+#### Obtención de caudales.
 
 ### Referencias
-- 
+- Water Resourse System Planning and Management. Loucks D.P. and van Beek E. Springer. DOI 10.1007/978-3-319-44234-1_1.
 - 
     
 
 ### Control de versiones
 
 
-| Versión    | Descripción                                                       |   Autor | Horas |
-|------------|-------------------------------------------------------------------|:-------:|:-----:| 
-| 2022.08.16 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08.xx | Inclusión de conceptos: xxxxxxxxxx                                | [juanrodace](https://github.com/juanrodace) |  x.x  | 
+| Versión | Descripción                                                       |                    Autor                    |  Horas  |
+|---------|-------------------------------------------------------------------|:-------------------------------------------:|:-------:| 
+| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |   1.0   |
+| 2022.10 | Inclusión de conceptos                                            | [juanrodace](https://github.com/juanrodace) |   1.0   | 
 
 | [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/UnestadyFlow) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|

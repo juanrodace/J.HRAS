@@ -20,6 +20,10 @@ _En esta clase se presentan los conceptos básicos requeridos para realizar estu
 
 ### Sistemas de Recursos Hidráulicos
 
+Los recursos hídricos son especiales y primordiales. La vida en este planeta depende del agua, la mayoría de nuestras actividades requieren de este recurso, como los alimentos que cultivamos, procesamos y consumimos, el saneamiento básico, las diferentes actividades económicas e industriales y el consumo humano. La importancia del agua para nuestro bienestar está fuera de toda duda, nuestra dependencia indudablemente durará para siempre.
+
+Aunque los recursos hidráulicos en nuestro planeta son abundantes, no se distribuye como quisiéramos. En algunos lugares y momentos hay demasiado o muy poco, o lo que existe está demasiado contaminado o es demasiado costoso obtenerlo. A esto podemos sumarle los cambios a nivel global en las últimas décadas, como el calentamiento, el crecimiento poblacional, cambios en el uso del suelo y la densificación de las ciudades.
+
 
 
 ### Estudios Hidráulicos

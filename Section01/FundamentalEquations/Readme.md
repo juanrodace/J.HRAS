@@ -1,5 +1,5 @@
-## Conceptos fundamentales
-Keywords: `Hydraulics` `Channel` `Channel flow` `Continuity equation` `Energy equation` `CriticalDepth`
+## Ecuaciones fundamentales
+Keywords: `Hydraulics` `Open Channel` `Channel flow` `Continuity equation` `Energy equation` `Momentum`
 
 <div align="center">
 
@@ -39,6 +39,10 @@ Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi cons
 <img alt="J.HRAS" src="Equations/Continuity.png" width="15%"><br>
 <sub>Donde, <b>Q</b> es el flujo volumétrico o caudal,<br>
 <b>A</b> es el área de la sección transversal y <b>V</b> es la velocidad media de flujo.</sub><br><br>
+</div>
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/OpenChannel.svg" width="75%"><br>
 </div>
 
 ### Conservación de la energía en flujo permanente
@@ -153,10 +157,11 @@ Al igual que la energía específica, esta ecuación nos permite evaluar la vari
 
 ### Control de versiones
 
-| Versión  | Descripción                                                       |                    Autor                    | Horas |
-|:--------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-| 2022.07  | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.08  | Inclusión conceptos.                                              | [juanrodace](https://github.com/juanrodace) |  4.0  |
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2022.07 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08 | Inclusión conceptos.                                              | [juanrodace](https://github.com/juanrodace) |  4.0  |
+| 2022.11 | Desarrollo contenido multimedia.                                  | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 | [:arrow_backward:Anterior](../FundamentalConcepts) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](../VariedFlow) |
 |-------------------------------------------------|-----------------------------------|------------------------------------------------------------------------|-------------------------------------------|

@@ -119,11 +119,12 @@ La formación de los diferentes perfiles del FGV, dependerá de las característ
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.09 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  5.0  |
+| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../FundamentalConcepts) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../UnsteadyFlow) |
-|----------------------------------------------------------------------------------------------------------|------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------|
+| [:arrow_backward:Anterior](../FundamentalEquations) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../UnsteadyFlow) |
+|---------------------------------------------|------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
 

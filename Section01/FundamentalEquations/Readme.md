@@ -42,7 +42,7 @@ Los flujos en canales abiertos incluyen líquidos cuyas densidades son casi cons
 </div>
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/OpenChannel.svg" width="75%"><br>
+<img alt="J.HRAS" src="Graph/OpenChannel.svg" width="70%"><br>
 </div>
 
 ### Conservación de la energía en flujo permanente

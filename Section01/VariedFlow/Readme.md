@@ -119,7 +119,20 @@ El flujo espacialmente variado (FEV), tiene un caudal no uniforme como resultado
 <img alt="J.HRAS" src="Graph/HooverSideSipillway.jpg" width="65%">
 </div>
 
-> Canal de desbordamiento la presa Hoover, Arizona. _Tomado de Musument. Hoover Dam._[^1]
+> Canal de desbordamiento la presa Hoover, Arizona. _Tomado de Musument. Hoover Dam.
+
+#### FEV con caudal creciente
+En este tipo de flujo, se presentan pérdidas de energía por la mezcla turbulenta del flujo adicionado, la cual suele ser alta y difícil de cuantificar. Esto hace el canal poco práctico e ineficiente, aunque en algunas circunstancias puede ser necesario o más conveniente su uso. En general varios investigadores han planteado ecuaciones diferenciales que describen este FEV, quizás la más completa fue la ecuación desarrollada por Hinds y Favre. Un ejemplo de este flujo es un canal lateral junto a un vertedero lateral como el de la imagen previa. 
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/FEV1.png" width="60%">
+</div>
+
+> Análisis del FEV con caudal creciente. _Tomado de Fig.12-2._[^2]
+
+A partir de la ecuación de conservación del *momentum*, es posible plantear la ecuación dinámica para el FEV con caudal creciente. Cuando la variación del caudal **(q<sup>*</sup>)** es cero, esta ecuación se convierte en la ecuación dinámica del FGV con caudal constante.
+
+
 
 
 ### Flujo rápidamente variado
@@ -133,7 +146,7 @@ El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cam
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.09 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  5.0  |
-| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
 | 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso

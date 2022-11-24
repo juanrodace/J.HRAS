@@ -86,9 +86,8 @@ El análisis del FGV parte dos supuestos básicos:
 #### Ecuación dinámica del FGV
 
 Para establecer esta ecuación, partimos de la imagen previa y la ecuación de energía en un tramo <kbd>dx</kbd> de canal a superficie libre con FGV: **$H=z+y+\frac{V^{2}}{2g}$**. Se evalúa la variación de la energía total <kbd>H</kbd> en el espacio <kbd>dx</kbd> y se obtiene la variación del perfil de flujo en el espacio o su pendiente $S_{W}=\frac{dy}{dx}$, teniendo en cuenta la pendiente del fondo $S_{0}=\frac{dz}{dx}$ y la pendiente de la línea de energía $S_{E}=\frac{dH}{dx}$, obteniendo finalmente la siguiente ecuación:
-
 <div align="center">
-<img alt="J.HRAS" src="Equations/FGV.png" width="30%">
+<img alt="J.HRAS" src="Equations/FGV.png" width="25%">
 </div>
 
 #### Características de los perfiles

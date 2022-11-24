@@ -130,9 +130,11 @@ En este tipo de flujo, se presentan pérdidas de energía por la mezcla turbulen
 
 > Análisis del FEV con caudal creciente. _Tomado de Fig.12-2._[^2]
 
-A partir de la ecuación de conservación del *momentum*, es posible plantear la ecuación dinámica para el FEV con caudal creciente. Cuando la variación del caudal **(q<sup>*</sup>)** es cero, esta ecuación se convierte en la ecuación dinámica del FGV con caudal constante.
+A partir de la ecuación de conservación del *momentum*, es posible plantear la ecuación dinámica para el FEV con caudal creciente. Cuando la variación del caudal **(q<sub>*</sub>)** es cero, esta ecuación se convierte en la ecuación dinámica del FGV con caudal constante.
 
-
+<div align="center">
+<img alt="J.HRAS" src="Equations/FEV1.svg" width="20%">
+</div>
 
 
 ### Flujo rápidamente variado

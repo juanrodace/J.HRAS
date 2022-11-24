@@ -112,10 +112,10 @@ La formación de los diferentes perfiles del FGV, dependerá de las característ
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
 
 ### Flujo espacialmente variado
-El flujo espacialmente variado (FEV), tiene un caudal no uniforme como resultado de la adición o disminución de flujo a lo largo del canal. El fluido agregado o extraído causará perturbaciones graduales en el contenido de enrgía o de momentum del flujo. Como resultado, el comportamiento hidráulico de un flujo espacialmente variado es más complicado que el de un flujo con caudal constante en todas las secciones transversales. Igualmente, el FEV con caudal creciente difiere del FEV con caudal decreciente. Un ejemplo del FEV es un vertedero de canal lateral, en el cual se presenta un caudal de creciente a lo largo del vertedero.
+El flujo espacialmente variado (FEV), tiene un caudal no uniforme como resultado de la adición o disminución de flujo a lo largo del canal. El fluido agregado o extraído causará perturbaciones graduales en el contenido de energía o de momentum del flujo. Como resultado, el comportamiento hidráulico de un flujo espacialmente variado es más complicado que el de un flujo con caudal constante en todas las secciones transversales. Igualmente, el FEV con caudal creciente difiere del FEV con caudal decreciente. Un ejemplo del FEV es un vertedero de canal lateral, en el cual se presenta un caudal de creciente a lo largo del vertedero.
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/HooverSideSipillway.jpg" width="65%">
+<img alt="J.HRAS" src="Graph/HooverSideSpillway.jpg" width="65%">
 </div>
 
 > Canal de desbordamiento la presa Hoover, Arizona. _Tomado de Musument. Hoover Dam.
@@ -155,7 +155,7 @@ El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cam
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../FundamentalEquations) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../UnsteadyFlow) |
-|---------------------------------------------|------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------|
+|-----------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|---------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._
 

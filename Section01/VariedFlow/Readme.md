@@ -152,9 +152,20 @@ A partir de la ecuación de energía es posible plantear la *ecuación dinámica
 
 ### Flujo rápidamente variado
 
-El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cambio considerable o pronunciado de la profundidad de flujo en un pequeño tramo del canal, y consecuentemente, un cambio en su velocidad y/o condición de flujo. Esto puede dar como resultado un estado de alta turbulencia. Un ejemplo de este flujo es el resalto hidráulico o la descarga libre. El FRV también se puede desarrollar frente a un fuerte cambio de la pendiente del fondo, con el cambio de la geometría de la sección transversal, con la presencia de un obstáculo o después de una estructura de control. Para el análisis del FRV, se pueden definir los siguientes aspectos o características:
+El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cambio considerable o pronunciado de la profundidad de flujo en un pequeño tramo del canal, y consecuentemente, un cambio en su velocidad y/o condición de flujo. Esto puede dar como resultado un estado de alta turbulencia. Un ejemplo de este flujo es el resalto hidráulico o la descarga libre. El FRV también se puede desarrollar frente a un fuerte cambio de la pendiente del fondo, con el cambio de la geometría de la sección transversal, con la presencia de un obstáculo o después de una estructura de control. Para el análisis del FRV, se pueden definir los siguientes aspectos o características[^2]:
 
-* adasd
+* No puede suponerse que la presión sea hidrostática.
+* La fricción es insignificante, ya que el FRV se desarrolla en un tramo corto.
+* Cuando hay presente una estructura, las características del FRV dependen de la geometría de esta y su condición de flujo.
+* Los coeficientes de corrección **α** y **β** son mucho mayores a la unidad y no es posible su determinación exacta.
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/Saylorville.Spillway.jpg" width="60%">
+</div>
+
+> Resalto hidráulico en una estructura de vertedero en Saylorville Lake, Iowa. _UK Rivers Guidebook, 2009._[^2]
+
+Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el análisis del perfil, como la realizada por Boussinesq donde es posible utilizar el principio de *momentum*, o la desarrollada por Fawer donde es posible utilizar el principio de energía. Otras investigaciones proponen el uso de métodos gráficos o de aproximación numérica considerando un flujo potencial no viscoso. Sin embargo, desde el punto de vista práctico, el problema del FRV se ha tratado comúnmente como casos aislados, cada uno con una solución empírica particular basados en resultados experimentales.
 
 ### Control de versiones
 

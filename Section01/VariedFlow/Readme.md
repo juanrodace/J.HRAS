@@ -136,7 +136,19 @@ A partir de la ecuación de conservación del *momentum*, es posible plantear la
 </div>
     
 #### FEV con caudal decreciente
+Este tipo de flujo puede tratarse como una derivación de flujo donde la extracción no afecta a carga de energía, por lo que resulta más conveniente el uso de la ecuación de energía para la solución del flujo. El ejemplo más claro de este FEV es el vertedero lateral o una estructura de alivio con orificios longitudinales. Se ha probado que la altura de energía a lo largo del FEV es esencialmente constante y que el perfil de flujo es curvo.
 
+<div align="center">
+<img alt="J.HRAS" src="Graph/SideWeir.png" width="60%">
+</div>
+
+> Vertedero lateral en estructura de alivio de un alcantarillado. _Tomado de Fig.12-2._[^2]
+
+A partir de la ecuación de energía es posible plantear la *ecuación dinámica* para FEV con caudal decreciente, teniendo como consideración o hipótesis que el flujo es unidireccional, la velocidad en la sección transversal es constante (velocidad media), la presión en el flujo es hidrostática, la pendiente en el canal es relativamente pequeña, las pérdidas por fricción se pueden evalaur con la ecuación de Manning y el atrapamiento de aire es insignificante.
+
+<div align="center">
+<img alt="J.HRAS" src="Equations/FEV2.png" width="25%">
+</div>
 
 ### Flujo rápidamente variado
 

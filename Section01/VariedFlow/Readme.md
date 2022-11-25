@@ -144,7 +144,7 @@ Este tipo de flujo puede tratarse como una derivación de flujo donde la extracc
 
 > Vertedero lateral en estructura de alivio de un alcantarillado. _Tomado de Fig.12-2._[^2]
 
-A partir de la ecuación de energía es posible plantear la *ecuación dinámica* para FEV con caudal decreciente, teniendo como consideración o hipótesis que el flujo es unidireccional, la velocidad en la sección transversal es constante (velocidad media), la presión en el flujo es hidrostática, la pendiente en el canal es relativamente pequeña, las pérdidas por fricción se pueden evalaur con la ecuación de Manning y el atrapamiento de aire es insignificante.
+A partir de la ecuación de energía es posible plantear la *ecuación dinámica* para FEV con caudal decreciente, teniendo como consideración o hipótesis que el flujo es unidireccional, la velocidad en la sección transversal es constante (velocidad media), la presión en el flujo es hidrostática, la pendiente en el canal es relativamente pequeña, las pérdidas por fricción se pueden evaluar con la ecuación de Manning y el aire atrapado es insignificante.
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/FEV2.png" width="25%">
@@ -152,8 +152,9 @@ A partir de la ecuación de energía es posible plantear la *ecuación dinámica
 
 ### Flujo rápidamente variado
 
-El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cambio considerable en la profundidad de flujo en un pequeño tramo del canal, y consecuentemente, un cambio en su velocidad y/o condición de flujo. Un ejemplo de este flujo es el resalto hidráulico o la descarga libre. El FRV también se puede desarrollar frente a un fuerte cambio de la pendiente del fondo, con el cambio de la geometría de la sección transversal, con la presencia de un obstáculo o después de una estructura de control.   
+El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cambio considerable o pronunciado de la profundidad de flujo en un pequeño tramo del canal, y consecuentemente, un cambio en su velocidad y/o condición de flujo. Esto puede dar como resultado un estado de alta turbulencia. Un ejemplo de este flujo es el resalto hidráulico o la descarga libre. El FRV también se puede desarrollar frente a un fuerte cambio de la pendiente del fondo, con el cambio de la geometría de la sección transversal, con la presencia de un obstáculo o después de una estructura de control. Para el análisis del FRV, se pueden definir los siguientes aspectos o características:
 
+* adasd
 
 ### Control de versiones
 

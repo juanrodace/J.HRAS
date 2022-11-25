@@ -165,7 +165,14 @@ El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cam
 
 > Resalto hidráulico en una estructura de vertedero en Saylorville Lake, Iowa. _UK Rivers Guidebook, 2009._[^2]
 
-Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el análisis del perfil, como la realizada por Boussinesq donde es posible utilizar el principio de *momentum*, o la desarrollada por Fawer donde es posible utilizar el principio de energía. Otras investigaciones proponen el uso de métodos gráficos o de aproximación numérica considerando un flujo potencial no viscoso. Sin embargo, desde el punto de vista práctico, el problema del FRV se ha tratado comúnmente como casos aislados, cada uno con una solución empírica particular basados en resultados experimentales.
+Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el análisis del perfil, como la realizada por Boussinesq donde es posible utilizar el principio de *momentum*, o la desarrollada por Fawer donde es posible utilizar el principio de energía. Otras investigaciones proponen el uso de métodos gráficos o de aproximación numérica considerando un flujo potencial no viscoso. Sin embargo, desde el punto de vista práctico, el problema del FRV se ha tratado comúnmente como casos aislados, cada uno con una solución empírica particular basados en resultados experimentales. Algunos de los casos comunes donde se presenta FRV son:
+* Flujo sobre vertederos.
+* Resalto hidráulico y su uso como disipador de energía.
+* Flujo en canales no lineales.
+* Flujo a través de transiciones, expansiones o contracciones.
+* Flujo a través de alcantarillas.
+* Flujo a través de obstáculos.
+* Confluencia de canales.
 
 ### Control de versiones
 
@@ -173,8 +180,8 @@ Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.09 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  5.0  |
-| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
-| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  4.0  |
+| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

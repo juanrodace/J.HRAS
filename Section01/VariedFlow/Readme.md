@@ -163,7 +163,7 @@ El movimiento o flujo rápidamente variado (FRV), es aquel en el cual hay un cam
 <img alt="J.HRAS" src="Graph/Saylorville.Spillway.jpg" width="60%">
 </div>
 
-> Resalto hidráulico en una estructura de vertedero en Saylorville Lake, Iowa. _UK Rivers Guidebook, 2009._[^2]
+> Resalto hidráulico en una estructura de vertedero en Saylorville Lake, Iowa. _UK Rivers Guidebook, 2009.
 
 Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el análisis del perfil, como la realizada por Boussinesq donde es posible utilizar el principio de *momentum*, o la desarrollada por Fawer donde es posible utilizar el principio de energía. Otras investigaciones proponen el uso de métodos gráficos o de aproximación numérica considerando un flujo potencial no viscoso. Sin embargo, desde el punto de vista práctico, el problema del FRV se ha tratado comúnmente como casos aislados, cada uno con una solución empírica particular basados en resultados experimentales. Algunos de los casos comunes donde se presenta FRV son:
 * Flujo sobre vertederos.

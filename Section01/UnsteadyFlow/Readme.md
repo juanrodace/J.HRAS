@@ -1,5 +1,5 @@
 ## Flujo no permanente
-Keywords: `Hydraulics` ` Open Channel flow` `Manning` `UnsteadyFlow`
+Keywords: `Hydraulics` ` Open Channel flow` `Manning` `UnsteadyFlow` `Saint-Venant` 
 
 <div align="center">
 
@@ -24,11 +24,18 @@ El flujo en canales a superficie libre puede darse en condiciones permanentes y 
 
 ### Flujo no permanente
 
-En muchos canales abiertos como canales de drenaje, alcantarillas pluviales y arroyos naturales, se presenta una variación de las condiciones de flujo con el tiempo. Estas variaciones son significativas, particularmente durante y después de una tormenta. En la práctica, para muchos estudios hidráulicos con flujo a superficie libre, es común usar las ecuaciones de flujo permanente para calcular las profundidades y/o condiciones máximas en un canal. Sin embargo, este enfoque es conservador, ya que no tiene en cuenta los cambios en el flujo relacionados a su vez con el almacenamiento en el canal. Entender mejor como se comporta el flujo frente a estas variaciones, solo es posible mediante el uso de las ecuaciones de flujo a superficie libre en condición no permanente. 
+En muchos canales abiertos como canales de drenaje, alcantarillas pluviales y arroyos naturales, es normal que se presente una variación de las condiciones de flujo con el tiempo. Estas variaciones son significativas, particularmente durante y después de una tormenta. En la práctica, para muchos estudios hidráulicos con flujo a superficie libre, es común usar las ecuaciones de flujo permanente para calcular las profundidades y/o condiciones máximas en un canal. Sin embargo, este enfoque es conservador, ya que no tiene en cuenta los cambios en el flujo relacionados a su vez con el almacenamiento en el canal. Entender mejor como se comporta el flujo frente a estas variaciones, solo es posible mediante el uso de las ecuaciones de flujo a superficie libre en condición no permanente. 
 
-El análisis de los flujos no permanentes suele ser más complejo que el de los flujos permanentes porque sus condiciones pueden variar con respecto al espacio y al tiempo, es decir, son función tanto del espacio como del tiempo. Por lo tanto, las ecuaciones que describen el flujo son representadas con derivadas parciales, ya que las variables dependientes de profundidad **'y'** y velocidad del flujo **'V'** son funciones de más de una variable independiente (espacio y tiempo). Estas complejas ecuaciones no se prestan a soluciones analíticas de forma cerrada, por lo que es necesario usar métodos numéricos para su solución. Los investigadores han dedicado enormes esfuerzos al desarrollo de métodos de solución eficientes para las ecuaciones de flujo no permanente y la mayoría se pueden categorizar ampliamente en métodos de diferencias finitas y elementos finitos.
+El análisis de los flujos no permanentes suele ser más complejo que el de los flujos permanentes porque sus condiciones pueden variar con respecto al espacio y al tiempo, es decir, son función tanto del espacio como del tiempo. Por lo tanto, las ecuaciones que describen el flujo son representadas con derivadas parciales, ya que las variables dependientes de profundidad **'y'** y velocidad del flujo **'V'** son funciones de más de una variable independiente (espacio y tiempo). Estas complejas ecuaciones no se prestan a soluciones analíticas de forma cerrada, por lo que es necesario usar métodos numéricos para su solución. Los investigadores han dedicado enormes esfuerzos al desarrollo de métodos de solución eficientes para las ecuaciones de flujo no permanente y la mayoría se pueden categorizar ampliamente en métodos de diferencias finitas y elementos finitos. A continuación se presentan algunos ejemplos o situaciones en las cuales se desarrolla el flujo no permanente.
 
-## Ecuación de continuidad del flujo no permanente
+* Apertura o cierre de un sistema hidroeléctrico (compuertas y turbinas).
+* Arranque o parada de sistemas de bombeo con flujo desde o hacia el sistema a superficie libre.
+* Apertura o cierre de compuertas de control de flujo.
+* Ondas de crecientes en corrientes naturales asociadas a tormentas.
+* Ondas de inundación asociadas a la operación o fallo de una estructura de control (presa, dique, vertedero).
+* Flujo en sistemas de alcantarillado y canales de drenaje pluvial. 
+
+### Ecuación de continuidad del flujo no permanente
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/UnsteadyFlow.svg" width="60%">
@@ -45,7 +52,7 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 <b>dx</b> corresponde al cambio de la variable espacial 'x' y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
-## Ecuación dinámica para flujo no permanente
+### Ecuación dinámica para flujo no permanente
 
 El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **$dx$**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
 
@@ -63,12 +70,18 @@ De acuerdo con la figura de representación simplificada de energía en el flujo
 y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
-Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez Saint-Venan. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricas de paso aproximados o basados en suposiciones simplificadas. 
+Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez **Saint-Venan**. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricos de paso aproximados o basados en suposiciones simplificadas. 
+
+### Ecuaciones de Saint-Venan
+Las variaciones de la profundidad del flujo y el caudal en el espacio y/o el tiempo son llamadas *ondas*. Estas ondas se pueden caracterizar con su longitud **L** y amplitud **z**, asociadas a la distancia entre crestas de la onda y a la altura máxima del nivel de flujo 
+
+
 
 ### Referencias
 - The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
+- Open Channel Flow. Chaudhry, M. Hanif. 2nd Ed., Springer. 2008
 
 ### Control de versiones
 
@@ -76,6 +89,8 @@ Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó 
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.10 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.5  |
+| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

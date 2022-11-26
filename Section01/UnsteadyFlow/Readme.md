@@ -70,10 +70,19 @@ De acuerdo con la figura de representación simplificada de energía en el flujo
 y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
-Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez **Saint-Venan**. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricos de paso aproximados o basados en suposiciones simplificadas. 
+Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez **Saint-Venant**. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricos de paso aproximados o basados en suposiciones simplificadas. 
 
-### Ecuaciones de Saint-Venan
-Las variaciones de la profundidad del flujo y el caudal en el espacio y/o el tiempo son llamadas *ondas*. Estas ondas se pueden caracterizar con su longitud **L** y amplitud **z**, asociadas a la distancia entre crestas de la onda y a la altura máxima del nivel de flujo 
+### Ecuaciones de Saint-Venant
+Como ya he mencionado, las tres ecuaciones fundamentales de la hidráulica describen el flujo en sistemas a superficie libre. Dos variables, como la profundidad de flujo y la velocidad media o, la profundidad de flujo y el caudal, son suficientes para definir las condiciones de flujo en una sección transversal. Por lo tanto, se requieren dos de estas ecuaciones para el análisis de un flujo en particular. Entonces la ecuación de continuidad y la ecuación de _momentum_ o energía suelen usarse dependiendo del flujo a evaluar, por ejemplo cuando se presentan discontinuidades se utiliza la ecuación de _momentum_, ya que no requiere evaluar las perdidas en estos cambios. Al analizar el flujo no permanente, la diferencia entre la ecuación de _momentum_ y de energía, es básicamente los coeficientes **α** y **β** los cuales son equivalentes. Las ecuaciones de Saint-Venant, previamente presentadas, parten del análisis de la ecuación de continuidad y de _momentum_, considerando algunos supuestos o hipótesis:
+
+* Distribución de presiones hidrostática.
+* Pendiente del fondo pequeña.
+* La velocidad del flujo en una sección transversal es constante (velocidad media).
+* Las pérdidas pueden ser simuladas con las ecuaciones de resistencia de flujo permanente (Manning).
+
+#### Flujo bidimensional
+
+A partir de la versión 5 del software HEC-RAS, es posible ejecutar modelaciones bidimensionales en flujo no permanente utilizando las ecuaciones completas de Saint Venant, inclusive los términos correspondiente a la modelación de turbulencia y el efecto Coriolis. 
 
 
 

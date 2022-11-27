@@ -43,14 +43,15 @@ El análisis de los flujos no permanentes suele ser más complejo que el de los 
 
 > Continuidad de flujo no permanente.
 
-De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para flujo no permanente puede establecerse considerando la conservación de masa en un espacio infinitesimal entre dos secciones de canal **dx**. En un flujo no permanente el caudal cambia con la distancia a una tasa **$\frac{\partial Q}{\partial x}$**, y la profundidad cambia con el tiempo a una tasa de **$\frac{\partial y}{\partial t}$**. Al considerar el cambio del flujo a través del espacio en el tiempo **dt**, el cambio correspondiente en el almacenamiento dentro del canal en el espacio **dx** y la incompresibilidad del líquido, se puede plantear que el cambio neto en el caudal más el cambio en el almacenamiento debería ser cero. Llegando a la _ecuación de flujo no permanente para canales abiertos_. 
+De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para flujo no permanente puede establecerse considerando la conservación de masa en un espacio infinitesimal entre dos secciones de canal **dx**. En un flujo no permanente el caudal cambia con la distancia a una tasa **$\frac{𝜕Q}{𝜕x}$**, y la profundidad cambia con el tiempo a una tasa de **$\frac{𝜕y}{𝜕t}$**. Al considerar el cambio del flujo a través del espacio en el tiempo **dt**, el cambio correspondiente en el almacenamiento dentro del canal en el espacio **dx** y la incompresibilidad del líquido, se puede plantear que el cambio neto en el caudal más el cambio en el almacenamiento debería ser cero. Llegando a la _ecuación de flujo no permanente para canales abiertos_. 
 
 <div align="center">
-<img alt="J.HRAS" src="Equations/Unsteady_Eq1.svg" width="15%"><br>
+<img alt="J.HRAS" src="Equations/Unsteady_Eq1.svg" width="25%"><br>
 <sub>Donde, <b>Q</b> es el caudal o flujo volumétrico,<b>A</b> es el área de la sección transversal, <br>
-<b>q</b> es el caudal unitario ,<b>y</b> es la profundidad de flujo, <br>
-<b>dx</b> corresponde al cambio de la variable espacial 'x' y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
+<b>q</b> es el caudal unitario ,<b>y</b> es la profundidad de flujo, <b>𝜕x</b> corresponde a la variación espacial en 'x'<br> 
+<b>𝜕t</b> al cambio de la variable tiempo y <b>q<sub>l</sub></b> corresponde al flujo lateral por unidad de longitud.</sub><br><br>
 </div>
+
 
 ### Ecuación dinámica para flujo no permanente
 
@@ -91,6 +92,7 @@ A partir de la versión 5 del software HEC-RAS, es posible ejecutar modelaciones
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
 - Open Channel Flow. Chaudhry, M. Hanif. 2nd Ed., Springer. 2008
+- Hydraulic Reference Manual. HEC-RAS, River Analysis System. U.S 2020.
 
 ### Control de versiones
 

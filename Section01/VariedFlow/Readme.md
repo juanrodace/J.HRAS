@@ -174,6 +174,12 @@ Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el
 * Flujo a través de obstáculos.
 * Confluencia de canales.
 
+### Referencias
+- The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
+- Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
+- Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
+- Open Channel Flow. Chaudhry, M. Hanif. 2nd Ed., Springer. 2008
+
 ### Control de versiones
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |

@@ -81,7 +81,7 @@ Como ya he mencionado, las tres ecuaciones fundamentales de la hidráulica descr
 * La velocidad del flujo en una sección transversal es constante (velocidad media).
 * Las pérdidas pueden ser simuladas con las ecuaciones de resistencia de flujo permanente (Manning).
 
-A continuación se presentan dos expresiones diferentes para la ecuación dinámica de flujo, a partir de la ecuación de *momentum*, una en términos del flujo volumétrico y otra de la velocidad media del flujo.  En la parte superior se identifica cada termino de la ecuación y su asociación con la aceleracíón o la fuerzas asociadas al flujo. Así mismo, en la parte inferior vemos que al simplificar los diferentes terminos de la ecuación, podríamos obtener las ecuaciones de flujo uniforme y flujo gradualmente variado en condición permanente. 
+A continuación se presentan dos expresiones diferentes para la ecuación dinámica de flujo, a partir de la ecuación de *momentum*, una en términos del flujo volumétrico y otra de la velocidad media del flujo.  En la parte superior se identifica cada término de la ecuación y su asociación con la aceleración o las fuerzas asociadas al flujo. Así mismo, en la parte inferior vemos que al simplificar los diferentes terminos de la ecuación, podríamos obtener las ecuaciones de flujo uniforme y flujo gradualmente variado en condición permanente. 
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/UnsteadyMomentum.svg" width="60%"><br>
@@ -91,23 +91,19 @@ Las ecuaciones de continuidad y momentum forman un conjunto de ecuaciones difere
 
 #### Aplicación ED con HEC-RAS
 
-El software estudio del presente curso, utiliza un esquema implicito de diferencias finitas para la solución de las ecuaciones diferenciales del flujo. 
-
-El procedimiento más exitoso y aceptado para resolver las ecuaciones de flujo no estacionario unidimensionales es el esquema implícito de cuatro puntos, también conocido como esquema de caja (ver figura a continuación). Bajo este esquema, las derivadas espaciales y los valores de función se evalúan en un punto interior, (n+θ)Δt. Por lo tanto, los valores en (n+1)Δt entran en todos los términos de las ecuaciones. Para un tramo de río, resulta un sistema de ecuaciones simultáneas. La solución simultánea es un aspecto importante de este esquema porque permite que la información de todo el alcance influya en la solución en cualquier punto. En consecuencia, el paso de tiempo puede ser significativamente mayor que con esquemas numéricos explícitos. Los análisis de estabilidad de Von Neumann realizados por Fread (1974) y Liggett y Cunge (1975) muestran que el esquema implícito es incondicionalmente estable (teóricamente) para 0,5 < θ ≤ 1,0, condicionalmente estable para θ = 0,5 e inestable para θ < 0,5 . En un análisis de convergencia realizado por los mismos autores, se demostró que el amortiguamiento numérico aumenta a medida que disminuye la relación λ/Δx, donde λ es la longitud de onda en el sistema hidráulico. Para los problemas de enrutamiento de caudales donde las longitudes de onda son largas con respecto a las distancias espaciales, la convergencia no es un problema serio.
+El software estudiado en este curso, utiliza un esquema implícito de diferencias finitas para la solución de las ecuaciones diferenciales del flujo. El procedimiento aceptado es el esquema implícito de cuatro puntos, también conocido como esquema de caja. Bajo este esquema, las derivadas espaciales y los valores de función se evalúan en un punto interior. Para un tramo de río, resulta un sistema de ecuaciones simultáneas. La solución simultánea es un aspecto importante de este esquema porque permite que la información de todo el alcance influya en la solución en cualquier punto. En consecuencia, el paso de tiempo puede ser significativamente mayor que con esquemas numéricos explícitos. 
 
 
 #### Flujo bidimensional
 
 A partir de la versión 5 del software HEC-RAS, es posible ejecutar modelaciones bidimensionales en flujo no permanente utilizando las ecuaciones completas de Saint Venant, inclusive los términos correspondiente a la modelación de turbulencia y el efecto Coriolis. 
 
-
-
 ### Referencias
 - The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
 - Open Channel Flow. Chaudhry, M. Hanif. 2nd Ed., Springer. 2008
-- Hydraulic Reference Manual. HEC-RAS, River Analysis System. U.S 2020.
+- Hydraulic Reference Manual. HEC-RAS, River Analysis System. U.S. 2020.
 
 ### Control de versiones
 
@@ -115,7 +111,7 @@ A partir de la versión 5 del software HEC-RAS, es posible ejecutar modelaciones
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.10 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
-| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.5  |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
 | 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso

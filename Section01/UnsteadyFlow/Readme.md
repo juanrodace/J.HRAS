@@ -43,7 +43,7 @@ El análisis de los flujos no permanentes suele ser más complejo que el de los 
 
 > Continuidad de flujo no permanente.
 
-De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para flujo no permanente puede establecerse considerando la conservación de masa en un espacio infinitesimal entre dos secciones de canal **dx**. En un flujo no permanente el caudal cambia con la distancia a una tasa **$\frac{𝜕Q}{𝜕x}$**, y la profundidad cambia con el tiempo a una tasa de **$\frac{𝜕y}{𝜕t}$**. Al considerar el cambio del flujo a través del espacio en el tiempo **dt**, el cambio correspondiente en el almacenamiento dentro del canal en el espacio **dx** y la incompresibilidad del líquido, se puede plantear que el cambio neto en el caudal más el cambio en el almacenamiento debería ser cero. Llegando a la _ecuación de flujo no permanente para canales abiertos_. 
+De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para flujo no permanente puede establecerse considerando la conservación de masa en un espacio infinitesimal entre dos secciones de canal **dx**. En un flujo no permanente el caudal cambia con la distancia a una tasa **$\frac{𝜕Q}{𝜕x}$**, y la profundidad cambia con el tiempo a una tasa de **$\frac{𝜕y}{𝜕t}$**. Al considerar el cambio del flujo a través del espacio en el tiempo **𝜕t**, el cambio correspondiente en el almacenamiento dentro del canal en el espacio **𝜕x** y la incompresibilidad del líquido, se puede plantear que el cambio neto en el caudal más el cambio en el almacenamiento debería ser cero. Llegando a la _ecuación de flujo no permanente para canales abiertos_. 
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/Unsteady_Eq1.svg" width="25%"><br>
@@ -55,7 +55,7 @@ De acuerdo con la definición de Chow(2009)[^1], la ley de continuidad para fluj
 
 ### Ecuación dinámica para flujo no permanente
 
-El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **$dx$**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{\partial V}{\partial t}dx$**.
+El análisis de las ecuaciones de flujo permanente, puede simplificarse al considerar permanente una o dos de las dimensiones espaciales. Al considerar la hipótesis de flujo permanente bidimensional (en la sección transversal), se considera la variación de la velocidad de flujo y consecuentemente de la respectiva aceleración. Esta aceleración produce una fuerza y el trabajo realizado por esta fuerza a lo largo de la distancia **dx**, causa pérdidas de energía adicionales que pueden representarse como **$h_{a}=\frac{1}{g}\frac{𝜕V}{𝜕t}dx$**.
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Energy_UnsteadyFlow.svg" width="60%">
@@ -67,11 +67,11 @@ De acuerdo con la figura de representación simplificada de energía en el flujo
 
 <div align="center">
 <img alt="J.HRAS" src="Equations/Unsteady_Eq2.svg" width="30%"><br>
-<sub>Donde, <b>V</b> es la velocidad media de flujo, <b>dx</b> corresponde al cambio de la variable espacial 'x'<br>
-y <b>dt</b> al cambio de la variable tiempo.</sub><br><br>
+<sub>Donde, <b>V</b> es la velocidad media de flujo, <b>𝜕x</b> corresponde al cambio de la variable espacial 'x'<br>
+y <b>𝜕t</b> al cambio de la variable tiempo.</sub><br><br>
 </div>
 
-Las ecuaciones de continuidad y dinámica para flujo no permanente las publicó por primera vez **Saint-Venant**. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricos de paso aproximados o basados en suposiciones simplificadas. 
+Las ecuaciones de continuidad y la ecuación dinámica para flujo no permanente las publicó por primera vez Saint-Venant. Su validez ha sido verificada mediante muchas observaciones y experimentos. Sin embargo, debido a su complejidad matemática, la integración exacta de estas ecuaciones es imposible. Para aplicaciones prácticas, puede obtenerse una solución de las ecuaciones mediante métodos numéricos de paso aproximados o basados en suposiciones simplificadas. 
 
 ### Ecuaciones de Saint-Venant
 Como ya he mencionado, las tres ecuaciones fundamentales de la hidráulica describen el flujo en sistemas a superficie libre. Dos variables, como la profundidad de flujo y la velocidad media o, la profundidad de flujo y el caudal, son suficientes para definir las condiciones de flujo en una sección transversal. Por lo tanto, se requieren dos de estas ecuaciones para el análisis de un flujo en particular. Entonces la ecuación de continuidad y la ecuación de _momentum_ o energía suelen usarse dependiendo del flujo a evaluar, por ejemplo cuando se presentan discontinuidades se utiliza la ecuación de _momentum_, ya que no requiere evaluar las perdidas en estos cambios. Al analizar el flujo no permanente, la diferencia entre la ecuación de _momentum_ y de energía, es básicamente los coeficientes **α** y **β** los cuales son equivalentes. Las ecuaciones de Saint-Venant, previamente presentadas, parten del análisis de la ecuación de continuidad y de _momentum_, considerando algunos supuestos o hipótesis:
@@ -80,6 +80,21 @@ Como ya he mencionado, las tres ecuaciones fundamentales de la hidráulica descr
 * Pendiente del fondo pequeña.
 * La velocidad del flujo en una sección transversal es constante (velocidad media).
 * Las pérdidas pueden ser simuladas con las ecuaciones de resistencia de flujo permanente (Manning).
+
+A continuación se presentan dos expresiones diferentes para la ecuación dinámica de flujo, a partir de la ecuación de *momentum*, una en términos del flujo volumétrico y otra de la velocidad media del flujo.  En la parte superior se identifica cada termino de la ecuación y su asociación con la aceleracíón o la fuerzas asociadas al flujo. Así mismo, en la parte inferior vemos que al simplificar los diferentes terminos de la ecuación, podríamos obtener las ecuaciones de flujo uniforme y flujo gradualmente variado en condición permanente. 
+
+<div align="center">
+<img alt="J.HRAS" src="Equations/UnsteadyMomentum.svg" width="60%"><br>
+</div>
+
+Las ecuaciones de continuidad y momentum forman un conjunto de ecuaciones diferenciales parciales no lineales. No se dispone de una solución de forma cerrada de estas ecuaciones, excepto en casos muy simplificados. Por lo tanto, se utilizan métodos numéricos para su integración. Al determinar el tipo de ecuaciones diferenciales, es posible identificar la dependencia con la celeridad de la onda. Y se puede afirmar que las ecuaciones son ecuaciones diferenciales parciales hiperbólicas. Este tipo de ecuación representa la propagación de ondas en diferentes medios. Los procedimientos computacionales, denominados procedimientos de marcha, son adecuados para la integración numérica de estas ecuaciones.
+
+#### Aplicación ED con HEC-RAS
+
+El software estudio del presente curso, utiliza un esquema implicito de diferencias finitas para la solución de las ecuaciones diferenciales del flujo. 
+
+El procedimiento más exitoso y aceptado para resolver las ecuaciones de flujo no estacionario unidimensionales es el esquema implícito de cuatro puntos, también conocido como esquema de caja (ver figura a continuación). Bajo este esquema, las derivadas espaciales y los valores de función se evalúan en un punto interior, (n+θ)Δt. Por lo tanto, los valores en (n+1)Δt entran en todos los términos de las ecuaciones. Para un tramo de río, resulta un sistema de ecuaciones simultáneas. La solución simultánea es un aspecto importante de este esquema porque permite que la información de todo el alcance influya en la solución en cualquier punto. En consecuencia, el paso de tiempo puede ser significativamente mayor que con esquemas numéricos explícitos. Los análisis de estabilidad de Von Neumann realizados por Fread (1974) y Liggett y Cunge (1975) muestran que el esquema implícito es incondicionalmente estable (teóricamente) para 0,5 < θ ≤ 1,0, condicionalmente estable para θ = 0,5 e inestable para θ < 0,5 . En un análisis de convergencia realizado por los mismos autores, se demostró que el amortiguamiento numérico aumenta a medida que disminuye la relación λ/Δx, donde λ es la longitud de onda en el sistema hidráulico. Para los problemas de enrutamiento de caudales donde las longitudes de onda son largas con respecto a las distancias espaciales, la convergencia no es un problema serio.
+
 
 #### Flujo bidimensional
 

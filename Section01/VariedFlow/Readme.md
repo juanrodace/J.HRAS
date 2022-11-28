@@ -104,13 +104,6 @@ Para el desarrollo del análisis, la pendiente del fondo del canal se clasifica 
 
 La formación de los diferentes perfiles del FGV, dependerá de las características del flujo y de las secciones de control que se puedan presentar a lo largo del sistema hidráulico a superficie libre, considerando los posibles cambios de pendiente y sección que se puedan presentar. En la siguiente imagen se ilustra un ejemplo de FGV para un canal prismático con dos cambios de pendiente, en las cuales se presentan 6 tipos de perfil.
 
-### Referencias
-- Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
-- Introduction to fluid mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
-- The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
-- Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
-- Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 
-
 ### Flujo espacialmente variado
 El flujo espacialmente variado (FEV), tiene un caudal no uniforme como resultado de la adición o disminución de flujo a lo largo del canal. El fluido agregado o extraído causará perturbaciones graduales en el contenido de energía o de momentum del flujo. Como resultado, el comportamiento hidráulico de un flujo espacialmente variado es más complicado que el de un flujo con caudal constante en todas las secciones transversales. Igualmente, el FEV con caudal creciente difiere del FEV con caudal decreciente. Un ejemplo del FEV es un vertedero de canal lateral, en el cual se presenta un caudal de creciente a lo largo del vertedero.
 
@@ -175,6 +168,8 @@ Entendiendo la complejidad del flujo, se han hecho varias aproximaciones para el
 * Confluencia de canales.
 
 ### Referencias
+- Fluid mechanics. Fundamentals and Applications.. Cengel Y., Cimbala J. McGraw-Hill.2006.
+- Introduction to fluid mechanics. Fox and McDonald's. 8th Ed., Jhon Wilwy & Sons, Inc. 2011. 
 - The hydraulics of Channel Flow: An Introduction. Chanson H. 2nd Ed.,Elsevier Butterworth-Heinemann. 2004.
 - Open channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 - Flow in open channels. Subramanya K. 3th Ed., Tata McGraw-Hill Publishing. 2009. 

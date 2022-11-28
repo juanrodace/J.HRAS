@@ -1,12 +1,14 @@
 ## Sistemas Hidráulicos
 Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` 
 
-_En esta clase se presentan los conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Este tipo de intervenciones requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Se tratarán temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas._
-
 <div align="center">
 
-![Engineering.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicSystems/Graph/Engineering.jpeg)
+![Engineering.jpeg](Graph/Engineering.jpeg)
 </div>
+
+### Alcance
+
+Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares.
 
 ### Objetivos
 
@@ -24,9 +26,9 @@ Los recursos hídricos son especiales y primordiales. La vida en este planeta de
 
 Aunque los recursos hidráulicos en nuestro planeta son abundantes, no se distribuye como quisiéramos. En algunos lugares y momentos hay demasiado o muy poco, o lo que existe está demasiado contaminado o es demasiado costoso obtenerlo. A esto podemos sumarle los cambios a nivel global en las últimas décadas, como el calentamiento, el crecimiento poblacional, cambios en el uso del suelo y la densificación de las ciudades.
 
-
-
 ### Estudios Hidráulicos
+
+Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Alfunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
 
 #### Ciclo de un estudio de ingeniería
 
@@ -52,10 +54,10 @@ Aunque los recursos hidráulicos en nuestro planeta son abundantes, no se distri
 ### Control de versiones
 
 
-| Versión | Descripción                                                       |                    Autor                    |  Horas  |
-|---------|-------------------------------------------------------------------|:-------------------------------------------:|:-------:| 
-| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |   1.0   |
-| 2022.10 | Inclusión de conceptos                                            | [juanrodace](https://github.com/juanrodace) |   1.0   | 
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|---------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:| 
+| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.10 | Inclusión de conceptos                                            | [juanrodace](https://github.com/juanrodace) |  1.0  | 
 
 | [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/UnestadyFlow) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|

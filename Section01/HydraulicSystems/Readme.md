@@ -55,12 +55,16 @@ Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superfici
 
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |
-|---------|-------------------------------------------------------------------|:-------------------------------------------:|:-----:| 
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.10 | Inclusión de conceptos                                            | [juanrodace](https://github.com/juanrodace) |  1.0  | 
+| 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |   P   |
+| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |   P   |
 
-| [:arrow_backward:Anterior](https://github.com/juanrodace/J.HRAS/tree/main/Section01/UnestadyFlow) | [:house: Inicio](https://github.com/juanrodace/J.HRAS/wiki) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](https://github.com/juanrodace/J.HRAS/tree/main/Section01/HydraulicModeling) |
-|---------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+### Licencia, cláusulas y condiciones de uso
+
+| [:arrow_backward:Anterior](../UnsteadyFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/6) | [Siguiente:arrow_forward:](../HydraulicModeling) |
+|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

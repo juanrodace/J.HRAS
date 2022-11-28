@@ -116,7 +116,7 @@ A partir de la versión 5 del software HEC-RAS, es posible ejecutar modelaciones
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../VariedFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../HydraulicSystems) |
+| [:arrow_backward:Anterior](../VariedFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/5) | [Siguiente:arrow_forward:](../HydraulicSystems) |
 |-------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._

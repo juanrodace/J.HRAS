@@ -1,23 +1,14 @@
 ## Modelación Hidráulica
 Keywords: `Engineering` `Hydraulics` `Hydraulic Modelling` `Open Channel Flow` `HEC-RAS` 
 
-_En esta clase se presentan los conceptos relacionados a la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas._
+
 
 <div align="center">
 
 ![Channel.jpeg](https://github.com/juanrodace/J.HRAS/blob/main/Section01/HydraulicModeling/Graph/Channel.jpg)
 </div>
 
-### Objetivos
 
-* Conocer la deficinión de modelación en la ingenieria.
-* Entender las conceptos y características relacionadas con la modelación hidráulica.
-* Estudiar los conceptos de calibración de un modelo.
-
-### Requerimientos
-
-* Conocimientos básicos en ingeniería.
-* Conocimientos básicos en hidráuliaca.
 
 ### Modelación en la ingeniería
 

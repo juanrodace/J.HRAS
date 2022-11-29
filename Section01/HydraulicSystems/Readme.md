@@ -8,12 +8,15 @@ Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems`
 
 ### Alcance
 
-Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares.
+Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Igualmente, se presentan los conceptos relacionados a la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas.
 
 ### Objetivos
 
 * Conocer los conceptos y características básicas de un estudio hidráulico.
 * Entender los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
+* Conocer la deficinión de modelación en la ingenieria.
+* Entender las conceptos y características relacionadas con la modelación hidráulica.
+* Estudiar los conceptos de calibración de un modelo.
 
 ### Requerimientos
 

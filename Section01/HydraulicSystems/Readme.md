@@ -1,5 +1,5 @@
 ## Sistemas Hidráulicos
-Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` 
+Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hydraulic Modelling`   
 
 <div align="center">
 
@@ -49,9 +49,39 @@ Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superfici
 
 #### Obtención de caudales.
 
+
+
+### Modelación en la ingeniería
+
+La modelación es una importante vía para el desarrollo de conocimiento, en donde se estudia un sustituto del objeto (prototipo, naturaleza) llamado modelo. Si la naturaleza del objeto _‘N’_ se caracteriza por una serie de valores _X<sub>N</sub>_, entonces, al modelar, se crea un objeto _‘M’_ de este tipo, cuyas características _X<sub>M</sub>_. 
+
+Los modelos se pueden clasificar en modelos sustantivos y simbólicos. El primero de ellos son los objetos materiales, cuyas características se corresponden de alguna manera con las características de la naturaleza. El segundo representa símbolos de notación (diagramas, gráficos, dibujos, fórmulas, palabras, etc.), como el caso de los modelos matemáticos, realizados por medio del lenguaje matemático y la lógica. El modelado matemático realizado mediante un proceso computacional se denomina comúnmente modelado numérico.
+
+La calidad de los modelos depende del éxito de la esquematización, algunos modelos pueden ser mejores que otros, pero todos tienen algún grado de incertidumbre e inexactitudes, ya que se basan en una hipótesis. La evaluación de su calidad es la comparación de valores, correspondientes a la hipótesis utilizada, con las características medidas de los fenómenos reales a los que se refieren. 
+
+Particularmente en el modelado en ingeniería, es posible distinguir dos grandes clases. La modelación numérica, cuya solución resulta de un proceso computacional sobre varios operadores, con valores base y resultados de acuerdo con un plan y funciones definidas. El orden de las operaciones en la solución del problema se denomina algoritmo de su solución.  La segunda clase es la modelación análoga, la cual utiliza métodos y herramientas con representación directa, que incluyen dispositivos analógicos que representan físicamente una clase particular de problemas matemáticos. 
+
+<div align="center">
+
+![Channel.jpeg](Graph/Channel.jpg)
+</div>
+
+### Modelación hidráulica
+Los fenómenos hidráulicos pueden ser estudiados mediante modelos físicos y numéricos. La modelación física es un método tradicional de ingeniería hidráulica, utilizado con éxito en el siglo pasado, el modelado numérico con el uso de computadoras es el último logro. La solución de problemas y aplicaciones desarrolladas por medio de modelos numéricos está en constante expansión, creando nuevas perspectivas en la solución de problemas hidráulicos complejos. 
+
+Entre la modelación **física** y la **numérica** existe una gran relación, ambos se basan en un modelo matemático del fenómeno, reflejando el lado más significativo del objeto estudiado, y por otro lado, ambos modelan el objeto significativamente esquematizado. Las diferencias entre la modelación física y numérica pueden deberse a las siguientes circunstancias: La modelación física es una herramienta altamente especializada, mientras que las computadoras pueden ser una solución para los más diversos problemas, al tener la posibilidad de recibir la decisión en su resolución algorítmica de un problema sobre el conjunto seleccionado de operadores. 
+
+### Modelación numérica en hidráulica
+
+#### Definición de un modelo
+
+
+
 ### Referencias
 - Water Resourse System Planning and Management. Loucks D.P. and van Beek E. Springer. DOI 10.1007/978-3-319-44234-1_1.
-- 
+- Hydraulic modeling. Lyatkher, Victor; Proudovsky Alexander. Scrivener Publishing. 2016
+- Hydraulic modeling. Concepts and practice. American Society of Civil Engineers, ASCE. 2000.
+- Flood Risk Assessment and Management. Chapter 9, Hydraulic Modelling. Schuman Andreas H. Springer. 2011.
     
 
 ### Control de versiones
@@ -59,15 +89,16 @@ Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superfici
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
-| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2022.08 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |   P   |
 | 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |   P   |
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../UnsteadyFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/6) | [Siguiente:arrow_forward:](../HydraulicModeling) |
-|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------------|
+| [:arrow_backward:Anterior](../UnsteadyFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/6) | [Siguiente:arrow_forward:](../HECRAS) |
+|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|----------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

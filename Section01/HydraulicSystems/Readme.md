@@ -41,6 +41,17 @@ En el otro extremo, las leyes de continuidad prevalecientes indican que la sever
 <img alt="J.HRAS" src="Graph/WaterEarth2.jpg" width="60%">
 </div>
 
+### Gestión y planeación de los recursos hídricos
+
+Las actividades de planificación y gestión de los recursos hídricos suelen estar motivadas por la comprensión de que hay necesidades o problemas que resolver o por el hecho de que se presenten oportunidades para obtener mayores beneficios al cambiar la gestión y el uso del agua y los recursos del suelo. Estos beneficios se pueden medir de maneras diferentes y cualquier forma de evaluar el beneficio puede provocar conflicto. Por lo que es necesario realizar un estudio e investigación cuidadosos, así como contar con la participación total de las partes interesadas, en la búsqueda del mejor plan de gestión.
+
+Algunos objetivos comunes en la planificación y gestión son reducir la frecuencia y/o la gravedad de las consecuencias adversas de las sequías, las inundaciones y la contaminación excesiva, aumentar los suministros de agua disponibles, el aprovechamiento de energía hidroeléctrica, mejorar la recreación y/o la navegación, mejorar la calidad del agua y mejorar las condiciones de los ecosistemas. Los criterios cuantitativos de rendimiento de cada sistema pueden ayudar a juzgar los beneficios netos relativos, cualquiera que sea su medida, de planes y políticas de gestión alternativos.
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/Objetivos.svg" width="50%">
+</div>
+
+
 ### Planificación, gestión , modelación y análisis 
 
 La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se verán afectadas. Es un desafío.

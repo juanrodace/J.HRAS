@@ -8,14 +8,14 @@ Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hy
 
 ### Alcance
 
-Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Igualmente, se presentan los conceptos relacionados a la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas.
+Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Igualmente, se presentan los conceptos relacionados con la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas.
 
 ### Objetivos
 
 * Conocer los conceptos y características básicas de un estudio hidráulico.
 * Entender los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
-* Conocer la deficinión de modelación en la ingenieria.
-* Entender las conceptos y características relacionadas con la modelación hidráulica.
+* Conocer la definición de modelación en la ingeniería.
+* Entender los conceptos y características relacionadas con la modelación hidráulica.
 * Estudiar los conceptos de calibración de un modelo.
 
 ### Requerimientos
@@ -29,9 +29,27 @@ Los recursos hídricos son especiales y primordiales. La vida en el planeta depe
 
 Aunque los recursos hidráulicos en nuestro planeta son abundantes, no se distribuye como quisiéramos. En algunos lugares y momentos hay demasiado o muy poco, o lo que existe está demasiado contaminado o es demasiado costoso obtenerlo. A esto podemos sumarle los cambios a nivel global en las últimas décadas, como el calentamiento, el crecimiento poblacional, cambios en el uso del suelo y la densificación de las ciudades.
 
+<div align="center">
+<img alt="J.HRAS" src="Graph/HS.jfif" width="50%">
+</div>
+
+Si se considera toda el agua de la Tierra, cerca del 97% se encuentra en los mares y océanos y la disponible en ríos, lagos y embalses para el consumo humano inmediato no supera el 0,01 % del total. En términos de la disponibilidad, el panorama es aún más inquietante. Mientras que en 1975 la disponibilidad rondaba los 13k m3 por persona por año, este valor se ha reducido a unos 6k m3; mientras tanto, la calidad del agua también se ha deteriorado severamente. 
+
+En el otro extremo, las leyes de continuidad prevalecientes indican que la severidad y la duración de la sequía también aumentarán. Es probable que este aumento de los riesgos tenga graves consecuencias regionales. Algunos estudios sugieren que las regiones húmedas se volverán aún más húmedas, mientras que las regiones secas se volverán cada vez más áridas.
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/WaterEarth2.jpg" width="60%">
+</div>
+
+### Planificación, gestión , modelación y análisis 
+
+La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se ver�n afectadas. Es un desaf�o.
+
+
+
 ### Estudios Hidráulicos
 
-Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Alfunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
+Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
 
 #### Ciclo de un estudio de ingeniería
 

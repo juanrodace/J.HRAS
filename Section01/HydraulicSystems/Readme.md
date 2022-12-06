@@ -17,7 +17,6 @@ En esta clase se presentan los conceptos básicos de la gestión y planificació
 * Entender los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
 * Conocer la definición de modelación en la ingeniería.
 * Entender los conceptos y características relacionadas con la modelación hidráulica.
-* Estudiar los conceptos de calibración de un modelo.
 
 ### Requerimientos
 
@@ -75,13 +74,11 @@ Teniendo una mejor cosmovisión de la gestión y planificación de los recursos 
 
 ### Estudios y evaluación hidráulica
 
-La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se verán afectadas. Es un desafío.
+La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas que se verán afectadas. Los métodos más apropiados para la planificación y gestión suelen ser los más simples, principalmente porque son más fáciles de entender y explicar, requieren menos insumos y tiempo. Así mismo, son más fáciles de aplicar a cuestiones o problemas específicos. Esto no implica que los métodos más sofisticados y complejos sean menos útiles, sino que por las condiciones y dispoibilidad de la información, a veces, es la única forma en que se puede proporcionar la información necesaria.
 
-"" Estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. 
+En terminos de los estudios y modelos hidráulicos, al momento de seleccionar un método o modelo particular, hay que revisar varios factores, como las características del problemas o necesidad, la información disponible y necesaria, el nivel de precisión deseado, la disponibilidad de datos y su costo, y el tiempo requerido para realizar el análisis. La elección de un método de solución en particular debe basarse en el conocimiento de varios enfoques metodológicos, sus ventajas y limitaciones. No existe un mejor enfoque para analizar todos los problemas.
 
-Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
-
-En el desarrollo de un estudio hidráulico, es necesario contar con estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio, modelación y evaluación. Y que igualmente hacen parte de los apectos considerados el la plnigicación y gestión del recurso. Entre estos, quizás los más relevantes son los siguientes: 
+Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas. En el desarrollo de un estudio hidráulico, es necesario contar con estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio, modelación y evaluación. Y que igualmente hacen parte de los apectos considerados el la plnigicación y gestión del recurso. Entre estos, quizás los más relevantes son los siguientes: 
 
 * Topografía y batimetría
 * Estudio hidrológico
@@ -125,11 +122,9 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 - Source Integrated Water Resources Management in Action. WWAP, DHI Water Policy, UNEP-DHI Centre for Water and Environment. 2009.
 - Integrated Water Resources Management Plans. Training Manual and Operational Guide.United Nations Development
 Programme (UNDP).2005.
-- 
     
 
 ### Control de versiones
-
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
@@ -137,6 +132,7 @@ Programme (UNDP).2005.
 | 2022.08 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2022.12 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso

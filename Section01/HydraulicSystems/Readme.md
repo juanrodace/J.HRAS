@@ -72,22 +72,26 @@ Teniendo una mejor cosmovisión de la gestión y planificación de los recursos 
 
 ### Estudios y evaluación hidráulica
 
-La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas que se verán afectadas. Los métodos más apropiados para la planificación y gestión suelen ser los más simples, principalmente porque son más fáciles de entender y explicar, requieren menos insumos y tiempo. Así mismo, son más fáciles de aplicar a cuestiones o problemas específicos. Esto no implica que los métodos más sofisticados y complejos sean menos útiles, sino que por las condiciones y dispoibilidad de la información, a veces, es la única forma en que se puede proporcionar la información necesaria.
+La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas que se verán afectadas. Los métodos más apropiados para la planificación y gestión suelen ser los más simples, principalmente porque son más fáciles de entender y explicar, requieren menos insumos y tiempo. Así mismo, son más fáciles de aplicar a cuestiones o problemas específicos. Esto no implica que los métodos más sofisticados y complejos sean menos útiles, sino que por las condiciones y disponibilidad de la información, a veces, es la única forma en que se puede proporcionar la información necesaria.
 
 <div align="center">
 
 ![Channel.jpeg](Graph/Channel.jpg)
 </div>
 
-En terminos de los estudios y modelos hidráulicos, al momento de seleccionar un método o modelo particular, hay que revisar varios factores, como las características del problemas o necesidad, la información disponible y necesaria, el nivel de precisión deseado, la disponibilidad de datos y su costo, y el tiempo requerido para realizar el análisis. La elección de un método de solución en particular debe basarse en el conocimiento de varios enfoques metodológicos, sus ventajas y limitaciones. No existe un mejor enfoque para analizar todos los problemas.
+En términos de los estudios y modelos hidráulicos, al momento de seleccionar un método o modelo particular, hay que revisar varios factores, como las características de los problemas o necesidad, la información disponible y necesaria, el nivel de precisión deseado, la disponibilidad de datos y su costo, y el tiempo requerido para realizar el análisis. La elección de un método de solución en particular debe basarse en el conocimiento de varios enfoques metodológicos, sus ventajas y limitaciones. No existe un mejor enfoque para analizar todos los problemas.
 
-Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas. En el desarrollo de un estudio hidráulico, es necesario contar con estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio, modelación y evaluación. Y que igualmente hacen parte de los apectos considerados el la plnigicación y gestión del recurso. Entre estos, quizás los más relevantes son los siguientes: 
+
+Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes.  Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas. Dentro de estos estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio y modelación hidráulica podemos resumir los más relevantes como: 
 
 * Topografía y batimetría
-* Estudio hidrológico
-* Aforos
+* Estudios geotécnicos
+* Estudios geológicos
+* Estudios de cobertura 
+* Estudios hidrológicos
+* Estudios hidroclimatológicos
 * Transporte de sedimentos
-
+* Revisión y/o diseño de estructuras
 
 ### Referencias
 - Water Resourse System Planning and Management. Loucks D.P. and van Beek E. Springer. DOI 10.1007/978-3-319-44234-1_1.
@@ -113,7 +117,7 @@ Programme (UNDP).2005.
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../UnsteadyFlow) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/6) | [Siguiente:arrow_forward:](../HECRAS) |
-|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|----------------------------------|
+|---------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|---------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

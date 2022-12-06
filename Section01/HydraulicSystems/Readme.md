@@ -1,4 +1,4 @@
-## Sistemas Hidráulicos y Modelación
+## Sistemas Hidráulicos
 Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hydraulic Modelling`   
 
 <div align="center">
@@ -8,15 +8,13 @@ Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hy
 
 ### Alcance
 
-En esta clase se presentan los conceptos básicos de la gestión y planificación de sistemas de recursos hídricos, sus objetivos, características y aspectos. Así mismo se presenta la relación de los estudios o evaluación hidráulica en la planificación y gestión integral del recurso. Igualmente, se presentan los conceptos generales asociados a los estudios hidráulicos y modelación a tener en cuenta antes de iniciar con el uso de una herramienta computacional.
+En esta clase se presentan los conceptos básicos de la gestión y planificación de sistemas de recursos hídricos, sus objetivos, características y aspectos. Así mismo se presenta la relación de los estudios o evaluación hidráulica en la planificación y gestión integral del recurso.
 
 ### Objetivos
 
 * Comprender los conceptos de la gestión y planificación del recurso hidráulico.
 * Conocer los conceptos y características básicas de un estudio hidráulico.
 * Entender los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
-* Conocer la definición de modelación en la ingeniería.
-* Entender los conceptos y características relacionadas con la modelación hidráulica.
 
 ### Requerimientos
 
@@ -76,6 +74,11 @@ Teniendo una mejor cosmovisión de la gestión y planificación de los recursos 
 
 La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas que se verán afectadas. Los métodos más apropiados para la planificación y gestión suelen ser los más simples, principalmente porque son más fáciles de entender y explicar, requieren menos insumos y tiempo. Así mismo, son más fáciles de aplicar a cuestiones o problemas específicos. Esto no implica que los métodos más sofisticados y complejos sean menos útiles, sino que por las condiciones y dispoibilidad de la información, a veces, es la única forma en que se puede proporcionar la información necesaria.
 
+<div align="center">
+
+![Channel.jpeg](Graph/Channel.jpg)
+</div>
+
 En terminos de los estudios y modelos hidráulicos, al momento de seleccionar un método o modelo particular, hay que revisar varios factores, como las características del problemas o necesidad, la información disponible y necesaria, el nivel de precisión deseado, la disponibilidad de datos y su costo, y el tiempo requerido para realizar el análisis. La elección de un método de solución en particular debe basarse en el conocimiento de varios enfoques metodológicos, sus ventajas y limitaciones. No existe un mejor enfoque para analizar todos los problemas.
 
 Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas. En el desarrollo de un estudio hidráulico, es necesario contar con estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio, modelación y evaluación. Y que igualmente hacen parte de los apectos considerados el la plnigicación y gestión del recurso. Entre estos, quizás los más relevantes son los siguientes: 
@@ -84,34 +87,6 @@ Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superfici
 * Estudio hidrológico
 * Aforos
 * Transporte de sedimentos
-
-### Modelación en la ingeniería
-
-La modelación es una importante vía para el desarrollo de conocimiento, en donde se estudia un sustituto del objeto (prototipo, naturaleza) llamado modelo. Si la naturaleza del objeto _‘N’_ se caracteriza por una serie de valores _X<sub>N</sub>_, entonces, al modelar, se crea un objeto _‘M’_ de este tipo, cuyas características _X<sub>M</sub>_. 
-
-Los modelos se pueden clasificar en modelos sustantivos y simbólicos. El primero de ellos son los objetos materiales, cuyas características se corresponden de alguna manera con las características de la naturaleza. El segundo representa símbolos de notación (diagramas, gráficos, dibujos, fórmulas, palabras, etc.), como el caso de los modelos matemáticos, realizados por medio del lenguaje matemático y la lógica. El modelado matemático realizado mediante un proceso computacional se denomina comúnmente modelado numérico.
-
-La calidad de los modelos depende del éxito de la esquematización, algunos modelos pueden ser mejores que otros, pero todos tienen algún grado de incertidumbre e inexactitudes, ya que se basan en una hipótesis. La evaluación de su calidad es la comparación de valores, correspondientes a la hipótesis utilizada, con las características medidas de los fenómenos reales a los que se refieren. 
-
-Particularmente en el modelado en ingeniería, es posible distinguir dos grandes clases. La modelación numérica, cuya solución resulta de un proceso computacional sobre varios operadores, con valores base y resultados de acuerdo con un plan y funciones definidas. El orden de las operaciones en la solución del problema se denomina algoritmo de su solución.  La segunda clase es la modelación análoga, la cual utiliza métodos y herramientas con representación directa, que incluyen dispositivos analógicos que representan físicamente una clase particular de problemas matemáticos. 
-
-<div align="center">
-
-![Channel.jpeg](Graph/Channel.jpg)
-</div>
-
-### Modelación hidráulica
-Los fenómenos hidráulicos pueden ser estudiados mediante modelos físicos y numéricos. La modelación física es un método tradicional de ingeniería hidráulica, utilizado con éxito en el siglo pasado, el modelado numérico con el uso de computadoras es el último logro. La solución de problemas y aplicaciones desarrolladas por medio de modelos numéricos está en constante expansión, creando nuevas perspectivas en la solución de problemas hidráulicos complejos. 
-
-Entre la modelación **física** y la **numérica** existe una gran relación, ambos se basan en un modelo matemático del fenómeno, reflejando el lado más significativo del objeto estudiado, y por otro lado, ambos modelan el objeto significativamente esquematizado. Las diferencias entre la modelación física y numérica pueden deberse a las siguientes circunstancias: La modelación física es una herramienta altamente especializada, mientras que las computadoras pueden ser una solución para los más diversos problemas, al tener la posibilidad de recibir la decisión en su resolución algorítmica de un problema sobre el conjunto seleccionado de operadores. 
-
-### Modelación numérica en hidráulica
-
-#### Definición de un modelo
-
-#### Parámetros de entrada
-
-#### Periodos de retorno.
 
 
 ### Referencias

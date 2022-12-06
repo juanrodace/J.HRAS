@@ -41,7 +41,7 @@ En el otro extremo, las leyes de continuidad prevalecientes indican que la sever
 <img alt="J.HRAS" src="Graph/WaterEarth2.jpg" width="60%">
 </div>
 
-### Gestión y planeación de los recursos hídricos
+#### Gestión y planeación de los recursos hídricos
 
 Las actividades de planificación y gestión de los recursos hídricos suelen estar motivadas por la comprensión de que hay necesidades o problemas que resolver o por el hecho de que se presenten oportunidades para obtener mayores beneficios al cambiar la gestión y el uso del agua y los recursos del suelo. Estos beneficios se pueden medir de maneras diferentes y cualquier forma de evaluar el beneficio puede provocar conflicto. Por lo que es necesario realizar un estudio e investigación cuidadosos, así como contar con la participación total de las partes interesadas, en la búsqueda del mejor plan de gestión.
 
@@ -51,14 +51,22 @@ Algunos objetivos comunes en la planificación y gestión son reducir la frecuen
 <img alt="J.HRAS" src="Graph/Objetivos.svg" width="50%">
 </div>
 
+#### Gestión integrada de los recursos hídricos
 
-### Planificación, gestión , modelación y análisis 
+El concepto de la gestión integrada de los recursos hídricos (Integrated Water Resources Management - IWRM), se ha desarrollado durante las últimas décadas como el enfoque ideal en la gestión y planeación. La gestión de los recursos hídricos se ha transformado de un enfoque principalmente orientado a la oferta y con sesgo de ingeniería a un enfoque multisectorial orientado a la demanda, a menudo denominado gestión integrada de los recursos hídricos.  
+
+La gestión integrada es un proceso que promueve el desarrollo y la gestión coordinados del agua, la tierra y los recursos relacionados, con el fin de maximizar el bienestar económico y social resultante de manera equitativa sin comprometer la sostenibilidad de los ecosistemas vitales. La gestión integrada considera el uso de los recursos en relación con las actividades y funciones sociales y económicas. Estos determinan la necesidad de leyes y reglamentos relacionados con el aprovechamiento sostenible y beneficioso de los recursos hídricos.
+
+A la gestión integrada y planificación podemos agregarle el concepto de seguridad hídrica, como la capacidad de una población para salvaguardar el acceso de calidad al recurso vital, considerando los objetivos y aspectos del desarrollo sostenible como el suministro de agua potable y saneamiento, la productividad del agua en la agricultura, la industria y la energía, la protección del medio ambiente y la reducción de inundaciones y sequías.
+
+
+
+
+#### Planificación, gestión , modelación y análisis 
 
 La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se verán afectadas. Es un desafío.
 
-
-
-### Estudios Hidráulicos
+#### Estudios Hidráulicos
 
 Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
 
@@ -111,6 +119,10 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 - Hydraulic modeling. Lyatkher, Victor; Proudovsky Alexander. Scrivener Publishing. 2016
 - Hydraulic modeling. Concepts and practice. American Society of Civil Engineers, ASCE. 2000.
 - Flood Risk Assessment and Management. Chapter 9, Hydraulic Modelling. Schuman Andreas H. Springer. 2011.
+- Source Integrated Water Resources Management in Action. WWAP, DHI Water Policy, UNEP-DHI Centre for Water and Environment. 2009.
+- Integrated Water Resources Management Plans. Training Manual and Operational Guide.United Nations Development
+Programme (UNDP).2005.
+- 
     
 
 ### Control de versiones
@@ -121,8 +133,8 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 | 2022.08 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.08 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |   P   |
-| 2022.11 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |   P   |
+| 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

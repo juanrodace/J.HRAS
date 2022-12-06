@@ -8,10 +8,11 @@ Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hy
 
 ### Alcance
 
-Conceptos básicos requeridos para realizar estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. Igualmente, se presentan los conceptos relacionados con la definición de condiciones de frontera para la modelación hidráulica, así como los conceptos de calibración de un modelo que competen la determinación de características físicas y operacionales de un sistema existente, que ingresados como datos al modelo computacional permitan obtener resultados realistas.
+En esta clase se presentan los conceptos básicos de la gestión y planificación de sistemas de recursos hídricos, sus objetivos, características y aspectos. Así mismo se presenta la relación de los estudios o evaluación hidráulica en la planificación y gestión integral del recurso. Igualmente, se presentan los conceptos generales asociados a los estudios hidráulicos y modelación a tener en cuenta antes de iniciar con el uso de una herramienta computacional.
 
 ### Objetivos
 
+* Comprender los conceptos de la gestión y planificación del recurso hidráulico.
 * Conocer los conceptos y características básicas de un estudio hidráulico.
 * Entender los procedimientos y estudios relacionados con un proyecto de ingeniería asociados a la intervención de un cuerpo de agua superficial.
 * Conocer la definición de modelación en la ingeniería.
@@ -72,31 +73,20 @@ Teniendo una mejor cosmovisión de la gestión y planificación de los recursos 
 * Institucional y de gobierno.
 * Modelos de impacto y evaluación de la planeación.
 
-### Planificación y la modelación hidráulica 
+### Estudios y evaluación hidráulica
 
 La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se verán afectadas. Es un desafío.
 
-#### Estudios Hidráulicos
+"" Estudios asociados a la intervención de un cuerpo de agua superficial para atender un problema o necesidad de manejo, intervención, evaluación, aprovechamiento o similares. 
 
 Las intervenciones o proyectos que se realizan sobre un cuerpo de agua superficial requieren una serie de procedimientos y estudios que por lo general deben ser aprobados por las autoridades ambientales competentes. Algunos de los estudios deben considerar temas relacionados con análisis de frecuencias, obtención de caudales, análisis de batimetrías, modelamiento hidráulico, transporte de sedimentos, definición de planicies de inundación y análisis de obras hidráulicas típicas.
 
-#### Ciclo de un estudio de ingeniería
+En el desarrollo de un estudio hidráulico, es necesario contar con estudios preliminares y/o paralelos, que son usados como insumo en el proceso de estudio, modelación y evaluación. Y que igualmente hacen parte de los apectos considerados el la plnigicación y gestión del recurso. Entre estos, quizás los más relevantes son los siguientes: 
 
-#### Estudios previos requeridos
-* Topografía
-* Batimetría
-* Hidrología
+* Topografía y batimetría
+* Estudio hidrológico
 * Aforos
-* Estructuras
 * Transporte de sedimentos
-
-#### Parámetros hidráulicos e hidrológicos
-
-#### Periodos de retorno.
-
-#### Obtención de caudales.
-
-
 
 ### Modelación en la ingeniería
 
@@ -122,6 +112,9 @@ Entre la modelación **física** y la **numérica** existe una gran relación, a
 
 #### Definición de un modelo
 
+#### Parámetros de entrada
+
+#### Periodos de retorno.
 
 
 ### Referencias

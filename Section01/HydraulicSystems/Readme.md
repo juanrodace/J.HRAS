@@ -59,10 +59,20 @@ La gestión integrada es un proceso que promueve el desarrollo y la gestión coo
 
 A la gestión integrada y planificación podemos agregarle el concepto de seguridad hídrica, como la capacidad de una población para salvaguardar el acceso de calidad al recurso vital, considerando los objetivos y aspectos del desarrollo sostenible como el suministro de agua potable y saneamiento, la productividad del agua en la agricultura, la industria y la energía, la protección del medio ambiente y la reducción de inundaciones y sequías.
 
+#### Aspectos en la gestión y planeación
 
+Teniendo una mejor cosmovisión de la gestión y planificación de los recursos hídricos, voy a mencionar algunos de los aspectos relevantes a tener en cuenta:
 
+*Técnicos.
+** Evaluaciones hidrológicas.
+** Evaluaciones hidráulicas.
+** Estimación costo - beneficio.
+** Evaluaciones ambientales.
+* Financiero y económico.
+* Institucional y de gobierno.
+* Modelos de impacto y evaluación de la planeación.
 
-#### Planificación, gestión , modelación y análisis 
+### Planificación y la modelación hidráulica 
 
 La planificación y gestión de los sistemas de recursos hídricos es una actividad multidisciplinaria. Una de sus campos es el modelado y análisis de los sistemas de recursos hídricos, el cual implica aquellos aportes de las ciencias naturales y sociales aplicables y de las personas, las partes interesadas, que se verán afectadas. Es un desafío.
 

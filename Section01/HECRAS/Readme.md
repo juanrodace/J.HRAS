@@ -8,18 +8,19 @@ Keywords: `Engineering` `Hydraulics` `Open Channel Flow` `Hydraulic Systems` `Hy
 
 ### Alcance
 
-En esta clase se presentan las generalidades del software de modelización hidráulica desarrollado por el Hydrological Engineering Center, el cual es uno de los programas de referencia dentro de su campo. Así mismo, su obtención, descarga, instalación, características básicas, uso generalizado, actualización y estructura.
+En esta clase se presentan las generalidades del software de modelación hidráulica desarrollado por el Hydrological Engineering Center, el cual es uno de los programas de referencia dentro de su campo. Así mismo, su obtención, descarga, instalación, características básicas, uso generalizado, actualización y estructura.
 
 ### Objetivos
 
 * Conocer las generalidades del programa de modelación HEC-RAS.
 * Conocer las características y componentes generales de la herramienta.
-* * Entender la estructura básica del programa.
+* Entender la estructura básica del programa.
 
 ### Requerimientos
 
-* Conocimientos básicos en hidráulica.
-* Conocimientos básicos en hidráulica a superficie libre (Actividades 1 a 5).
+* Conocimientos básicos en hidráulica a superficie libre. [**(Ir a la actividad 1)**](../FundamentalConcepts).
+* Computador con Microsoft® Windows 98/NT/2000/XP/Vista/7/8/8.1/10.
+* Contar con conexión a internet.
 
 ### HEC-RAS. Generalidades.
 El Sistema de Análisis de Ríos o River Analysis System (HEC-RAS), es un software que ha sido desarrollado en el Centro de Ingeniería Hidrológica (Hydrologic Engineering Center- HEC), que es una división del Instituto de Recursos Hídricos (IWR) del Cuerpo de Ingenieros del Ejército de los EE. UU. La primera versión de HEC-RAS se lanzó en el año 1995. Desde entonces, el paquete de software se ha actualizado hasta la versión 6.3 del año 2022.
@@ -60,6 +61,35 @@ Los efectos de las estructuras como puentes, alcantarillas, represas, presas y o
 * Reglas de cálculo definidas por el usuario.
 * Modelado combinado de flujo no estacionario unidimensional y bidimensional.
 
+### HEC-RAS. Instalación
+Antes de instalar el software HEC-RAS, es importante revisar que la computadora tenga los siguientes requerimientos mínimos de hardware y software:
+- Computador con procesador Intel Pentium 5, compatible o superior. (Si va a realizar un modelado 2D, se recomienda una máquina con varios núcleos).
+- Disco duro con al menos 1 Gigabyte de espacio libre.
+- Memoria RAM de mínimo 8 Gigabytes si usa Windows 7 o superior.
+- Un mouse, panel táctil o pantalla táctil.
+- Pantalla de video en color, se recomienda Super VGA (1024x768) o superior.
+- La versión 5.0.4 y posteriores de HEC-RAS solo se ejecutarán en sistemas operativos Windows de 64 bits. 
+
+La instalación del software HEC-RAS se logra mediante el uso del programa de instalación.
+
+Para instalar el software en su disco duro, haga lo siguiente
+
+1. Ingrese a la página web: [**www.hec.usace.army.mil**](https://www.hec.usace.army.mil/) y seleccione la última versión del ejecutable.
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/Install1.png" width="60%">
+</div>
+
+<div align="center">
+<img alt="J.HRAS" src="Graph/Install2.png" width="60%">
+</div>
+
+2. Coloque el programa de instalación en un directorio temporal y ejecútelo desde allí.
+
+3. Siga las instrucciones de configuración en la pantalla.
+
+
+
 ### HEC-RAS. Interfaz.
 El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. La interfaz proporciona las siguientes funciones:
 
@@ -71,3 +101,40 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 * Instalaciones de informes.
 * Ayuda en linea
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Referencias
+- [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
+- [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
+- [HEC-RAS Documentation. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs)
+    
+
+### Control de versiones
+
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2022.11 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2022.12 | Inclusión de conceptos, esquemas y gráficos.                      | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |   P   |
+
+### Licencia, cláusulas y condiciones de uso
+
+| [:arrow_backward:Anterior](../HydraulicSystems) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/7) | [Siguiente:arrow_forward:](../../Section02) |
+|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------|
+
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._

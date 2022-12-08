@@ -37,10 +37,24 @@ El software tiene 4 componentes generales:
 4. Análisis unidimensional de la calidad del agua.
 
 Un elemento clave es que estos cuatro componentes utilizan una representación de datos geométricos común y rutinas de cálculo hidráulicas y geométricas comunes. Además de los cuatro componentes, el sistema contiene varias características de diseño hidráulico que se pueden invocar una vez que se calculan los perfiles de la superficie del agua. Adicionalmente, tiene un extenso sistema de mapeo e integración de datos espaciales (HEC-RAS Mapper).
+En este curso abordaremos los primeros dos componentes, los cuales se detallan a continuación.
 
+**Flujo a superficie libre en condición permanente (Steady Flow Water Surface Profiles)**. Este componente del sistema está destinado a calcular los perfiles de la superficie del agua para un flujo permanente y gradualmente variado (FGV). El sistema puede manejar una red completa de canales, un sistema dendrítico o un solo tramo de río. El componente de flujo permanente es capaz de modelar perfiles de flujo en régimen de flujo subcrítico, supercrítico y mixto. El procedimiento computacional básico se basa en la solución de la ecuación de energía unidimensional. Las pérdidas de energía se evalúan por fricción con la ecuación de Manning y las pérdidas por contracción y expansión con coeficientes multiplicados por el cambio en la carga de velocidad. La ecuación de cantidad de movimiento se utiliza en situaciones en las que el perfil es rápidamente variado. Estas situaciones incluyen cálculos de régimen de flujo mixto (es decir, resaltos hidráulicos), hidráulica de puentes y evaluación de perfiles en confluencias de ríos (uniones de arroyos).
+
+Los efectos de las estructuras como puentes, alcantarillas, represas, presas y otras estructuras en la planicie de inundación pueden ser considerados en los cálculos. El sistema de flujo permanente está diseñado para su aplicación en la gestión de llanuras aluviales y estudios de inundaciones. Además, es posible evaluar el cambio en los perfiles de flujo debido a las modificaciones del canal y los diques. Las características especiales del componente incluyen:
+* Análisis de planes múltiples.
+* Cálculos de perfiles múltiples.
+* Análisis multiple de puentes y alcantarillas.
+* Análisis de socavación de puentes.
+* Optimización de flujo dividido.
+* Diseño y análisis de canales estables.
+
+**Simulación de flujo no permanente (Unsteady Flow Simulation)**. Este componente del sistema de modelado HEC-RAS es capaz de simular unidimensional; bidimensional; y flujo inestable combinado uni/bidimensional a través de una red completa de canales abiertos, llanuras aluviales y abanicos aluviales. El componente de flujo no estacionario se puede utilizar para realizar cálculos de régimen de flujo subcrítico, supercrítico y mixto (subcrítico, supercrítico, saltos hidráulicos y reducciones) en el módulo de cálculos de flujo no estacionario.
+Los cálculos hidráulicos para secciones transversales, puentes, alcantarillas y otras estructuras hidráulicas que se desarrollaron para el componente de flujo estacionario se incorporaron al módulo de flujo no estacionario.
+Las características especiales del componente de flujo no estacionario incluyen: amplias capacidades de estructura hidráulica Análisis de ruptura de presas; ruptura y desbordamiento de diques; Estaciones de bombeo; operaciones de presas de navegación; sistemas de tuberías presurizadas; funciones de calibración automatizadas; Reglas definidas por el usuario; y modelado combinado de flujo no estacionario unidimensional y bidimensional.
+
+### HEC-RAS. Interfaz.
 El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. La interfaz proporciona las siguientes funciones:
-
-### HEC-RAS. Usos y componentes.
 
 * Gestión de archivos.
 * Entrada y edición de datos e interfaces de datos geoespaciales

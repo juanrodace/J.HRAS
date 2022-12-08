@@ -49,9 +49,16 @@ Los efectos de las estructuras como puentes, alcantarillas, represas, presas y o
 * Optimización de flujo dividido.
 * Diseño y análisis de canales estables.
 
-**Simulación de flujo no permanente (Unsteady Flow Simulation)**. Este componente del sistema de modelado HEC-RAS es capaz de simular unidimensional; bidimensional; y flujo inestable combinado uni/bidimensional a través de una red completa de canales abiertos, llanuras aluviales y abanicos aluviales. El componente de flujo no estacionario se puede utilizar para realizar cálculos de régimen de flujo subcrítico, supercrítico y mixto (subcrítico, supercrítico, saltos hidráulicos y reducciones) en el módulo de cálculos de flujo no estacionario.
-Los cálculos hidráulicos para secciones transversales, puentes, alcantarillas y otras estructuras hidráulicas que se desarrollaron para el componente de flujo estacionario se incorporaron al módulo de flujo no estacionario.
-Las características especiales del componente de flujo no estacionario incluyen: amplias capacidades de estructura hidráulica Análisis de ruptura de presas; ruptura y desbordamiento de diques; Estaciones de bombeo; operaciones de presas de navegación; sistemas de tuberías presurizadas; funciones de calibración automatizadas; Reglas definidas por el usuario; y modelado combinado de flujo no estacionario unidimensional y bidimensional.
+**Simulación de flujo no permanente (Unsteady Flow Simulation)**. Este componente del sistema es capaz de simular el flujo unidimensional, bidimensional y combinado en condición no permanente a través de una red completa de canales abiertos, llanuras de inundación y valles aluviales. El componente de flujo no estacionario se puede utilizar para realizar cálculos de régimen de flujo subcrítico, supercrítico y mixto (subcrítico, supercrítico, saltos hidráulicos y reducciones). Los cálculos hidráulicos para secciones transversales, puentes, alcantarillas y otras estructuras hidráulicas también se han incorporado al módulo de flujo no estacionario. Las características especiales del componente:
+* Análisis de estructuras hidráulicas.
+* Rompimiento de presas.
+* Rotura y desbordamiento de diques.
+* Estadiones de bombeo.
+* Operación de presas.
+* Sistemas de tuberías presurizadas.
+* Funciones de calibración automatizadas.
+* Reglas de cálculo definidas por el usuario.
+* Modelado combinado de flujo no estacionario unidimensional y bidimensional.
 
 ### HEC-RAS. Interfaz.
 El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. La interfaz proporciona las siguientes funciones:

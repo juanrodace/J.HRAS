@@ -54,7 +54,7 @@ Los efectos de las estructuras como puentes, alcantarillas, represas, presas y o
 * Análisis de estructuras hidráulicas.
 * Rompimiento de presas.
 * Rotura y desbordamiento de diques.
-* Estadiones de bombeo.
+* Estaciones de bombeo.
 * Operación de presas.
 * Sistemas de tuberías presurizadas.
 * Funciones de calibración automatizadas.
@@ -67,7 +67,7 @@ Antes de instalar el software HEC-RAS, es importante revisar que la computadora 
 - Disco duro con al menos 1 Gigabyte de espacio libre.
 - Memoria RAM de mínimo 8 Gigabytes si usa Windows 7 o superior.
 - Un mouse, panel táctil o pantalla táctil.
-- Pantalla de video en color, se recomienda Super VGA (1024x768) o superior.
+- Pantalla de video en color, se recomienda súper VGA (1024x768) o superior.
 - La versión 5.0.4 y posteriores de HEC-RAS solo se ejecutarán en sistemas operativos Windows de 64 bits. 
 
 La instalación del software HEC-RAS se logra mediante el uso del programa de instalación.
@@ -99,13 +99,11 @@ Y seleccione en la opción **descargar** (Download) para la última versión del
 <img alt="J.HRAS" src="Graph/Install5.png" width="40%">
 </div>
 
-
-
 ### HEC-RAS. Interfaz.
 El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. La interfaz proporciona las siguientes funciones:
 
 * Gestión de archivos.
-* Entrada y edición de datos e interfaces de datos geoespaciales
+* Entrada y edición de datos e interfaces de datos geoespaciales.
 * Análisis de flujo.
 * Tabulación y visualización gráfica de datos de entrada y salida.
 * Mapeo de inundaciones y animaciones de propagación del agua.
@@ -144,7 +142,7 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../HydraulicSystems) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/7) | [Siguiente:arrow_forward:](../../Section02) |
-|----------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------|
+|-------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|---------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

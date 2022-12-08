@@ -22,7 +22,7 @@ En esta clase se presentan las generalidades del software de modelización hidr�
 * Conocimientos básicos en hidráulica a superficie libre (Actividades 1 a 5).
 
 ### HEC-RAS. Generalidades.
-El Sistema de Análisis de Ríos o River Analysis System (HEC-RAS), es un software que ha sido desarrollado en el Centro de Ingeniería Hidrológica (Hydrologic Engineering Center- HEC), que es una división del Instituto de Recursos Hídricos (IWR) del Cuerpo de Ingenieros del Ejército de los EE. UU. La primera versión de HEC-RAS se lanzó en el año 1995. Desde entonces, el paquete de software se actualizado hasta la versión 6.3 del año 2022.
+El Sistema de Análisis de Ríos o River Analysis System (HEC-RAS), es un software que ha sido desarrollado en el Centro de Ingeniería Hidrológica (Hydrologic Engineering Center- HEC), que es una división del Instituto de Recursos Hídricos (IWR) del Cuerpo de Ingenieros del Ejército de los EE. UU. La primera versión de HEC-RAS se lanzó en el año 1995. Desde entonces, el paquete de software se ha actualizado hasta la versión 6.3 del año 2022.
 
 El programa de modelado HEC-RAS se desarrolló como parte del software de ingeniería hidrológica de "próxima generación" (NexGen) del Centro de Ingeniería Hidrológica, el cual abarca varios aspectos de la ingeniería hidrológica como el análisis de precipitaciones y escorrentías (HEC-HMS), hidráulica a superficie libre (HEC-RAS), simulación de sistemas de reservorios (HEC-ResSim), análisis de daños por inundaciones (HEC-FDA y HEC-FIA) y predicción de ríos en tiempo real para operaciones de embalses (CWMS).
 

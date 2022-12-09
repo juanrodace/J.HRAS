@@ -95,7 +95,7 @@ Y seleccione en la opción **descargar** (Download) para la última versión del
 2. Guarde el archivo de instalación en un directorio temporal y ejecútelo desde allí.
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/Install4.png" width="60%">
+<img alt="J.HRAS" src="Graph/Install4.png" width="40%">
 </div>
 
 3. Siga las instrucciones de configuración e instalación en la pantalla.

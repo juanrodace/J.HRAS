@@ -81,26 +81,31 @@ Para instalar el software en su disco duro, haga lo siguiente
 </div>
 
 Luego seleccione o de clic en descargas (downloads).
+
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install2.png" width="60%">
 </div>
 
 Y seleccione en la opción **descargar** (Download) para la última versión del software.
+
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install3.png" width="60%">
 </div>
 
 2. Guarde el archivo de instalación en un directorio temporal y ejecútelo desde allí.
+
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install4.png" width="60%">
 </div>
+
 3. Siga las instrucciones de configuración e instalación en la pantalla.
+
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install5.png" width="40%">
 </div>
 
 ### HEC-RAS. Interfaz.
-El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. La interfaz proporciona las siguientes funciones:
+El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario. El enfoque principal en el diseño de la interfaz fue facilitar el uso del software, manteniendo al mismo tiempo un alto nivel de eficiencia para el usuario. De forma general, la interfaz proporciona las siguientes funciones:
 
 * Gestión de archivos.
 * Entrada y edición de datos e interfaces de datos geoespaciales.
@@ -110,20 +115,9 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 * Instalaciones de informes.
 * Ayuda en linea
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div align="center">
+<img alt="J.HRAS" src="Graph/Interface.png" width="60%">
+</div>
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
@@ -137,7 +131,7 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.11 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.12 | Inclusión de conceptos, esquemas y gráficos.                      | [juanrodace](https://github.com/juanrodace) |  3.0  |
-| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |   P   |
+| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso
 

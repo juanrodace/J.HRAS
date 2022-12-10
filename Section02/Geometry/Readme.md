@@ -123,7 +123,6 @@ Ahora crearemos las secciones transversales de nuestro canal. Para este tramo, s
 ### Edición de la geometría creada.
 
 La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
--  
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)

@@ -1,0 +1,56 @@
+Geom Title=Geometria1
+Program Version=6.31
+Viewing Rectangle=-0.4587 , 1.4587 , 1 , 0 
+
+BEGIN GEOM DESCRIPTION:
+Geometría 1
+
+END GEOM DESCRIPTION:
+River Reach=Canal1          ,Tramo1          
+Reach XY= 4 
+-0.27236580516890.856858846918490.198807157057650.45129224652088
+0.61630218687873 0.28827037773360.988071570576540.27037773359841
+Rch Text X Y=0.0427435,0.7102386
+Reverse River Text= 0 
+
+Type RM Length L Ch R = 1 ,1000    ,1000,1000,1000
+BEGIN DESCRIPTION:
+Seccion aguas abajo
+END DESCRIPTION:
+Node Last Edited Time=Dec/10/2022 17:56:10
+#Sta/Elev= 8 
+       0     7.5       1       7       5       7       7       5      11       5
+      13       7      17       7      18     7.5
+#Mann= 3 ,0,0
+       0    .022       0       5    .022       0      13    .022       0
+Bank Sta=5,13
+XS Rating Curve= 0 ,0
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,0       ,0,0,0
+BEGIN DESCRIPTION:
+Seccion aguas abajo
+END DESCRIPTION:
+Node Last Edited Time=Dec/10/2022 17:38:20
+#Sta/Elev= 8 
+       0     2.5       1       2       5       2       7       0      11       0
+      13       2      17       2      18     2.5
+#Mann= 3 ,0,0
+       0    .022       0       5    .022       0      13    .022       0
+Bank Sta=5,13
+XS Rating Curve= 0 ,0
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+LCMann Time=Dec/30/1899 00:00:00
+LCMann Region Time=Dec/30/1899 00:00:00
+LCMann Table=0
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5

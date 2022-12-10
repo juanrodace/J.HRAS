@@ -116,8 +116,14 @@ Ahora crearemos las secciones transversales de nuestro canal. Para este tramo, s
 
 #### Interpolación de secciones.
 
+1. Para tener una geometría con mayor detalle, realizaremos la interpolación de las secciones transversales generadas. En primer lugar, seleccionamos la **Herramientas → Interpolaxión XS** (Tools →  XS Interpolation). Allí tenemos dos opciones:
+* **Dentro de un tramo (Within a reach...)**.  Permite interpolar con respecto al eje de uno de los tramos previamente definidos.
+* **Entre 2 secciones (Between 2 XS's..)**. Permite interpolar entre dos secciones transversales previamente generadas.
 
+### Edición de la geometría creada.
 
+La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
+-  
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)

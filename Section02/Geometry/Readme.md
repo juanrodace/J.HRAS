@@ -21,6 +21,35 @@ En esta clase se presentan las funcionalidades, características y procedimiento
 * Conocimientos en hidráulica a superficie libre. [**(Ver Actividad 1)**](../../Section01/FundamentalConcepts).
 * Software de modelación hidráulica HEC-RAS. [**(Ver Actividad 6)**](../../Section01/HECRAS).
 
+### Creación de geometría. 
+A continuación se describen los pasos sugeridos para la creación de la geometría asociada a un modelo hidráulico de un canal natural o artificial.
+
+#### Archivos de proyecto y geometría.
+1. Para empezar con el desarrollo de nuestro modelo, lo primero a realizar es la creación del proyecto. Una vez abierto el programa vamos a archivo (File) y seleccionamos nuevo proyecto (New Proyect).
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen1.png" width="60%">
+</div>
+
+2. Ahora ingrese el nombre que va a darle al proyecto RAS y la ubicación en el directorio o disco. El archivo del proyecto quedará guardado con la extensión <kbd>.prj</kbd>.
+ 
+<div align="center">
+<img alt="Geometry" src="Screens/Screen2.png" width="60%">
+</div>
+
+3. Ahora debemos revisar las unidades del proyecto. Por defecto están en sistema internacional (SI Units). Pero si se desean cambiar, podemos ir a **Opciones**(Options)**>>Sistema de unidades**(Unit system). Y seleccionar entre sistema inglés (US) y sistema internacional (SI).
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen3.png" width="60%">
+</div>
+
+4. Para crear un archivo de geometría seleccione el ícono ![Icon.png](Graph/Icon.png) "Ver/editar información geométrica". Y en la nueva ventana seleccione **Archivo** (File) → **Guardar información geométrica** (Save geometry data). 
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen4.png" width="60%">
+</div>
+
+#### Ventana de información geométrica.
 
 
 
@@ -28,14 +57,11 @@ En esta clase se presentan las funcionalidades, características y procedimiento
 
 
 
-
-
-
-
-
-
-
-
+### Referencias
+- [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
+- [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
+- [HEC-RAS Documentation. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs)
+    
 ### Control de versiones
 
 | Versión | Descripción                                                       |                    Autor                    | Horas |

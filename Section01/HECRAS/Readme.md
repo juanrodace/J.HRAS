@@ -79,19 +79,19 @@ Para instalar el software en su disco duro, haga lo siguiente
 <img alt="J.HRAS" src="Graph/Install1.png" width="60%">
 </div>
 
-Luego seleccione o de clic en descargas (downloads).
+- Luego seleccione o de clic en descargas (downloads).
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install2.png" width="60%">
 </div>
 
-Y seleccione en la opción **descargar** (Download) para la última versión del software.
+- A continuación, seleccione la opción **descargar** (Download) para la última versión del software.
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install3.png" width="60%">
 </div>
 
-2. Guarde el archivo de instalación en un directorio temporal y ejecútelo desde allí.
+- Guarde el archivo de instalación en un directorio temporal y ejecútelo desde allí.
 
 <div align="center">
 <img alt="J.HRAS" src="Graph/Install4.png" width="40%">

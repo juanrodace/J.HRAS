@@ -5,7 +5,7 @@
 </div>
 
 ## Introducción y fundamentos
-En esta sección se presenta la intruducción y fundamentos generales relacionados con el transporte de fluidos a superficie libre, modelación hidráulica y generalidades del software HEC-RAS.
+En esta sección se presenta la introducción y fundamentos generales relacionados con el transporte de fluidos a superficie libre, modelación hidráulica y generalidades del software HEC-RAS.
 
 ##
 

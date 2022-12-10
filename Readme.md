@@ -77,9 +77,9 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ### Sección 2. Modelación hidráulica básica
 
-| Microconteido                                          | 
-|--------------------------------------------------------|
-| Cargue y   validación geométrica básica.               |
+| Microconteido                                          | Detalle                                                                                                                                                   | 
+|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cargue y   validación geométrica básica.               | En esta clase se presentan las funcionalidades, características y procedimiento general para el cargue y edición de la geometría de un modelo hidráulico. |
 | Cargue de   información topográfica.                   |
 | Modificación de la geometría.                          |
 | Definición de   condiciones hidráulicas y de frontera. |
@@ -88,28 +88,6 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | Visualización   de resultados.                         |
 | Errores y   avisos comunes.                            |
 
-### Sección 3. Modelación con opciones avanzadas
-
-| Microconteido                                             |
-|-----------------------------------------------------------|
-| Definición de coeficiente Manning a partir de coberturas. |
-| Tramos con confluencias.                                  |
-| Incorporación de estructuras hidráulicas.                 |
-| Uso de diques en la modelación.                           |
-| Cálculo de la socavación general y local.                 |
-
-
-### Sección 4. Modelación de flujo bidimensional
-
-| Microconteido                                      |
-|----------------------------------------------------|
-| Herramienta RAS Mapper.                            |
-| Procesamiento del MDT.                             |
-| Cargue de la geometría y definición de la malla.   |
-| Condiciones hidráulicas iniciales y de frontera.   |
-| Simulaciones de flujo bidimensional.               |
-| Visualización y generación de mapas de inundación. |
-| Obras hidráulicas en modelaciones bidimensionales. |
 
 ##
 

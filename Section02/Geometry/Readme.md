@@ -117,8 +117,34 @@ Ahora crearemos las secciones transversales de nuestro canal. Para este tramo, s
 #### Interpolación de secciones.
 
 1. Para tener una geometría con mayor detalle, realizaremos la interpolación de las secciones transversales generadas. En primer lugar, seleccionamos la **Herramientas → Interpolaxión XS** (Tools →  XS Interpolation). Allí tenemos dos opciones:
-* **Dentro de un tramo (Within a reach...)**.  Permite interpolar con respecto al eje de uno de los tramos previamente definidos.
+* **Dentro de un tramo (Within a reach...)**.  Permite interpolar con respecto al eje de uno de los tramos previamente definidos, con dos o más secciones transversales existentes.
 * **Entre 2 secciones (Between 2 XS's..)**. Permite interpolar entre dos secciones transversales previamente generadas.
+
+En esta ocasión utilizaremos la segunda opción, se abrirá la ventana de interpolación.
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen15.png" width="60%">
+</div>
+
+2. En la ventana de interpolación (XS Interpolation), se seleccionan y/o definen las características de la interpolación: el canal, el tramo, las secciones, la forma de interpolación, y la metodología. Posteriormente, se seleccionan las coordenadas de las lineas de corte (Cut Line GIS Coordinates).
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen16.png" width="60%">
+</div>
+
+>Cuando se interpolan secciones transversales, también se interpola su ubicación en el esquema del sistema. HEC-RAS tiene dos opciones para interpolar las coordenadas de las líneas de corte de la sección transversal: 
+> * **Interpolación lineal:** Es el método predeterminado a partir de las secciones transversales delimitantes. Este método simplemente dibuja líneas rectas entre las dos secciones transversales e interpola las coordenadas de la sección transversal en función de la distancia del canal principal.
+> *  **Segmentos perpendiculares:** Este método escala las secciones transversales a lo largo de la línea de inversión del tramo. Se dibuja un segmento perpendicular a través del tramo para el canal principal. Sin embargo, las bancas se basan en pendientes promedio de la línea de inversión aguas arriba y aguas abajo desde el punto de intersección.
+
+3. Finalmente, podrá visualizar y revisar tanto en la ventana de información geométrica como en la de secciones transversales, cómo han quedado las secciones interpoladas.
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen17.png" width="60%">
+</div>
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen18.png" width="60%">
+</div>
 
 ### Edición de la geometría creada.
 

@@ -17,7 +17,7 @@ Type RM Length L Ch R = 1 ,1000    ,1000,1000,1000
 BEGIN DESCRIPTION:
 Seccion aguas abajo
 END DESCRIPTION:
-Node Last Edited Time=Dec/10/2022 17:56:10
+Node Last Edited Time=Dec/10/2022 21:16:57
 #Sta/Elev= 8 
        0     7.5       1       7       5       7       7       5      11       5
       13       7      17       7      18     7.5
@@ -25,6 +25,7 @@ Node Last Edited Time=Dec/10/2022 17:56:10
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=5.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -40,6 +41,7 @@ Node Last Edited Time=Dec/10/2022 17:38:20
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 

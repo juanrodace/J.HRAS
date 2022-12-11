@@ -99,13 +99,13 @@ Ahora crearemos las secciones transversales de nuestro canal. Para este tramo, s
 5. Las demás secciones pueden ser creadas con el mismo procedimiento anterior. O también puede generarse una copia de alguna sección transversal existente seleccionando **Opciones → Copiar la sección transversal actual** (Options → Copy Current Cross Section).
 
 <div align="center">
-<img alt="Geometry" src="Screens/Screen12.png" width="50%">
+<img alt="Geometry" src="Screens/Screen12.png" width="40%">
 </div>
 
 - En el caso de copiar la sección, aparecerá una ventana para agregar el identificador de la nueva sección. Posteriormente, podrá editar sus características y propiedades (elevación, estaciones, longitudes, coeficientes y bancas).
 
 <div align="center">
-<img alt="Geometry" src="Screens/Screen13.png" width="50%">
+<img alt="Geometry" src="Screens/Screen13.png" width="40%">
 </div>
 
 5. Una vez creada las secciones, se podrá cerrar la ventana de edición y se observará el esquema de planta. Para este caso con las dos secciones transversales generadas.

@@ -116,17 +116,17 @@ Ahora crearemos las secciones transversales de nuestro canal. Para este tramo, s
 
 #### Interpolación de secciones.
 
-1. Para tener una geometría con mayor detalle, realizaremos la interpolación de las secciones transversales generadas. En primer lugar, seleccionamos la **Herramientas → Interpolaxión XS** (Tools →  XS Interpolation). Allí tenemos dos opciones:
+1. Para tener una geometría con mayor detalle, realizaremos la interpolación de las secciones transversales generadas. En primer lugar, se seleccione **Herramientas → Interpolación XS** (Tools → XS Interpolation). Allí tenemos dos opciones:
 * **Dentro de un tramo (Within a reach...)**.  Permite interpolar con respecto al eje de uno de los tramos previamente definidos, con dos o más secciones transversales existentes.
 * **Entre 2 secciones (Between 2 XS's..)**. Permite interpolar entre dos secciones transversales previamente generadas.
 
-En esta ocasión utilizaremos la segunda opción, se abrirá la ventana de interpolación.
+En esta ocasión utilizaremos la segunda opción. Al dar clic, se abrirá la ventana de interpolación.
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen15.png" width="60%">
 </div>
 
-2. En la ventana de interpolación (XS Interpolation), se seleccionan y/o definen las características de la interpolación: el canal, el tramo, las secciones, la forma de interpolación, y la metodología. Posteriormente, se seleccionan las coordenadas de las lineas de corte (Cut Line GIS Coordinates).
+2. En la ventana de interpolación (XS Interpolation), se seleccionan y/o definen las características de la interpolación: el canal, el tramo, las secciones, la forma de interpolación, y la metodología. Posteriormente, se seleccionan las coordenadas de las líneas de corte (Cut Line GIS Coordinates).
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen16.png" width="60%">

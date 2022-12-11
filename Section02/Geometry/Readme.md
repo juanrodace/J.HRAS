@@ -3,7 +3,7 @@ Keywords: `Hydraulics` `HEC-RAS` `Channel Section` `Geometry`
 
 <div align="center">
 
-![ChannelFlow.jpeg](Graph/ChannelFlow.jpg)
+![Geometry.png](Graph/Geometry.png)
 </div>
 
 

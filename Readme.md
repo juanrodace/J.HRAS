@@ -77,16 +77,16 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ### Sección 2. Modelación hidráulica básica
 
-| Microconteido                                          | Detalle                                                                                                                                                   | 
-|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cargue y   validación geométrica básica.               | En esta clase se presentan las funcionalidades, características y procedimiento general para el cargue y edición de la geometría de un modelo hidráulico. |
-| Cargue de   información topográfica.                   |
-| Modificación de la geometría.                          |
-| Definición de   condiciones hidráulicas y de frontera. |
-| Simulación en   régimen permanente 1D.                 |
-| Simulación en   régimen no permanente 1D.              |
-| Visualización   de resultados.                         |
-| Errores y   avisos comunes.                            |
+| Microconteido                                                 | Detalle                                                                                                                                                                                    | 
+|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Cargue y   validación geométrica básica.](Section2/Geometry) | En esta clase se presentan las funcionalidades, características y procedimiento general para el cargue y edición de la geometría de un modelo hidráulico.                                  |
+| [Cargue de   información topográfica.](Section2/Geometry)                        | En esta clase se presenta el proceso recomendado para cargar y validad información topográfica para la definición de la geometría del canal con uso de RASMapper y de edición geométrica . |
+| Modificación de la geometría.                                 |
+| Definición de   condiciones hidráulicas y de frontera.        |
+| Simulación en   régimen permanente 1D.                        |
+| Simulación en   régimen no permanente 1D.                     |
+| Visualización   de resultados.                                |
+| Errores y   avisos comunes.                                   |
 
 
 ##

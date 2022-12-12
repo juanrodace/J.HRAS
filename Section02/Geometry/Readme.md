@@ -6,7 +6,6 @@ Keywords: `Hydraulics` `HEC-RAS` `Channel Section` `Geometry`
 ![Geometry.png](Graph/Geometry.png)
 </div>
 
-
 ### Alcance
 En esta clase se presentan las funcionalidades, características y procedimiento general para el cargue y edición de la geometría de un modelo hidráulico.
 
@@ -149,6 +148,8 @@ En esta ocasión utilizaremos la segunda opción. Al dar clic, se abrirá la ven
 ### Edición de la geometría creada.
 
 La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
+
+* 
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)

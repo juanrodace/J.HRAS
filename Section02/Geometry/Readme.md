@@ -149,7 +149,16 @@ En esta ocasión utilizaremos la segunda opción. Al dar clic, se abrirá la ven
 
 La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
 
+* Ventana de diseño y ajustes.
 * 
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen19.png" width="60%">
+</div>
+
+<div align="center">
+<img alt="Geometry" src="Screens/Screen20.png" width="60%">
+</div>
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)

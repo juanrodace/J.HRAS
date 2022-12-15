@@ -147,17 +147,23 @@ En esta ocasión utilizaremos la segunda opción. Al dar clic, se abrirá la ven
 
 ### Edición de la geometría creada.
 
-La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
-
-* Ventana de diseño y ajustes.
-* 
-
 <div align="center">
 <img alt="Geometry" src="Screens/Screen19.png" width="60%">
 </div>
 
+La herramienta dispone de una gran variedad de opciones para la edición de la geometría creada, entre los más relevantes podemos resaltar:
+
+* Ventana de diseño y ajustes (Channel design/modification).
+* Editor gráfico de secciones (Graphic cross section editor).
+* Prototipo de fondo del canal (Pilot channel).
+* Ajustes de elevación y estación.
+* Ajustes de coeficientes 'n' o 'k'.
+* Variación horizontal de 'n' y/o 'k'.
+* Tablas para edición general de coeficientes y distancias.
+
 <div align="center">
 <img alt="Geometry" src="Screens/Screen20.png" width="60%">
+<img alt="Geometry" src="Screens/Screen21.png" width="60%">
 </div>
 
 ### Referencias
@@ -170,7 +176,7 @@ La herramienta dispone de una gran variedad de opciones para la edición de la g
 | Versión | Descripción                                                       |                    Autor                    | Horas |
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.11 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2022.12 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  3.0  |
+| 2022.12 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  4.0  |
 | 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso

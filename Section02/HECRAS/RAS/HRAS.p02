@@ -1,9 +1,9 @@
-Plan Title=
+Plan Title=UnsteadyFlow1
 Program Version=6.31
-Short Identifier=1                                                               
-Simulation Date=,,,
-Geom File=g01
-Flow File=f01
+Short Identifier=TR-10años                                                       
+Simulation Date=01JAN2023,00:00,06JAN2023,00:00
+Geom File=g02
+Flow File=u01
 Mixed Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
@@ -24,7 +24,7 @@ Global Log Level= 0
 CheckData=True
 Encroach Param=-1 ,0,0, 0 
 BEGIN DESCRIPTION:
-Simulación 1 flujo permanente, canal trapezoidal.
+Simulación 1 flujo NO permanente canal natural.
 END DESCRIPTION:
 Computation Interval=1MIN
 Output Interval=1HOUR
@@ -38,12 +38,12 @@ Computation Time Step Count To Double=0
 Computation Time Step Max Doubling=0
 Computation Time Step Max Halving=0
 Computation Time Step Residence Courant=0
-Run HTab= 0 
-Run UNet= 0 
+Run HTab=-1 
+Run UNet=-1 
 Run Sediment= 0 
-Run PostProcess= 0 
+Run PostProcess=-1 
 Run WQNet= 0 
-Run RASMapper= 0 
+Run RASMapper=-1 
 UNET Theta= 1 
 UNET Theta Warmup= 1 
 UNET ZTol= 0.006 
@@ -102,6 +102,7 @@ UNET D1D2 MaxIter= 0
 UNET D1D2 ZTol=0.003
 UNET D1D2 QTol=0.1
 UNET D1D2 MinQTol=0.03
+DSS File=dss
 Write IC File= 0 
 Write IC File at Fixed DateTime=0
 IC Time=,,

@@ -1,11 +1,13 @@
 Proj Title=HRAS.Section2
-Current Plan=p01
+Current Plan=p02
 Default Exp/Contr=0.3,0.1
 SI Units
 Geom File=g01
 Geom File=g02
 Flow File=f01
+Unsteady File=u01
 Plan File=p01
+Plan File=p02
 Y Axis Title=Elevation
 X Axis Title(PF)=Main Channel Distance
 X Axis Title(XS)=Station
@@ -16,6 +18,7 @@ DSS Start Date=
 DSS Start Time=
 DSS End Date=
 DSS End Time=
+DSS File=dss
 DSS Export Filename=
 DSS Export Rating Curves= 0 
 DSS Export Rating Curve Sorted= 0 

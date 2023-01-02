@@ -38,7 +38,7 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 
 #### Cargue de información Raster
 
-1. Ahora, cierre la ventana de edición geométrica y abra el RAS Mapper dando clic en el icono ![Icon2.png](Graph/Icon2.png).
+1. Ahora, cierre la ventana de edición geométrica y abra el RAS Mapper dando clic en el icono ![Icon2.png](Graph/Icon2.png)
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen3.png" width="60%">
@@ -80,7 +80,7 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 
 #### Creación de geometría
 
-1. Para crear la geometría, seguiremos un procedimiento similar al realizado en la clase anterior. Primero, damos clic derecho en la geometría previamente creada para luego seleccionar la opción **Editar geometría** (Edit Geometry).
+1. Para crear la geometría, seguiremos un procedimiento similar al realizado en la clase anterior. Primero, damos clic derecho en la geometría a modificar para luego seleccionar la opción **Editar geometría** (Edit Geometry).
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen10.png" width="60%">
@@ -92,7 +92,7 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 <img alt="Geometry" src="Screens/Screen11.png" width="60%">
 </div>
 
-3. Seleccionamos la opción de agregar nueva característica (Add new feature) e iniciamos el trazado del eje de nuestro canal, desde aguas arriba hacia aguas abajo. Al finalizar se debe definir el nombre del rio o canal (river name), así como el nombre del tramo (reach name). Al finalizar podrás visualizar, revisar y si es necesario editar el eje trazado.
+3. Seleccionamos la opción de agregar nueva característica (Add new feature) e iniciamos el trazado del eje de nuestro canal, desde aguas arriba hacia aguas abajo. Al finalizar se debe definir el nombre del río o canal (river name), así como el nombre del tramo (reach name). Al finalizar podrás visualizar, revisar y si es necesario editar el eje trazado.
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen12.png" width="60%">
@@ -118,7 +118,7 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 <img alt="Geometry" src="Screens/Screen16.png" width="60%">
 </div>
 
-6. Una vez creadas las secciones, detenemos la edición y guardamos los cambios. Podremos visualizar el perfil del terreno para las secciones creadas, para poder revisar y ajustar si es necesario.
+6. Una vez creadas las secciones, detenemos la edición y guardamos los cambios. Podremos visualizar el perfil del terreno para las secciones generadas con el fin de revisar y ajustar si es necesario.
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen17.png" width="60%">
@@ -147,7 +147,7 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../Geometry/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Simulation_1D_SF/Readme.md) |
-|---------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------|
+|---------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

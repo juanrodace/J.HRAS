@@ -2,6 +2,12 @@ Geom Title=Geometria2
 Program Version=6.31
 Viewing Rectangle= 1076174.72446706 , 1077510.85547684 , 1574224.24712594 , 1573365.95279931 
 
+River Reach=River (Missing) ,Reach (Missing) 
+Reach XY= 2 
+ 1077410.31729071573904.48819311 1077410.31729071573906.48819311
+Rch Text X Y=1077410.3172907,1573904.9881931
+Reverse River Text= 0 
+
 River Reach=River1          ,Reach1          
 Reach XY= 100 
 1077410.972082891573923.389534081077390.890278981573927.63760799
@@ -576,7 +582,7 @@ Type RM Length L Ch R = 1 ,954     ,58.9,58.9,58.9
 XS GIS Cut Line=4
 1077046.60656666 1573575.84271681077056.900334071573824.95188811
 1077038.371552731573911.419534361076953.962659971574061.70853854
-Node Last Edited Time=Jan/02/2023 18:33:12
+Node Last Edited Time=Jan/02/2023 18:28:32
 #Sta/Elev= 256 
        0   68.28     1.6   68.21     5.6   68.35     6.6   68.36     7.6   68.32
      8.6    68.3     9.7   68.37    11.6   68.52    12.6   68.56    13.6   68.52
@@ -632,7 +638,7 @@ Node Last Edited Time=Jan/02/2023 18:33:12
    510.1   68.02
 #Mann= 1 ,-1,0
        0    .035       0
-Bank Sta=271.4,325.5
+Bank Sta=271.4,324.5
 XS Rating Curve= 0 ,0
 XS HTab Starting El and Incr=63.88,0.26, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 

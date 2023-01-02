@@ -71,7 +71,7 @@ A continuación se describen los pasos sugeridos para realizar la simulación un
 <img alt="Geometry" src="Screens/Screen7.png" width="60%">
 </div>
 
-2. Luego ingrese el nombre con el cuál desea guardar el plan. Se creará un archivo con el formato <kbd>.p*</kbd>.
+2. Luego ingrese el nombre con el cual desea guardar el plan. Se creará un archivo con el formato <kbd>.p*</kbd>.
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen8.png" width="60%">
@@ -83,7 +83,7 @@ A continuación se describen los pasos sugeridos para realizar la simulación un
 <img alt="Geometry" src="Screens/Screen9.png" width="60%">
 </div>
 
-4. Finalmente de clic en el botón <kbd>**Compute**</kbd> y se iniciaran los cálculos de la simulación.
+4. Finalmente de clic en el botón <kbd>**Compute**</kbd> y se iniciarán los cálculos de la simulación.
 
 <div align="center">
 <img alt="Geometry" src="Screens/Screen10.png" width="60%">
@@ -105,7 +105,7 @@ A continuación se describen los pasos sugeridos para realizar la simulación un
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../Topography/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Simulation_1D_UF/Readme.md) |
-|------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
+|-----------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

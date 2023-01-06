@@ -1,10 +1,10 @@
 Plan Title=UnsteadyFlow1
 Program Version=6.31
-Short Identifier=TR-10años                                                       
+Short Identifier=TR-10a                                                          
 Simulation Date=01JAN2023,00:00,06JAN2023,00:00
 Geom File=g02
 Flow File=u01
-Mixed Flow
+Subcritical Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
 Critical Tol= 0.003 
@@ -23,9 +23,6 @@ Global Vel Dist= 0 , 0 , 0
 Global Log Level= 0 
 CheckData=True
 Encroach Param=-1 ,0,0, 0 
-BEGIN DESCRIPTION:
-Simulación 1 flujo NO permanente canal natural.
-END DESCRIPTION:
 Computation Interval=1MIN
 Output Interval=1HOUR
 Instantaneous Interval=1HOUR

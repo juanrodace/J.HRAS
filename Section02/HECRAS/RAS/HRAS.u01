@@ -736,9 +736,8 @@ Use Fixed Start Time=True
 Fixed Start Date/Time=01Jan2023,00:00
 Is Critical Boundary=False
 Critical Boundary Flow=
-Boundary Location=River1          ,Reach1          ,8       ,        ,                ,                ,                ,                                ,                                
-Friction Slope=0.0005,0
-Boundary Location=River1          ,Reach1          ,637     ,        ,                ,                ,                ,                                ,                                
+Boundary Location=River1          ,Reach1          ,7       ,        ,                ,                ,                ,                                ,                                
+Friction Slope=0.005,0
 Met Point Raster Parameters=,,,,
 Precipitation Mode=Disable
 Wind Mode=No Wind Forces
@@ -779,24 +778,24 @@ Met BC=Air Pressure|Constant Value=1013.2
 Met BC=Air Pressure|Constant Units=mb
 Met BC=Air Pressure|Point Interpolation=Inv Distance
 Met BC=Air Pressure|Gridded Source=DSS
-Non-Newtonian Method= 0 , 
+Non-Newtonian Method= 0 , Newtonian Assumptions
 Non-Newtonian Constant Vol Conc=0
-Non-Newtonian Yield Method= 0 , 
+Non-Newtonian Yield Method= 0 , Exponential
 Non-Newtonian Yield Coef=0, 0
 User Yeild=   0
-Non-Newtonian Sed Visc= 0 , 
+Non-Newtonian Sed Visc= 0 , Maron and Pierce
 Non-Newtonian Obrian B=0
 User Viscosity=0
 User Viscosity Ratio=0
 Herschel-Bulkley Coef=0, 0
-Clastic Method= 0 , 
+Clastic Method= 0 , Coulomb
 Coulomb Phi=0
 Voellmy X=0
 Non-Newtonian Hindered FV= 0 
 Non-Newtonian FV K=0
 Non-Newtonian ds=0
-Non-Newtonian Max Cv=0
-Non-Newtonian Bulking Method= 0 , 
+Non-Newtonian Max Cv=61.5
+Non-Newtonian Bulking Method= 0 , Do Not Bulk
 Non-Newtonian High C Transport= 0 , 
 Lava Activation= 0 
 Temperature=1300,15,,15,14,980

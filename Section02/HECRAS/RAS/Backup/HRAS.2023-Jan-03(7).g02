@@ -2,6 +2,24 @@ Geom Title=Geometria2
 Program Version=6.31
 Viewing Rectangle=-53872.277448195 , 1131317.82641209 , 1652894.54543483 ,-78710.3116873731 
 
+River Reach=River (Missing) ,Reach (Missing) 
+Reach XY= 2 
+              0.             -1.              0.              1.
+Rch Text X Y=0,-0.5
+Reverse River Text= 0 
+
+Type RM Length L Ch R = 1 ,1       ,,,
+XS GIS Cut Line=2
+              0.              0.              0.              0.
+Node Last Edited Time=Jan/03/2023 15:43:28
+#Sta/Elev= 0 
+#Mann= 0 ,0,0
+Bank Sta=0,0
+XS Rating Curve= 0 ,0
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr(USF)=0,0
+Exp/Cntr=0.3,0.1
+
 River Reach=River1          ,Reach1          
 Reach XY= 100 
 1077410.972082891573923.389534081077390.890278981573927.63760799

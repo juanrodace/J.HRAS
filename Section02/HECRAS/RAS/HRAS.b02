@@ -9,14 +9,14 @@ Initial Conditions Flow Information
 Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
-       3       0   .0005
+       3       0    .005
        1       1       0       0
        0       0
        F
 Project Title, Plan Title and Plan ShortID
 HRAS.Section2
 UnsteadyFlow1
-TR-10años                                                       
+TR-10a                                                          
 Job Control Information
   Computation Interval  = 1MIN
   Warmup Interval       =  0 
@@ -1506,7 +1506,7 @@ Upstream Flow Hydrograph - River: River1  Reach: Reach1  RS: 1347
  3.4E+38
        F       F       F       T       F
 Downstream Normal Depth
-   .0005
+    .005
 Internal Observed Stage/Flow Boundaries
        0
 Ground Water Interflows
@@ -1521,7 +1521,7 @@ Time Slicing Parameters
        F
 HYDROGRAPH LOCATIONS
  2 
-       1      24
+       1      40
 Rules (number of rule sets, number of lookbacks, number of tables)
        0       0       0
 Extra Commands

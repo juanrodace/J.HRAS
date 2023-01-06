@@ -9,7 +9,7 @@ Project Name:  HRAS.Section2
  
 Plan Name:     UnsteadyFlow1
  
-Short ID:      TR-10años
+Short ID:      TR-10a
  
 
 Starting Time:   31Dec2022 2400
@@ -25,7 +25,7 @@ Ending Time:     05Jan2023 2400
                 #                                              #
                 #          HEC-RAS 6.3.1 October 2022          #
                 #                                              #
-                #             02JAN23 at 18:34:38              #
+                #             03JAN23 at 16:12:41              #
                 #                                              #
                 ################################################
                 
@@ -39,11 +39,11 @@ Ending Time:     05Jan2023 2400
 
          US Inflow      DS Outflow       Lat Hydro        SA Hydro     Groundwater      Diversions   Precip Excess
          *********      **********       *********        ********     ***********      **********   *************
-             482.2           480.3                                                                                                
+             482.2           480.5                                                                                                
 
     Start 1D Reach  Final 1D Reach   Starting SA's      Final SA's
     **************  **************   *************      **********
-             3.624           5.543                                
+             5.993           7.769                                
 
  
 
@@ -52,15 +52,15 @@ Ending Time:     05Jan2023 2400
                  ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
 
 Total Boundary Flux of Water In            482.2
-Total Boundary Flux of Water Out           480.3
+Total Boundary Flux of Water Out           480.5
 
-Starting Volume                            3.624
-Ending Volume                              5.543
+Starting Volume                            5.993
+Ending Volume                              7.769
 
 
                              Error   Percent Error
                              *****   *************
-                          0.001253        0.000258
+                          0.001350        0.000277
 
 
 

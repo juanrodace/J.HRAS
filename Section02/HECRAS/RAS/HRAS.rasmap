@@ -46,10 +46,10 @@
         <Surface On="True" />
       </Layer>
     </Layer>
-    <Layer Name="Geometria2" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\HRAS.g02.hdf">
-      <Layer Type="RASRiver" Checked="True" Expanded="True" />
+    <Layer Name="Geometria2" Type="RASGeometry" Expanded="True" Filename=".\HRAS.g02.hdf">
+      <Layer Type="RASRiver" Checked="True" />
       <Layer Type="RASJunction" Checked="True" />
-      <Layer Type="RASXS" Checked="True" Expanded="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
+      <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
         <LabelFeatures Checked="False" PercentPosition="0" rows="1" cols="1" r0c0="FID" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
@@ -103,8 +103,8 @@
           <Metadata BandIndex="0" SubDataset="" />
         </Layer>
       </Layer>
-      <Layer Type="RASGeometry" Filename=".\HRAS.p02.hdf">
-        <Layer Type="RASXS" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+      <Layer Type="RASGeometry" Checked="True" Filename=".\HRAS.p02.hdf">
+        <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
         <Layer Type="RASD2FlowArea">
           <DataColumnGroupVisibilities>
             <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
@@ -157,13 +157,13 @@
         <Symbology>
           <SurfaceFill Colors="-16711681,-16777077" Values="0,15" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
         </Symbology>
-        <MapParameters MapType="depth" ProfileIndex="36" ProfileName="02JAN2023 12:00:00" />
+        <MapParameters MapType="depth" ProfileIndex="92" ProfileName="04JAN2023 20:00:00" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
         <MapParameters MapType="velocity" ProfileIndex="35" ProfileName="02JAN2023 11:00:00" />
       </Layer>
       <Layer Name="WSE" Type="RASResultsMap">
-        <MapParameters MapType="elevation" ProfileIndex="2147483647" ProfileName="Max" />
+        <MapParameters MapType="elevation" ProfileIndex="95" ProfileName="04JAN2023 23:00:00" />
       </Layer>
     </Layer>
   </Results>
@@ -178,10 +178,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>1077663.63085183</MaxX>
-    <MinX>1076089.05426068</MinX>
-    <MaxY>1574348.21192804</MaxY>
-    <MinY>1573223.00621644</MinY>
+    <MaxX>1076430.81293933</MaxX>
+    <MinX>1076381.84293167</MinX>
+    <MaxY>1573719.41429074</MaxY>
+    <MinY>1573666.7898049</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
@@ -193,7 +193,7 @@
     <SpeedRelativeToZoom>False</SpeedRelativeToZoom>
   </VelocitySettings>
   <AnimationSettings>
-    <DelayTimer>0</DelayTimer>
+    <DelayTimer>413</DelayTimer>
   </AnimationSettings>
   <Units>SI Units</Units>
   <RenderMode>sloping</RenderMode>

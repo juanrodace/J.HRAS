@@ -130,7 +130,7 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.11 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.12 | Inclusión de conceptos, esquemas y gráficos.                      | [juanrodace](https://github.com/juanrodace) |  3.0  |
-| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  1.5  |
 
 ### Licencia, cláusulas y condiciones de uso
 

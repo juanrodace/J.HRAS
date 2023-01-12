@@ -36,7 +36,7 @@ Si se considera toda el agua de la Tierra, cerca del 97% se encuentra en los mar
 En el otro extremo, las leyes de continuidad prevalecientes indican que la severidad y la duración de la sequía también aumentarán. Es probable que este aumento de los riesgos tenga graves consecuencias regionales. Algunos estudios sugieren que las regiones húmedas se volverán aún más húmedas, mientras que las regiones secas se volverán cada vez más áridas.
 
 <div align="center">
-<img alt="J.HRAS" src="Graph/WaterEarth2.jpg" width="60%">
+<img alt="J.HRAS" src="Graph/WaterEarth.jpg" width="60%">
 </div>
 
 #### Gestión y planeación de los recursos hídricos
@@ -61,11 +61,11 @@ A la gestión integrada y planificación podemos agregarle el concepto de seguri
 
 Teniendo una mejor cosmovisión de la gestión y planificación de los recursos hídricos, voy a mencionar algunos de los aspectos relevantes a tener en cuenta:
 
-*Técnicos.
-** Evaluaciones hidrológicas.
-** Evaluaciones hidráulicas.
-** Estimación costo - beneficio.
-** Evaluaciones ambientales.
+* Técnicos.
+* Evaluaciones hidrológicas.
+* Evaluaciones hidráulicas.
+* Estimación costo - beneficio.
+* Evaluaciones ambientales.
 * Financiero y económico.
 * Institucional y de gobierno.
 * Modelos de impacto y evaluación de la planeación.
@@ -112,7 +112,7 @@ Programme (UNDP).2005.
 | 2022.10 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 | 2022.11 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  3.0  |
 | 2022.12 | Inclusión de conceptos y diagramas.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.5  |
 
 ### Licencia, cláusulas y condiciones de uso
 

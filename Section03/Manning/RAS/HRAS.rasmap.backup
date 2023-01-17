@@ -157,7 +157,7 @@
         <Symbology>
           <SurfaceFill Colors="-16711681,-16777077" Values="0,15" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
         </Symbology>
-        <MapParameters MapType="depth" ProfileIndex="92" ProfileName="04JAN2023 20:00:00" />
+        <MapParameters MapType="depth" ProfileIndex="54" ProfileName="03JAN2023 06:00:00" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
         <MapParameters MapType="velocity" ProfileIndex="35" ProfileName="02JAN2023 11:00:00" />
@@ -167,7 +167,7 @@
       </Layer>
     </Layer>
   </Results>
-  <MapLayers Checked="True" Expanded="True">
+  <MapLayers Expanded="True">
     <Layer Name="LandCover" Type="LandCoverLayer" Checked="True" Filename=".\Land Classification\LandCover.hdf" SelectedParameterForSurfaceFillLabel="ManningsN">
       <Symbology>
         <ColorByteMap Type="System.Int32" Alpha="128" Values="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17" Colors="-2864711,-1424689,-3374102,-12121311,-5384635,-4301524,-2452516,-16496523,-1273756,-4444647,-11092066,-8649868,-2660251,-9322011,-15490397,-11227964,-12384565" ValuesExcludeLegend="0" />
@@ -176,7 +176,7 @@
       <Layer Name="Classification Polygons" Type="LandCoverClassificationLayer" Filename=".\Land Classification\LandCover.hdf" />
     </Layer>
   </MapLayers>
-  <Terrains Expanded="True">
+  <Terrains Checked="True" Expanded="True">
     <Layer Name="Terrain" Type="TerrainLayer" Checked="True" Filename=".\Terrain\Terrain.hdf">
       <Symbology>
         <SurfaceFill Colors="-10039894,-256,-16744448,-23296,-7667712,-5952982,-8355712,-1286" Values="55.3671875,59.8846893112522,62.4470806553906,64.4449359777143,66.5843653625792,68.5224186406613,70.6900748343307,112.5078125" Stretched="True" AlphaTag="87" UseDatasetMinMax="False" RegenerateForScreen="True" />

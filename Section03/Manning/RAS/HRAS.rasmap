@@ -52,6 +52,16 @@
       <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
         <LabelFeatures Checked="False" PercentPosition="0" rows="1" cols="1" r0c0="FID" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
+      <Layer Type="RASD2FlowArea">
+        <DataColumnGroupVisibilities>
+          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
+        </DataColumnGroupVisibilities>
+      </Layer>
+      <Layer Type="MeshPerimeterLayer">
+        <DataColumnGroupVisibilities>
+          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
+        </DataColumnGroupVisibilities>
+      </Layer>
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
       <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
@@ -74,6 +84,9 @@
       <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Type="FinalNValueLayer" Checked="True">
+        <Symbology>
+          <SurfaceFill Colors="-16711681,-16728065,-16776961,-16744448,-256,-23296,-65536" Values="0.01,0.0416666666666666,0.0733333333333333,0.105,0.136666666666667,0.168333333333333,0.2" Stretched="True" AlphaTag="138" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
         <ResampleMethod>near</ResampleMethod>
         <Surface On="True" />
       </Layer>
@@ -89,12 +102,13 @@
         <ResampleMethod>near</ResampleMethod>
         <Surface On="True" />
       </Layer>
+      <Layer Name="Manning's n" Type="InterpretationOverrideGroupLayer" Checked="True" Expanded="True" />
     </Layer>
   </Geometries>
   <EventConditions Checked="True" Expanded="True">
     <Layer Name="UnsteadyFlow1" Type="RASEventConditions" Checked="True" Filename=".\HRAS.u01.hdf" />
   </EventConditions>
-  <Results Checked="True" Expanded="True">
+  <Results Expanded="True">
     <Layer Name="TR-10a" Type="RASResults" Checked="True" Expanded="True" Filename=".\HRAS.p02.hdf">
       <Layer Name="Event Conditions" Type="RASEventConditions" Filename=".\HRAS.p02.hdf">
         <Layer Name="Wind Layer" Type="ResultWindLayer" Filename=".\HRAS.p02.hdf">
@@ -186,10 +200,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>1077343.97263109</MaxX>
-    <MinX>1076471.8739323</MinX>
-    <MaxY>1574107.6840501</MaxY>
-    <MinY>1573423.01859059</MinY>
+    <MaxX>1082195.627</MaxX>
+    <MinX>1068987.627</MinX>
+    <MaxY>1579042.65811662</MaxY>
+    <MinY>1567471.21788338</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>

@@ -7,12 +7,12 @@ Keywords: `Hydraulics` `HEC-RAS` `LandCover` `Mannnig`
 </div>
 
 ### Alcance
-En esta clase se presentan las diferentes opciones de visualización de los resultados de un modelo unidimensional (1D) incluyendo las visualizaciones en tablas y visualizaciones gráficas. Igualmente, se presentan los errores, avisos (warnings) y notas (notes) comunes que pueden aparecer en el proceso de simulación.
+En esta clase se presenta el proceso recomendado para la definición del coeficiente de Manning en el modelo hidráulico a partir de un archivo de cobertura de suelo mediante el uso de RAS Mapper.
 
 ### Objetivos
 
-* Conocer las diferentes formas de visualización de resultados.
-* Conocer los posibles errores, avisos y notas comunes en el proceso de simulación.
+* Conocer el procedimiento para el cargue de mapas de cobertura de suelo.
+* Conocer el procedimiento para el ajuste y edición de la geometría a partir de la información de coeficientes Manning.
 
 ### Requerimientos
 
@@ -23,23 +23,37 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 
 #### Mapas de cobertura de suelo
 
+Como mencioné en la Sección 1, es común que en un proyecto que implique la modelación hidráulica de un sistema natural, se cuente con información adicional como la cobertura y uso del suelo.  Así mismo, muchos estudios de medio ambiente incluyen la restitución de la cobertura en la cuenca o región de estudio. 
+
+A partir de esta información de cobertura y uso de suelo, es posible asociar dicha información con valores **n** del coeficiente de Manning, teniendo en cuenta las recomendaciones mencionadas en la [Actividad 3](../../Section01/VariedFlow/Readme.md). 
+
+En la siguiente imagen se muestra la asociación realizada para el ejemplo del curso, en donde a diferentes características de cobertura del suelo, se asigna un valor **n**.
+
 <div align="center">
 <img alt="Manning" src="Screens/Screen1.png" width="60%">
 </div>
 
 #### Creación de mapa de coeficientes Manning
 
+1. En la herramienta HEC vaya a la herramienta RAS Mapper. Ahora realizamos la importación del archivo en formato vectorial con elementos geográficos dando clic en **Proyecto → Crear Nueva Capa RAS → Capa de cobertura de suelo** (Project → Create a New RAS Layer →  Land Cover Layer).
+
 <div align="center">
 <img alt="Manning" src="Screens/Screen2.png" width="60%">
 </div>
+
+2. En la ventana desplegada seleccione el icono <kbd>+</kbd> para aguregar el archivo. Luego seleccione la extensión del archivo como **"Geometries"** y posteriormente agregue el campo (clic en <kbd>Add Fiel...</kbd> ) de coeficientes Manning. 
 
 <div align="center">
 <img alt="Manning" src="Screens/Screen3.png" width="60%">
 </div>
 
+3. Revise los nombres de clasificación y la información del archivo de salida. Finalmente de clic en <kbd>Crate</kbd> y se iniciará el proceso.
+
 <div align="center">
 <img alt="Manning" src="Screens/Screen4.png" width="60%">
 </div>
+ 
+4. Una vez creada la capa podrá realizar la visualización y revisión de la información generada en el RAS Mapper.
 
 <div align="center">
 <img alt="Manning" src="Screens/Screen5.png" width="60%">
@@ -47,10 +61,14 @@ A continuación se describen los pasos sugeridos para el cargue de información 
 
 #### Ajuste de geometría y definición de coeficientes
 
+1. Para el ajuste de la geometría 1D, inicie la opción de edición dando clic en el botón <kbd>:pencil2:</kbd>. Posteriormente de clic derecho sobre las secciones transversales y seleccione **Actualizar secciones transversales → Valores de Manning** (Update Cross Sections → Manning's Values). Detenga la edición y guarde los cambios.
+
 <div align="center">
 <img alt="Manning" src="Screens/Screen6.png" width="60%">
 </div>
 
+2. Podrá visualizar y revisar el ajuste a la información desde la ventana de información geométrica con ayuda de la tabla de edición de valores de Manning (Tables → Edid Manning's n or k Values).
+ 
 <div align="center">
 <img alt="Manning" src="Screens/Screen7.png" width="60%">
 </div>

@@ -15,16 +15,18 @@ Reverse River Text= 0
 
 Type RM Length L Ch R = 1 ,1000    ,20,20,20
 BEGIN DESCRIPTION:
-Seccion aguas abajo
+Seccion aguas arriba
 END DESCRIPTION:
-Node Last Edited Time=Dec/15/2022 13:27:13
+Node Last Edited Time=Dec/15/2022 14:26:41
 #Sta/Elev= 8 
        0     7.5    1.01    6.98       5       7       7       5      11       5
       13       7      17       7      18     7.5
 #Mann= 3 ,0,0
        0    .022       0       5    .022       0      13    .022       0
+XS Deck Add Preissmann Slot
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=5.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -37,6 +39,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=5.05,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -49,6 +52,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.95,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -61,6 +65,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.85,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -73,6 +78,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.75,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -85,6 +91,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.65,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -97,6 +104,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.55,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -109,6 +117,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.45,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -121,6 +130,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.35,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -133,8 +143,34 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.25,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 3 ,810     ,,,
+BEGIN DESCRIPTION:
+Puente 1
+END DESCRIPTION:
+Node Last Edited Time=Jan/18/2023 15:43:13
+Bridge Culvert--1,0,-1,-1, 0 
+Deck Dist Width WeirC Skew NumUp NumDn MinLoCord MaxHiCord MaxSubmerge Is_Ogee
+5,10,1.4,0, 2, 2, , , 0.98, 0, 0,0,,
+       0      18
+     7.5     7.5
+     6.5     6.5
+       0      18
+     7.5     7.5
+     6.5     6.5
+Pier Skew, UpSta & Num, DnSta & Num=  ,9, 2 ,9, 2 , 0 , 0 , 0 ,,
+      .4      .4
+       4     6.5
+      .4      .4
+       4     6.5
+BR Coef=-1 , 1 , 0 ,, 0 ,,,0.8,-1,1.2,0,
+WSPro=,,,, 1 ,,,, 0 ,,,, 0 ,,,,-1 ,-1 ,-1 , 0 , 0 , 0 , 0 , 0 
+BC Design=7.5,6.5, 1 ,18, 0 ,,1,9,9,0,0.4
+BC Use User HTab Curves=0
+BC User HTab FreeFlow(D)= 0 
 
 Type RM Length L Ch R = 1 ,800.00* ,20,20,20
 Node Last Edited Time=Dec/10/2022 22:13:19
@@ -145,6 +181,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -157,6 +194,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=4.05,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -169,6 +207,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.95,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -181,6 +220,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.85,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -193,6 +233,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.75,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -205,6 +246,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.65,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -217,6 +259,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.55,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -229,6 +272,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.45,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -241,6 +285,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.35,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -253,8 +298,31 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.25,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 2 ,610     ,,,
+Node Last Edited Time=Jan/18/2023 15:59:24
+Bridge Culvert--1,0,-1,-1, 0 
+Deck Dist Width WeirC Skew NumUp NumDn MinLoCord MaxHiCord MaxSubmerge Is_Ogee
+,,1.4,0, 2, 2, , , 0.98, 0, 0,0,,
+       0      18
+       6       6
+       3       3
+       0      18
+       6       6
+       3       3
+BR Coef=-1 , 0 , 0 ,, 0 ,,,0.8,-1,,0,
+WSPro=,,,, 1 ,,,, 0 ,,,, 0 ,,,,-1 ,-1 ,-1 , 0 , 0 , 0 , 0 , 0 
+Multiple Barrel Culv=5,2,1.2,6,0.02,0.7,1,41,1,3.1,3, 2,Culvert #1  , 0 ,5
+       8       8      10      10
+BC Culvert Barrel=1,Pipe1,0
+BC Culvert Barrel=2,Pipe2,0
+Culvert Bottom n=0.02
+BC Design=6,3, 0 ,, 0 ,,,,,,
+BC Use User HTab Curves=0
+BC User HTab FreeFlow(D)= 0 
 
 Type RM Length L Ch R = 1 ,600.00* ,20,20,20
 Node Last Edited Time=Dec/10/2022 22:13:19
@@ -265,6 +333,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -277,6 +346,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=3.05,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -289,6 +359,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.95,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -301,6 +372,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.85,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -313,6 +385,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.75,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -325,6 +398,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.65,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -337,6 +411,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.55,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -349,6 +424,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.45,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -361,6 +437,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.35,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -373,6 +450,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.25,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -385,6 +463,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -397,6 +476,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2.05,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -409,6 +489,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.95,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -421,6 +502,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.85,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -433,6 +515,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.75,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -445,6 +528,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.65,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -457,6 +541,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.55,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -469,6 +554,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.45,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -481,6 +567,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.35,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -493,6 +580,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.25,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -505,6 +593,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -517,6 +606,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=1.05,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -529,6 +619,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.95,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -541,6 +632,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.85,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -553,6 +645,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.75,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -565,6 +658,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.65,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -577,6 +671,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.55,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -589,6 +684,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.45,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -601,6 +697,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.35,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -613,6 +710,7 @@ Node Last Edited Time=Dec/10/2022 22:13:19
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.25,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 
@@ -628,6 +726,7 @@ Node Last Edited Time=Dec/10/2022 17:38:20
        0    .022       0       5    .022       0      13    .022       0
 Bank Sta=5,13
 XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=0.15,0.12, 20 
 XS HTab Horizontal Distribution= 5 , 5 , 5 
 Exp/Cntr=0.3,0.1
 

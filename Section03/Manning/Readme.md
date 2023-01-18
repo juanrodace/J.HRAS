@@ -19,7 +19,7 @@ En esta clase se presenta el proceso recomendado para la definición del coefici
 * [**Sección 2. Modelación hidráulica básica**](../../Section02/Readme.md) 
 
 ### Coeficientes de Manning a partir de Coberturas de Suelo
-A continuación se describen los pasos sugeridos para el cargue de información de cobertura de suelo, creación de mapa de coeficientes Manning y ajustes de la geometría definiciendo coeficientes Manning.
+A continuación se describen los pasos sugeridos para el cargue de información de cobertura de suelo, creación de mapa de coeficientes Manning y ajustes de la geometría definiendo coeficientes Manning.
 
 #### Mapas de cobertura de suelo
 
@@ -35,13 +35,13 @@ En la siguiente imagen se muestra la asociación realizada para el ejemplo del c
 
 #### Creación de mapa de coeficientes Manning
 
-1. En la herramienta HEC vaya a la herramienta RAS Mapper. Ahora realizamos la importación del archivo en formato vectorial con elementos geográficos dando clic en **Proyecto → Crear Nueva Capa RAS → Capa de cobertura de suelo** (Project → Create a New RAS Layer →  Land Cover Layer).
+1. En la herramienta HEC vaya a la herramienta RAS Mapper. Ahora realizamos la importación del archivo en formato vectorial con elementos geográficos dando clic en **Proyecto → Crear Nueva Capa RAS → Capa de cobertura de suelo** (Project → Create a New RAS Layer → Land Cover Layer).
 
 <div align="center">
 <img alt="Manning" src="Screens/Screen2.png" width="60%">
 </div>
 
-2. En la ventana desplegada seleccione el icono <kbd>+</kbd> para aguregar el archivo. Luego seleccione la extensión del archivo como **"Geometries"** y posteriormente agregue el campo (clic en <kbd>Add Fiel...</kbd> ) de coeficientes Manning. 
+2. En la ventana desplegada seleccione el icono <kbd>+</kbd> para agregar el archivo. Luego seleccione la extensión del archivo como **"Geometries"** y posteriormente agregue el campo (clic en <kbd>Add Fiel...</kbd> ) de coeficientes Manning. 
 
 <div align="center">
 <img alt="Manning" src="Screens/Screen3.png" width="60%">
@@ -67,7 +67,7 @@ En la siguiente imagen se muestra la asociación realizada para el ejemplo del c
 <img alt="Manning" src="Screens/Screen6.png" width="60%">
 </div>
 
-2. Podrá visualizar y revisar el ajuste a la información desde la ventana de información geométrica con ayuda de la tabla de edición de valores de Manning (Tables → Edid Manning's n or k Values).
+2. Podrá visualizar y revisar el ajuste a la información desde la ventana de información geométrica con ayuda de la tabla de edición de valores de Manning (Tables → Manning's n or k Values).
  
 <div align="center">
 <img alt="Manning" src="Screens/Screen7.png" width="60%">
@@ -90,7 +90,7 @@ En la siguiente imagen se muestra la asociación realizada para el ejemplo del c
 ### Licencia, cláusulas y condiciones de uso
 
 | [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Confluence/Readme.md) |
-|-----------------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|--------------------------------------------|
+|------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

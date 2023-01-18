@@ -46,7 +46,7 @@ A continuación se describen los pasos sugeridos para la definición de uniones 
 <img alt="Confluence" src="Screens/Screen4.png" width="60%">
 </div>
 
-5. Finalmente, podrá visualizar el nuevo tramo, sus secciones y las unión creada.
+5. Finalmente, podrá visualizar el nuevo tramo, sus secciones y la unión creada.
 
 <div align="center">
 <img alt="Confluence" src="Screens/Screen5.png" width="60%">

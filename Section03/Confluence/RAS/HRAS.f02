@@ -1,0 +1,54 @@
+Flow Title=SteadyFlow2
+Program Version=6.31
+BEGIN FILE DESCRIPTION:
+Datos flujo permanente con confluencia
+END FILE DESCRIPTION:
+Number of Profiles= 3 
+Profile Names=PF 1,PF 2,PF 3
+River Rch & RM=Canal1,Tramo1          ,1000    
+      10      25      50
+River Rch & RM=Canal1,Tramo2          ,640.00* 
+      12      30      60
+River Rch & RM=Canal2,Afluente1       ,300     
+       2       5      10
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 1 
+Up Type= 2 
+Dn Type= 0 
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 2 
+Up Type= 2 
+Dn Type= 0 
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 3 
+Up Type= 2 
+Dn Type= 0 
+Boundary for River Rch & Prof#=Canal1,Tramo2          , 1 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.005
+Boundary for River Rch & Prof#=Canal1,Tramo2          , 2 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.005
+Boundary for River Rch & Prof#=Canal1,Tramo2          , 3 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.005
+Boundary for River Rch & Prof#=Canal2,Afluente1       , 1 
+Up Type= 3 
+Up Slope=0.00167
+Dn Type= 0 
+Boundary for River Rch & Prof#=Canal2,Afluente1       , 2 
+Up Type= 3 
+Up Slope=0.00167
+Dn Type= 0 
+Boundary for River Rch & Prof#=Canal2,Afluente1       , 3 
+Up Type= 3 
+Up Slope=0.00167
+Dn Type= 0 
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 

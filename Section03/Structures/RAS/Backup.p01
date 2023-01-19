@@ -1,10 +1,10 @@
-Plan Title=
+Plan Title=SteadyFlow2
 Program Version=6.31
-Short Identifier=TR-10a                                                          
+Short Identifier=SF02                                                            
 Simulation Date=01JAN2023,00:00,06JAN2023,00:00
-Geom File=g02
-Flow File=u01
-Subcritical Flow
+Geom File=g01
+Flow File=f01
+Mixed Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
 Critical Tol= 0.003 

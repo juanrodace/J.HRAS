@@ -4,7 +4,7 @@ Short Identifier=SF02
 Simulation Date=01JAN2023,00:00,06JAN2023,00:00
 Geom File=g01
 Flow File=f01
-Subcritical Flow
+Mixed Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
 Critical Tol= 0.003 

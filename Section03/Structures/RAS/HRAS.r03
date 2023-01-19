@@ -1,14 +1,14 @@
 HEC-RAS 6.3.1 September 2022
 Section - Arrays Sizes
 SF02                                                            
-       1       1       0     177     536       F
+       1       1       0     180     546       F
        3       1       0       0
-      53      65       2       2       1       1       2       0
-       0       0       0       F       F       0       0       0       0       0       0       0
+      55      72       2       3       1       2       4       0
+       0       1       0       F       F       1       0       0       0       0       0       0
        0       0       F       T       0       0       0       F       0       0       F
        0
        0       0
-       1       1       0       F       T       F       0      53      30       F       F       F       0
+       1       1       0       F       T       T       0      55      30       F       F       F       0
        3
        0     .01       F   .0098      20   .3281   .0098       F       5       T       F
 Section - Expansion and Contraction Coefficients
@@ -26,10 +26,10 @@ Section - Flow and Seasonal Roughness Flag (plan)
        F       F
 Section - Junction Information
 Section - Reach Boundaries
-       T       T       1      53        Canal1                 F       F
-       0       0        
-       0       0        
-       0       0        
+       T       T       1      55        Canal1                 F       F
+       2       0        
+       2       0        
+       2       0        
        3       0    .005
        3       0    .005
        3       0    .005
@@ -170,7 +170,7 @@ Section - XS Manning's/Roughness Data
                                        F       F  16.404  42.651       F       F      .1      .3                
        0       0       F
        0       F
-       F    2.54     .98       F                       F       F       T       F
+       F    2.54     .98       T  24.606               F       F       T       F
        T       0  21.325      .8               T   .0098    .001      20
        T       F       F       T       T       1
   16.405  32.808  16.404       T       F       T
@@ -419,6 +419,15 @@ Section - XS Manning's/Roughness Data
                                        F       F  16.404  42.651       F       F      .1      .3                
        0       0       F
        0       F
+NODE   6Tramo1          490                                    0                
+       F    1.99     .98       F                       F       T       F       F
+    1.99       8       T       3  32.808       F       0       F     .02       F       F       F       F                    1.64               F       F       0
+       F       0       F       0       F       F       F       0       0       T       4       0       F
+      28 -32.808      30  32.808      31  98.425      32 164.042
+       0   17.06   3.281   17.06   3.281  14.764  32.808  14.436  98.425  14.108
+ 127.953  13.944 127.953   16.24 131.234   16.24
+ 3.4E+38 3.4E+38 3.4E+38
+Section - Gate Data
 NODE   1Tramo1          480.00*   65.617  65.617  65.617       0                           1.044           1.328
        1       F
        8
@@ -677,6 +686,34 @@ NODE   1Tramo1          20.00*    65.617  65.617  65.617       0                
        8
        0    8.53   3.281    6.89  16.404    6.89  22.966    .328  36.089    .328
   42.651    6.89  55.774    6.89  59.055    8.53
+Section - XS Manning's/Roughness Data
+       3       F       F       0
+       0    .022  16.404    .022  42.651    .022
+                                       F       F  16.404  42.651       F       F      .1      .3                
+       0       0       F
+       0       F
+NODE   5Tramo1          10                                     0                
+       T    3.95     .98       F            .984       F       F       F       F
+       T       1  16.404  16.404  32.809       F       0       F       F       T       F       F
+Section - Gate Data
+Gate #1            2.297   4.921    6.89      .8       F       2       F
+Section - Hydraulic Gate Computation Data
+              .6       0       1      .5    3.02               F       F       F
+       F       F       F       1        
+Section - Gate Opening Data
+       0       0       2    .984       2   2.297
+Section - Gate Centerline Data
+       2
+   9.843  49.213
+Inline Structure Culverts
+       1       F       F
+       1       2Culvert #1             F       0       0       F    .013
+       1       2      20       0
+    .013      .2       1   1.969   1.969  16.404    .328    .328   .0098    .001  16.404
+  26.247  26.247  32.808  32.808
+       1       F
+       2
+       0   9.843  59.055   9.843
 Section - XS Manning's/Roughness Data
        3       F       F       0
        0    .022  16.404    .022  42.651    .022

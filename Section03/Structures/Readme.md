@@ -25,7 +25,7 @@ A continuación se describen los pasos sugeridos para la definición y simulaci�
 
 #### Estructuras transversales. Puentes y alcantarillas.
 
-1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Bridge_Icon.png" width="2%">. Se desplegará la ventana de creación y edición de estructuras transversales de puentes y alcantarillas. Allí se debe ir al menú **Opciones → Agregar puente y/o alcantarilla** (Options → Add a bridge and/or culvert). 
+1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Bridge_Icon.png" width="4%">. Se desplegará la ventana de creación y edición de estructuras transversales de puentes y alcantarillas. Allí se debe ir al menú **Opciones → Agregar puente y/o alcantarilla** (Options → Add a bridge and/or culvert). 
 
 A continuación, ingrese el número de la estación en la cual desea crear la estructura. En la ventana de edición e información aparecerán las secciones aguas arriba y aguas abajo de la estructura.
 
@@ -74,7 +74,7 @@ Igualmente, para el caso de los puentes, al dar clic en el botón <kbd>**Pier**<
 
 #### Estructuras en el canal. Presas, vertederos, compuertas, orificios y alcantarillas.
 
-1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Inline_Icon.png" width="2%">. Se desplegará la ventana de creación y edición de estructuras en linea o sobre el canal. Allí debe ir al menú **Opciones → Agregar estructura en el canal** (Options → Add a inline structure). 
+1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Inline_Icon.png" width="4%">. Se desplegará la ventana de creación y edición de estructuras en línea o sobre el canal. Allí debe ir al menú **Opciones → Agregar estructura en el canal** (Options → Add a inline structure). 
 
 A continuación, ingrese el número de la estación en la cual desea crear la estructura. En la ventana de edición e información aparecerán la sección aguas arriba de la estructura.
 
@@ -94,7 +94,11 @@ A continuación, ingrese el número de la estación en la cual desea crear la es
 <img alt="Structures" src="Screens/Screen11.png" width="60%">
 </div>
 
->**Nota:** Es importante tener en cuenta que al definir compuertas dentro de la estructura en el canal, se deben definir condiciones hidráulicas y de frontera en la vventana de información del flujo (permanente o no permanente).
+>**Nota:** Es importante tener en cuenta que al definir compuertas dentro de la estructura en el canal, se deben definir condiciones hidráulicas y de frontera en la ventana de información del flujo (permanente o no permanente) como se muestra a continuación.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen17.png" width="100%">
+</div>
 
 4. Si la estructura tiene alcantarillas o tuberías, se podrán definir dando clic al botón <kbd>**Gate**</kbd>, donde se desplegará la ventana de edición para ingresar la información de la(s) alcantarillas(s), igual que en la definición de puentes o pasos de vía. En esta ventana se podrá definir:tipo, forma y material de la alcantarilla, geometría y dimensiones, distancia aguas arriba, longitud total, coeficientes de pérdida, coeficiente 'n' de Manning, cantidad y ubicación.  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
 
@@ -104,4 +108,74 @@ A continuación, ingrese el número de la estación en la cual desea crear la es
 
 #### Estructuras laterales. Vertederos, compuertas, orificios y alcantarillas.
 
-1. 
+1.  Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Lateral_Icon.png" width="4%">. Se desplegará la ventana de creación y edición de estructuras laterales. Allí debe ir al menú **Opciones → Agregar estructura lateral** (Options → Add a lateral structure). 
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen13.png" width="60%">
+</div>
+
+A continuación, ingrese el número de la estación en la cual desea crear la estructura. En la ventana de edición e información podrá agregar una descripción, definir la posición de la estructura y definir el tipo de conexión.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen14.png" width="60%">
+</div>
+
+2. Para definir la geometría de la presa o vertedero lateral, de clic en el botón <kbd>**Weir/Embankment**</kbd>. Se desplegará una ventana en la que puede definir dimensiones y características de la estructura como son: ancho, método y ecuaciones de cálculo, forma de la cresta, distancia a la sección aguas arriba y geometría (estación, elevación).  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura definida.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen15.png" width="60%">
+</div>
+
+En la ventana de edición geométrica, también podrá visualizar la estructura en planta.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen16.png" width="60%">
+</div>
+
+3. Si la estructura tiene compuertas, se podrán definir dando clic al botón <kbd>**Gate**</kbd>, donde se desplegará la ventana de edición para ingresar la información de la(s) compuerta(s). En esta ventana se podrá definir: tipo y forma, datos de flujo, coeficientes, geometría, cantidad y ubicación. Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen16A.png" width="50%">
+</div>
+
+>**Nota:** Es importante tener en cuenta que al definir compuertas dentro de la estructura en el canal, se deben definir condiciones hidráulicas y de frontera en la ventana de información del flujo (permanente o no permanente) como se muestra a continuación.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen17.png" width="100%">
+</div>
+
+4. Si la estructura tiene alcantarillas o tuberías, se podrán definir dando clic al botón <kbd>**Gate**</kbd>, donde se desplegará la ventana de edición para ingresar la información de la(s) alcantarillas(s), igual que en la definición de puentes o pasos de vía. En esta ventana se podrá definir:tipo, forma y material de la alcantarilla, geometría y dimensiones, distancia aguas arriba, longitud total, coeficientes de pérdida, coeficiente 'n' de Manning, cantidad y ubicación.  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen16B.png" width="50%">
+</div>
+
+5. Luego de crear la(s) estructura(s), puede realizar la simulación (de flujo permanente o no permanente) y posteriormente visualizar los resultados.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen18.png" width="60%">
+<img alt="Structures" src="Screens/Screen19.png" width="60%">
+<img alt="Structures" src="Screens/Screen20.png" width="60%">
+</div>
+
+### Referencias
+- [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
+- [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
+- [HEC-RAS Documentation. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs)
+    
+### Control de versiones
+
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2023.01 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  3.5  |
+| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+
+### Licencia, cláusulas y condiciones de uso
+
+| [:arrow_backward:Anterior](../Levees/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Scour/Readme.md) |
+|-------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
+
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._

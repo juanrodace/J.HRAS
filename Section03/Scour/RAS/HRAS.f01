@@ -1,0 +1,31 @@
+Flow Title=SteadyFlow1
+Program Version=6.31
+BEGIN FILE DESCRIPTION:
+Información flujo permanente canal trapzoidal.
+END FILE DESCRIPTION:
+Number of Profiles= 3 
+Profile Names=PF 1,PF 2,PF 3
+River Rch & RM=Canal1,Tramo1          ,1000    
+      10      25      50
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 1 
+Up Type= 2 
+Dn Type= 3 
+Dn Slope=0.005
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 2 
+Up Type= 2 
+Dn Type= 3 
+Dn Slope=0.005
+Boundary for River Rch & Prof#=Canal1,Tramo1          , 3 
+Up Type= 2 
+Dn Type= 3 
+Dn Slope=0.005
+Gate Openings=Canal1          ,Tramo1          ,10      ,Gate #1                         ,
+       0       0      .3       2      .7       2
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 

@@ -93,7 +93,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | [Confluencias y separaciones.](Section03/Confluence) | En esta clase se presenta el proceso recomendado para la definición geométrica donde dos o más tramos se unen o separan.                                                                           |
 | [Diques.](Section03/Levees)                          | En esta clase se presenta el uso y aplicación de diques en la simulación hidráulica.                                                                                                               |
 | [Estructuras.](Section03/Structures)                 | En esta clase se presentan la inclusión de diferentes estructuras en el sistema hidráulico a modelar como puentes, pontones, alcantarillas, presas, vertederos, entre otros.                       |
-| [Socavación.](Section03/Scour)                       | En esta clase se presentan la opción de simulación y cálculo de la socavación en el sistema hidráulico.                                                                                            |
+| [Socavación.](Section03/Scour)                       | En esta clase se presentan la opción de simulación y cálculo de la socavación local en puentes del sistema hidráulico.                                                                             |
 
 ##
 

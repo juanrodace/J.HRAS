@@ -34,7 +34,7 @@ A continuación se describen los pasos sugeridos para la definición de caracter
 <img alt="Scour" src="Screens/Screen2.png" width="50%">
 </div>
 
-3. Verifique y/o seleccione la opcion **Socavación de puente (Bridge Scour)** en el menu *Tipo (Type).
+3. Verifique y/o seleccione la opción **Socavación de puente (Bridge Scour)** en el menu *Tipo (Type).
 
 <div align="center">
 <img alt="Scour" src="Screens/Screen1A.png" width="50%">

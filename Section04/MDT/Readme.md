@@ -6,7 +6,7 @@ Keywords: `Hydraulics` `HEC-RAS` `2D` `Modeling` `MDT` `Terrein`
 </div>
 
 ### Alcance
-En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS mapper y creación del modelo de terreno.
+En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS Mapper y creación del modelo de terreno.
 
 ### Objetivos
 
@@ -22,4 +22,8 @@ En esta clase se presenta el proceso recomendado la creación del proyecto, conf
 
 ### Creación de proyecto y configuración de RAS-Mapper
 
+A continuación e presenta el proceso recomendado para la la creación del proyecto y configuración del RAS Mapper.
+
 ### Creación y procesamiento del modelo de terreno
+
+A continuación e presenta el proceso recomendado para la la creación del proyecto y configuración del RAS Mapper.

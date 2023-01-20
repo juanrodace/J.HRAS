@@ -5,7 +5,7 @@
 </div>
 
 ## Modelación Hidráulica con Opciones Avanzadas
-En esta sección se presenta las principales funciones del software HEC-RAS para la modelación unidimensional de canales naturales y artificiales en condición de flujo permanente y no permanente. Esto incluye la geometría, las condiciones de flujo y condiciones de frontera, las opciones de simulación y la revisión de resultados.
+En esta sección se presenta algunas de las opciones o características avanzadas o adicionales con las que cuenta el software HEC-RAS para la modelación hidráulica de sistemas a superficie libre y estructuras.
 
 ##
 

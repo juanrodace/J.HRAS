@@ -25,38 +25,83 @@ A continuación se describen los pasos sugeridos para la definición y simulaci�
 
 #### Estructuras transversales. Puentes y alcantarillas.
 
-1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Bridge_Icon.png" width="5%">
+1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Bridge_Icon.png" width="2%">. Se desplegará la ventana de creación y edición de estructuras transversales de puentes y alcantarillas. Allí se debe ir al menú **Opciones → Agregar puente y/o alcantarilla** (Options → Add a bridge and/or culvert). 
 
+A continuación, ingrese el número de la estación en la cual desea crear la estructura. En la ventana de edición e información aparecerán las secciones aguas arriba y aguas abajo de la estructura.
 
 <div align="center">
 <img alt="Structures" src="Screens/Screen1.png" width="60%">
 </div>
 
+2. Para definir la geometría del puente o alcantarilla de clic en el botón <kbd>**Deck/Roadway**</kbd>. Se desplegará una ventana en la que puede definir dimensiones y características del puente o paso de vía como son: distancia a la sección transversal, ancho de la estructura, coeficiente de vertido, geometría (estación y alturas), taludes aguas arriba y aguas abajo e información en caso de que la estructura trabaje como vertedero.
+
+Igualmente, para el caso de los puentes, al dar clic en el botón <kbd>**Pier**</kbd> o *"Pila"*, se abrirá la ventana para definir, si es el caso, la información de las pilas del puente. Acá podrá definir la geometría, ubicación y cantidad de pilas del puente. Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta. 
+
 <div align="center">
 <img alt="Structures" src="Screens/Screen2.png" width="60%">
 </div>
+
+3. A continuación, podemos ingresar los datos de cálculo de la estructura, dando clic en el botón <kbd>**Bridge Modeling Approach**</kbd>. Se desplegará una ventana en la cual podrá definir los métodos de cálculo de la estructura tanto por encima como por debajo de esta (High Flow y Low Flow respectivamente).
 
 <div align="center">
 <img alt="Structures" src="Screens/Screen3.png" width="40%">
 </div>
 
+4. Una vez finalizada la definición, en el editor de geometría podrá observar la estructura creada en planta. 
+
 <div align="center">
 <img alt="Structures" src="Screens/Screen4.png" width="60%">
 </div>
 
+5. Para el caso de la alcantarilla, primero se debe definir la geometría general de estructura o cubierta del paso de vía mediante el botón <kbd>**Deck/Roadway**</kbd>, como se indicó en el paso 2. Posteriormente dando clic al botón <kbd>**Culvert**</kbd>, se desplegará la ventana de edición para ingresar la información de la(s) alcantarilla(s). En esta ventana se podrá definir: tipo, forma y material de la alcantarilla, geometría y dimensiones, distancia aguas arriba, longitud total, coeficientes de pérdida, coeficiente 'n' de Manning, cantidad y ubicación.  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
+ 
 <div align="center">
 <img alt="Structures" src="Screens/Screen5.png" width="60%">
 </div>
+
+6. Una vez más, al finalizar la definición, en el editor de geometría podrá observar la estructura creada en planta.
 
 <div align="center">
 <img alt="Structures" src="Screens/Screen6.png" width="60%">
 </div>
 
+7. Luego de crear la estructura, puede realizar la simulación (de flujo permanente o no permanente) y posteriormente visualizar los resultados.
+
 <div align="center">
 <img alt="Structures" src="Screens/Screen7.png" width="60%">
+<img alt="Structures" src="Screens/Screen8.png" width="60%">
 </div>
 
 #### Estructuras en el canal. Presas, vertederos, compuertas, orificios y alcantarillas.
 
+1. Para iniciar, en la ventana de edición geométrica seleccionamos el ícono <img alt="Structures" src="Graph/Inline_Icon.png" width="2%">. Se desplegará la ventana de creación y edición de estructuras en linea o sobre el canal. Allí debe ir al menú **Opciones → Agregar estructura en el canal** (Options → Add a inline structure). 
+
+A continuación, ingrese el número de la estación en la cual desea crear la estructura. En la ventana de edición e información aparecerán la sección aguas arriba de la estructura.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen9.png" width="60%">
+</div>
+
+2. Para definir la geometría de la presa o vertedero de clic en el botón <kbd>**Weir/Embankment**</kbd>. Se desplegará una ventana en la que puede definir dimensiones y características de la estructura como son: distancia a la sección transversal, ancho de la estructura, coeficiente de vertido, geometría (estación y alturas), taludes aguas arriba y aguas abajo e información de la forma y coeficientes del vertedero.  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen10.png" width="60%">
+</div>
+
+3. Si la estructura tiene compuertas, se podrán definir dando clic al botón <kbd>**Gate**</kbd>, donde se desplegará la ventana de edición para ingresar la información de la(s) compuerta(s). En esta ventana se podrá definir: tipo y forma, datos de flujo, coeficientes, geometría, cantidad y ubicación. Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen11.png" width="60%">
+</div>
+
+>**Nota:** Es importante tener en cuenta que al definir compuertas dentro de la estructura en el canal, se deben definir condiciones hidráulicas y de frontera en la vventana de información del flujo (permanente o no permanente).
+
+4. Si la estructura tiene alcantarillas o tuberías, se podrán definir dando clic al botón <kbd>**Gate**</kbd>, donde se desplegará la ventana de edición para ingresar la información de la(s) alcantarillas(s), igual que en la definición de puentes o pasos de vía. En esta ventana se podrá definir:tipo, forma y material de la alcantarilla, geometría y dimensiones, distancia aguas arriba, longitud total, coeficientes de pérdida, coeficiente 'n' de Manning, cantidad y ubicación.  Al dar clic en el botón <kbd>OK</kbd>, se podrá visualizar el esquema de la estructura en las secciones aguas arriba y aguas abajo de esta.
+
+<div align="center">
+<img alt="Structures" src="Screens/Screen12.png" width="60%">
+</div>
 
 #### Estructuras laterales. Vertederos, compuertas, orificios y alcantarillas.
+
+1. 

@@ -38,10 +38,10 @@ A continuación se presenta el proceso recomendado para la creación del proyect
 
 3. En esta misma ventana o a través de **Herramientas → Opciones** (Tools → Options), es posible configurar varias opciones del RAS Mapper, como se describe a continuación.
 
-- Modo de renderizado (Render mode): Podrá seleccionar el modo de renderizado entre inclinado (Sloping), horizontal (Horizontal) o híbrido (Hybrid). El primero es realizado a partir de la interpolación de las elevaciones de lámina de agua en cada lado de la celda y permite que la superficie se presente inclinada y continua. El segundo es presentado a partir de las elevaciones de lámina de agua obtenidas en cada celda.
-- Configuración general (Global Settings- General): Contiene simbología de las herramientas de visualización de los mapas y dígitos decimales para visualización de resultados al vuelo en pantalla.
-- Configuración de capas (Global Settings- RAS Layers): Contiene la simbología de visualización de diferentes capas que componen el modelo.
-- Herramientas de edición (Global Settings- Editing Tools): Contiene la simbología de las herramientas de edición y las tolerancias de aproximación para puntos y líneas cercanas.
+   - Modo de renderizado (Render mode): Podrá seleccionar el modo de renderizado entre inclinado (Sloping), horizontal (Horizontal) o híbrido (Hybrid). El primero es realizado a partir de la interpolación de las elevaciones de lámina de agua en cada lado de la celda y permite que la superficie se presente inclinada y continua. El segundo es presentado a partir de las elevaciones de lámina de agua obtenidas en cada celda.
+   - Configuración general (Global Settings- General): Contiene simbología de las herramientas de visualización de los mapas y dígitos decimales para visualización de resultados al vuelo en pantalla.
+   - Configuración de capas (Global Settings- RAS Layers): Contiene la simbología de visualización de diferentes capas que componen el modelo.
+   - Herramientas de edición (Global Settings- Editing Tools): Contiene la simbología de las herramientas de edición y las tolerancias de aproximación para puntos y líneas cercanas.
 
 <div align="center">
 <img alt="MDT" src="Screens/Screen3.png" width="50%">
@@ -51,15 +51,37 @@ A continuación se presenta el proceso recomendado para la creación del proyect
 
 A continuación se presenta el proceso recomendado para la creación y procesamiento del modelo de terreno.
 
-1. 
+1. En el RAS Mapper vamos al menú **Proyecto → Crear nuevo terreno RAS** (Project → Create New Ras Terrain).
 
+<div align="center">
+<img alt="MDT" src="Screens/Screen4.png" width="50%">
+</div>
 
+2. En la ventada desplegada **Nueva capa de terreno** (New Terrain Layer), podrá cargar la información en formato Raster (librería GDAL, tipo Raster Floating Point Format, y GRID). Allí puede cargar uno o varios archivos e incluso unir (merge) varios archivos raster en el nuevo modelo de terreno RAS. En la ventana podrá seleccionar el redondeo o precisión del nuevo archivo, la creación de puntadas (stitches) si se realiza una unión (merge), conversión o no de unidades y nombre del archivo a crear. El nuevo archivo será guardado por defecto en la carpeta **Terrain** en formato <kbd>.hdf</kbd>. 
 
+<div align="center">
+<img alt="MDT" src="Screens/Screen5.png" width="50%">
+</div>
 
+3. De clic en **Crear** <kbd>Create</kbd> y se abrirá una ventana con el proceso de creación.
 
+<div align="center">
+<img alt="MDT" src="Screens/Screen6.png" width="50%">
+</div>
 
+4. A continuación, podrá visualizar el terreno creado en el RAS Mapper. Así mismo podrá modificar las opciones de visualización.
 
+<div align="center">
+<img alt="MDT" src="Screens/Screen7.png" width="50%">
+</div>
 
+### Mapas e imágenes de dominio público
+
+Una característica adicional de RAS Mapper, es la inclusión de mapas e imágenes satelitales de fondo. Esta característica solo podrá ser utilizada sí al proyecto se le ha asignado sistema de proyección de coordenadas. Para agregar, de clic derecho en **Map Layers → AddWebImageryLayer** y escoja por ejemplo, la imagen satelital de Google y como método de muestreo, vecino más cercano (Near). Desde las propiedades de la imagen, establezca transparencia en aproximadamente 25%.
+
+<div align="center">
+<img alt="MDT" src="Screens/Screen8.png" width="50%">
+</div>
 
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)

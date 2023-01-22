@@ -48,3 +48,28 @@ A continuación se presenta el proceso recomendado para la delimitación geográ
 
 ### Creación y definición de la malla 2D
 
+Una malla o grilla computacional es creada a partir de la definición de un área de drenaje 2D. Cada celda de la malla está compuesta de las siguientes 3 propiedades.
+
+<div align="center">
+<img alt="Mesh" src="Graph/MeshParts.png" width="60%"><br>
+<sub><i>Tomado del Manual HEC-RAS 2D Modeling User Manual. Pag 3-5.</i></sub>
+</div>
+
+ * Centro de la celda (Cell Center): Corresponde al centro computacional de la celda y es el lugar específico donde la elevación de la lámina de agua es calculada. No necesariamente su localización se ubica en su centroide.
+ * Caras de la celda (Cell Faces): Corresponde a los límites específicos de cada celda, generalmente son líneas rectas, sin embargo, también pueden componerse de múltiples nodos, tal como ocurre con el perímetro de las áreas de drenaje 2D. Una celda podrá contener como máximo 8 caras.
+ * Puntos de Cara de Celda (Cell Face Points-FP): Corresponde a los puntos finales de cada lado de la celda. Estos puntos son utilizados para anclar o conectar un área 2D a un elemento 1D y para el reconocimiento de las celdas asociadas a las condiciones de frontera.
+
+A continuación se presenta el proceso recomendado para la creación y definición de la malla bidimensional de la modelación.
+
+1. Manteniendo el modo edición, de clic derecho a **Perímetros** (Perimeters) y luego clic en **Editar las propiedades del área 2D** (Edit 2D Area Properties). Para el perímetro creado, defina el espaciamiento de las celdas y de clic en <kbd>Generate Computation Points</kbd>. También puede asignar un valor por defecto para el coeficiente de rugosidad de Manning para las celdas que no estén asociadas a una capa de cobertura y revisar los valores por defecto de las tolerancias.
+
+<div align="center">
+<img alt="Mesh" src="Screens/Screen4.png" width="75%">
+<img alt="Mesh" src="Screens/Screen5.png" width="75%">
+</div>
+
+> Nota: Tenga en cuenta que dependiendo del tamaño de la celda, aumentará potencialmente el número de celdas y consecuentemente el costo computacional para resolver el modelo 2D.
+
+> **Forma de las celdas**: Generalmente, para Áreas de Flujo 2D irregulares, el mallado interno es realizado de forma regular estructurada y las celdas de borde de forma irregular, creando así una malla no estructurada compuesta. RAS Mapper ha sido diseñado para usar mallas compuestas No Estructuradas, sin embargo, dependiendo de la geometría del Área de Flujo 2D, puede trabajar también con mallas completamente estructuradas. Dando clic derecho a Perímetros (Perimeters) y luego clic a Propiedades de la Capa (Layer Properties), podrá activar en Features la casilla para generación de celdas compuestas hexagonales. ![Screen6.png](Screens/Screen6.png)
+
+2.

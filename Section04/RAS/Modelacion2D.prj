@@ -1,6 +1,7 @@
 Proj Title=Modelacion2D
 Default Exp/Contr=0.3,0.1
 SI Units
+Geom File=g01
 Y Axis Title=Elevation
 X Axis Title(PF)=Main Channel Distance
 X Axis Title(XS)=Station

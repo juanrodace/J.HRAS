@@ -2,7 +2,7 @@
 Keywords: `Hydraulics` `HEC-RAS` `2D` `Modeling` `MDT` `Terrein`
 
 <div align="center">
-<img alt="MDT" src="Graph/MDT.png" width="85%">
+<img alt="MDT" src="Graph/MDT.png" width="90%">
 </div>
 
 ### Alcance
@@ -101,8 +101,8 @@ Una característica adicional de RAS Mapper, es la inclusión de mapas e imágen
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Geometry/Readme.md) |
-|------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------|
+| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Mesh/Readme.md) |
+|------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
 

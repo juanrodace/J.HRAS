@@ -98,10 +98,10 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ### Sección 4. Modelación hidráulica bidimensional
 
-| Microcontenido                                                   | Detalle                                                                                                                                   | 
-|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| [Creación y procesamiento del Modelo de terreno.](Section04/MDT) | En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS mapper y creación del modelo de terreno. |
-
+| Microcontenido                                                      | Detalle                                                                                                                                            | 
+|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Creación y procesamiento del Modelo de terreno.](Section04/MDT)    | En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS mapper y creación del modelo de terreno.          |
+| [Definición de área de drenaje y malla del modelo.](Section04/Mesh) | En esta clase se presenta el proceso recomendado para la delimitación del área de drenaje y la creación de la malla del modelo bidimensional (2D). |
 ##
 
 _:beginner: Ayuda / Colabora: a través de la pestaña _[Discussions](https://github.com/juanrodace/J.HRAS/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios o noticias_](https://github.com/juanrodace/J.HRAS/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/juanrodace/J.HRAS/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/juanrodace/J.HRAS/discussions/categories/q-a) y realizar [_publicaciones o consultas generales_](https://github.com/juanrodace/J.HRAS/discussions/categories/general) públicas._

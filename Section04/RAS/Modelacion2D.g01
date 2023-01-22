@@ -1,0 +1,48 @@
+Geom Title=Geometria2D
+Program Version=6.31
+Viewing Rectangle= 1074433.13766062 , 1076822.94986215 , 1574212.29998436 , 1572860.1964344 
+
+Storage Area=Perimeter 1     ,,
+Storage Area Surface Line= 15 
+1076228.625816251573254.17079014                
+1075473.928615111573125.27448599                
+ 1074930.32246281572951.54468473                
+1074597.807359331572921.65568667                
+1074560.446111751573065.49648986                
+1074545.501612721573199.99698115                
+1074661.321480221573355.04615861                
+1074541.765487961573620.31101644                
+1074610.883795981573674.48482543                
+1075070.427141231573844.47850192                
+1075378.657433781573930.40937136                
+1076157.639445851574150.84073209                
+1076714.322034811573958.43030705                
+1076632.127290131573312.08072389                
+1076228.625816251573254.17079014                
+Storage Area Type= 1 
+Storage Area Area=
+Storage Area Min Elev=
+Storage Area Is2D=-1
+Storage Area Point Generation Data=,,100,100
+Storage Area 2D Points= 0 
+Storage Area 2D PointsPerimeterTime=21Jan2023 19:08:01
+Storage Area Mannings=0.06
+2D Cell Volume Filter Tolerance=0.003
+2D Cell Minimum Area Fraction=0.01
+2D Face Profile Filter Tolerance=0.003
+2D Face Area Elevation Profile Filter Tolerance=0.003
+2D Face Area Elevation Conveyance Ratio=0.02
+2D Face Area Laminar Depth=0.06
+2D Multiple Face Mann n=0
+
+LCMann Time=Dec/30/1899 00:00:00
+LCMann Region Time=Dec/30/1899 00:00:00
+LCMann Table=0
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5

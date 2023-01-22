@@ -52,7 +52,7 @@ Una malla o grilla computacional es creada a partir de la definición de un áre
 
 <div align="center">
 <img alt="Mesh" src="Graph/MeshParts.png" width="60%"><br>
-<sub><i>Tomado del Manual HEC-RAS 2D Modeling User Manual. Pag 3-5.</i></sub>
+<sub><i>Tomado del Manual HEC-RAS 2D Modeling User Manual. Pag 3-5.</i></sub><br>
 </div>
 
  * Centro de la celda (Cell Center): Corresponde al centro computacional de la celda y es el lugar específico donde la elevación de la lámina de agua es calculada. No necesariamente su localización se ubica en su centroide.
@@ -70,6 +70,31 @@ A continuación se presenta el proceso recomendado para la creación y definici�
 
 > Nota: Tenga en cuenta que dependiendo del tamaño de la celda, aumentará potencialmente el número de celdas y consecuentemente el costo computacional para resolver el modelo 2D.
 
-> **Forma de las celdas**: Generalmente, para Áreas de Flujo 2D irregulares, el mallado interno es realizado de forma regular estructurada y las celdas de borde de forma irregular, creando así una malla no estructurada compuesta. RAS Mapper ha sido diseñado para usar mallas compuestas No Estructuradas, sin embargo, dependiendo de la geometría del Área de Flujo 2D, puede trabajar también con mallas completamente estructuradas. Dando clic derecho a Perímetros (Perimeters) y luego clic a Propiedades de la Capa (Layer Properties), podrá activar en Features la casilla para generación de celdas compuestas hexagonales. ![Screen6.png](Screens/Screen6.png)
+> **Forma de las celdas**: Generalmente, para Áreas de Flujo 2D irregulares, el mallado interno es realizado de forma regular estructurada y las celdas de borde de forma irregular, creando así una malla no estructurada compuesta. RAS Mapper ha sido diseñado para usar mallas compuestas No Estructuradas, sin embargo, dependiendo de la geometría del Área de Flujo 2D, puede trabajar también con mallas completamente estructuradas. Dando clic derecho a Perímetros (Perimeters) y luego clic a Propiedades de la Capa (Layer Properties), podrá activar en Features la casilla para generación de celdas compuestas hexagonales. Deberá dar clic en <kbd>Generate Computation Points</kbd> en la ventana de edición para generar nuevamente el mallado. ![Screen6.png](Screens/Screen6.png) ![Screen7.png](Screens/Screen7.png)
 
-2.
+2. No olvide guardar los cambios de la geometría.
+
+### Referencias
+- [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
+- [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
+- [HEC-RAS Documentation. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs)
+- [HEC-RAS Mapper User's Manual](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest)
+- [HEC-RAS 2D User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/latest)
+- Herramientas computacionales para el diseño y modelación de cauces. r.cfdtools@gmail.com.  [(rcftools)](https://github.com/rcftools]).
+    
+### Control de versiones
+
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2023.01 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+
+### Licencia, cláusulas y condiciones de uso
+
+| [:arrow_backward:Anterior](../MDT/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Hydraulic/Readme.md) |
+|----------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------|
+
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._

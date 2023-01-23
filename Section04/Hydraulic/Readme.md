@@ -43,7 +43,7 @@ A continuación se presenta el proceso recomendado para el cálculo de diferente
 * Volume vs. Elevation: Presenta una gráfica y tabla con el cálculo del volumen almacenado desde el punto más bajo hasta el punto más alto de la celda a partir de las elevaciones del modelo de terreno.
 * Face - Profile: Perfil de terreno en la cara de la celda seleccionada.
 * Area vs. Elevation: Corresponde al área hidráulica en función de la elevación.
-* Manning vs. Elevation: Corresponde al coeficiente ed rugosidad de Manning (n) en función de la elevación. 
+* Manning vs. Elevation: Corresponde al coeficiente de rugosidad de Manning (n) en función de la elevación. 
 * Conveyance vs. Elevation: Corresponde a la capacidad de transporte en función del cambio de pendiente a partir de los diferentes valores de elevación presentes en la cara de la celda.
    
 <div align="center">
@@ -59,7 +59,7 @@ Para la modelación, por lo menos se debe ingresar una línea de condición de f
 
 A continuación se presenta el proceso recomendado para trazar las líneas para condiciones de frontera:
 
-1. En el modo edición de RAS Mapper, despliegue el arbol de **Geometries** y de **2D Flow Areas**. Luego seleccione las líneas de condiciones de frontera y con la barra de edición dibuje en planta las líneas BC aguas arriba y aguas abajo. Tenga en cuenta que la línea trazada debe estar localizada frente a las celdas de la zona del cauce. Se recomienda dibujar las líneas BC de izquierda a derecha tomando como referencia el sentido del flujo. Al finaliza, guarde los cambios de edición.
+1. En el modo edición de RAS Mapper, despliegue el arbol de **Geometries** y de **2D Flow Areas**. Luego seleccione las líneas de condiciones de frontera y con la barra de edición dibuje en planta las líneas BC aguas arriba y aguas abajo. Tenga en cuenta que la línea trazada debe estar localizada frente a las celdas de la zona del cauce. Se recomienda dibujar las líneas BC de izquierda a derecha tomando como referencia el sentido del flujo. Al finalizar, guarde los cambios de edición.
 
 <div align="center">
 <img alt="Property" src="Screens/Screen4.png" width="70%">

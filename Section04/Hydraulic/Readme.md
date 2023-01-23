@@ -2,7 +2,7 @@
 Keywords: `Hydraulics` `HEC-RAS` `2D` `Modeling` `Properties` `Cells` `Hydraulic`
 
 <div align="center">
-<img alt="Properties" src="Graph/Properties.png" width="85%">
+<img alt="Properties" src="Graph/Property.png" width="85%">
 </div>
 
 ### Alcance
@@ -59,4 +59,35 @@ Para la modelación, por lo menos se debe ingresar una línea de condición de f
 
 A continuación se presenta el proceso recomendado para trazar las líneas para condiciones de frontera:
 
-1. 
+1. En el modo edición de RAS Mapper, despliegue el arbol de **Geometries** y de **2D Flow Areas**. Luego seleccione las líneas de condiciones de frontera y con la barra de edición dibuje en planta las líneas BC aguas arriba y aguas abajo. Tenga en cuenta que la línea trazada debe estar localizada frente a las celdas de la zona del cauce. Se recomienda dibujar las líneas BC de izquierda a derecha tomando como referencia el sentido del flujo. Al finaliza, guarde los cambios de edición.
+
+<div align="center">
+<img alt="Property" src="Screens/Screen4.png" width="70%">
+<img alt="Property" src="Screens/Screen5.png" width="80%">
+</div>
+
+
+### Referencias
+- [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
+- [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
+- [HEC-RAS Documentation. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs)
+- [HEC-RAS Mapper User's Manual](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest)
+- [HEC-RAS 2D User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/latest)
+- Herramientas computacionales para el diseño y modelación de cauces. r.cfdtools@gmail.com.  [(rcftools)](https://github.com/rcftools]).
+    
+### Control de versiones
+
+| Versión | Descripción                                                       |                    Autor                    | Horas |
+|:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
+| 2023.01 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
+| 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+
+### Licencia, cláusulas y condiciones de uso
+
+| [:arrow_backward:Anterior](../Mesh/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Simulation2D/Readme.md) |
+|-----------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------|
+
+_J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [juanrodace](https://github.com/juanrodace) en GitHub._

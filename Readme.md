@@ -98,11 +98,12 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 
 ### Sección 4. Modelación hidráulica bidimensional
 
-| Microcontenido                                               | Detalle                                                                                                                                                         | 
-|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Modelo de terreno.](Section04/MDT)                          | En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS mapper y creación del modelo de terreno.                       |
-| [Área 2D y malla.](Section04/Mesh)                           | En esta clase se presenta el proceso recomendado para la delimitación del área de drenaje y la creación y definición de la malla del modelo bidimensional (2D). |
-| [Proiedades geométricas e hidráulicas.](Section04/Hydraulic) | En esta clase se presenta el proceso recomendado para el cálculo de las propiedades hidráulicas y geométricas en las celdas y caras de la malla.                |
+| Microcontenido                                               | Detalle                                                                                                                                                                        | 
+|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Modelo de terreno.](Section04/MDT)                          | En esta clase se presenta el proceso recomendado la creación del proyecto, configuración del RAS mapper y creación del modelo de terreno.                                      |
+| [Área 2D y malla.](Section04/Mesh)                           | En esta clase se presenta el proceso recomendado para la delimitación del área de drenaje y la creación y definición de la malla del modelo bidimensional (2D).                |
+| [Proiedades geométricas e hidráulicas.](Section04/Hydraulic) | En esta clase se presenta el proceso recomendado para el cálculo de las propiedades hidráulicas y geométricas en las celdas y caras de la malla.                               |
+| [Simulación 2D.](Section04/Simulation2D)                     | En esta clase se presenta el proceso recomendado para la definición de datos y condiciones de frontera y la simulación bidimensional (2D) en condición de flujo no permanente. |
 ##
 
 _:beginner: Ayuda / Colabora: a través de la pestaña _[Discussions](https://github.com/juanrodace/J.HRAS/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios o noticias_](https://github.com/juanrodace/J.HRAS/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/juanrodace/J.HRAS/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/juanrodace/J.HRAS/discussions/categories/q-a) y realizar [_publicaciones o consultas generales_](https://github.com/juanrodace/J.HRAS/discussions/categories/general) públicas._

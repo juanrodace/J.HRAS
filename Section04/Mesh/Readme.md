@@ -13,6 +13,8 @@ En esta clase se presenta el proceso recomendado para la delimitación del área
 * Crear el límite geográfico de la zona de estudio o modelación.
 * Definir el espaciamiento de la malla entre celdas.
 * Generar los puntos computacionales.
+* Crear las líneas o regiones para refinamiento de la malla.
+* Refinar la malla en RAS Mapper y corregir las celdas erradas.
 
 ### Requerimientos
 
@@ -74,6 +76,43 @@ A continuación se presenta el proceso recomendado para la creación y definici�
 
 2. No olvide guardar los cambios de la geometría.
 
+### Refinamiento de la malla 2D
+
+Después de crear la malla computacional, podrá agregar líneas o regiones para su refinamiento. Generalmente, el refinamiento con líneas de corte se utiliza en las zonas de corona de taludes en diques o bancas y a lo largo de las vías para definir los límites de flujo _(similar a los diques o levees en un modelo 1D a partir de secciones transversales)_ o para controlar su dirección.
+
+Las regiones de refinamiento funcionan similar a las líneas de corte y son mayormente utilizadas cuando las líneas de refinamiento se encuentran próximas o cuando se quiere cambiar el tamaño interno de las celdas y de su contorno en una región determinada, por ejemplo, en zonas de amortiguación, embalses, estructuras hidráulicas, a lo largo de todo el valle o en zonas con contornos curvos cerrados.
+
+A continuación se presenta el proceso recomendado para el refinamiento de la malla:
+
+1. En el modo edición, seleccione **Líneas corte** (Breaklines) o **Regiones de refinamiento (Refinement Regions)**, dependiendo de si usará líneas o regiones. Luego con la barra de edición trace las líneas o regiones de refinamiento. 
+
+<div align="center">
+<img alt="Mesh" src="Screens/Screen8.png" width="75%">
+<img alt="Mesh" src="Screens/Screen9.png" width="75%">
+</div>
+
+2. Ahora de clic derecho sobre las **Líneas corte** (Breaklines) o **Regiones de refinamiento (Refinement Regions)** y seleccione **Enforce All Breaklines** o **Enforce All Regions**, según sea el caso. En el mapa observará el ajuste realizado de la malla con las líneas o regiones. Guarde los cambios de la geometría.
+
+<div align="center">
+<img alt="Mesh" src="Screens/Screen10.png" width="75%">
+<img alt="Mesh" src="Screens/Screen11.png" width="75%">
+</div>
+
+3. Durante el refinamiento, algunas celdas se han resuelto geométricamente con un mayor número de caras que las 8 permitidas. Para la corrección, se deben separar estas celdas en 2 o más, agregando puntos computacionales (computation points) adicionales en el modo edición. Puede seguir este proceso: 
+   * Navegue por la malla cerca al área de refinamiento e identifique las celdas erradas (círculos rojos).
+   * Realice un acercamiento a la celda errada y revise el número de caras.
+   * En el modo edición (seleccionando los **Computation points**), agregue un nuevo punto dentro de la celda cerca a la zona con mayor número de caras.
+   * Guarde los cambios realizados.
+
+<div align="center">
+<img alt="Mesh" src="Screens/Screen12.png" width="75%">
+</div>
+
+
+> Las líneas o regiones para el refinamiento, también pueden ser importadas al RAS Mapper a partir de archivos geográficos vectoriales. En el modo edición (<kbd>:pencil2:</kbd>), de clic derecho sobre las **Líneas de corte (Breaklines)** y seleccione **Importar características (Import Features From Shapefile)**. ![Screen12A.png](Screens/Screen12A.png) En la ventana emergente, defina el espaciamiento y revise las propiedades del archivo a importar y de clic en <kbd>Import Features</kbd>. Observará el primer ajuste realizado sobre la malla y las líneas de corte (breaklines). Para el caso de las regiones, repita el mismo proceso, pero seleccionando **Regiones de refinamiento (Refinement Regions)**
+
+
+
 ### Referencias
 - [HEC-RAS User’s Manual. US Army Corps of Engineers.](https://www.hec.usace.army.mil/confluence/rasdocs/rasum/latest)
 - [HEC-RAS Hydraulic Reference Manual.2020](https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest)
@@ -87,7 +126,7 @@ A continuación se presenta el proceso recomendado para la creación y definici�
 | Versión | Descripción                                                       |                    Autor                    | Horas |
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.01 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
-| 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  2.0  |
+| 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  3.0  |
 | 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
 
 ### Licencia, cláusulas y condiciones de uso

@@ -4,10 +4,74 @@
   <Features>
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
   </Features>
-  <Geometries />
+  <Geometries Checked="True" Expanded="True">
+    <Layer Name="Geometria2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\Modelacion2D.g01.hdf">
+      <Layer Type="RASRiver">
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
+      </Layer>
+      <Layer Type="RASJunction">
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
+      </Layer>
+      <Layer Type="RASXS" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="River Station" Position="3" Color="-16777216" FontSize="8.25" />
+      </Layer>
+      <Layer Type="RASStorageArea">
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
+      </Layer>
+      <Layer Type="RASD2FlowArea" Checked="True" Expanded="True">
+        <DataColumnGroupVisibilities>
+          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
+        </DataColumnGroupVisibilities>
+      </Layer>
+      <Layer Type="MeshPerimeterLayer" Checked="True">
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
+        <DataColumnGroupVisibilities>
+          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
+        </DataColumnGroupVisibilities>
+      </Layer>
+      <Layer Type="MeshPointLayer" Checked="True" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+      <Layer Type="FinalNValueLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="TEMP N-Value Rasterizer" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+    </Layer>
+  </Geometries>
   <EventConditions />
   <Results />
-  <MapLayers>
+  <MapLayers Checked="True" Expanded="True">
     <Layer Name="Google Terrain" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Terrain.xml">
       <Symbology>
         <SurfaceFill Colors="-1,-16777216" Values="0,100" Stretched="True" AlphaTag="79" UseDatasetMinMax="False" RegenerateForScreen="True" />
@@ -20,21 +84,28 @@
       </Symbology>
       <ResampleMethod>near</ResampleMethod>
     </Layer>
+    <Layer Name="LandCover" Type="LandCoverLayer" Filename=".\Land Classification\LandCover.hdf" SelectedParameterForSurfaceFillLabel="ManningsN">
+      <Symbology>
+        <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="" />
+      </Symbology>
+      <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="" />
+      <Layer Name="Classification Polygons" Type="LandCoverClassificationLayer" Filename=".\Land Classification\LandCover.hdf" />
+    </Layer>
   </MapLayers>
   <Terrains Checked="True" Expanded="True">
     <Layer Name="Terrain" Type="TerrainLayer" Checked="True" Filename=".\Terrain\Terrain.hdf">
       <Symbology>
-        <SurfaceFill Colors="-10039894,-6365077,-3806668,-4333552,-7945472,-14117888,-11628544,-7302400,-3699712,-2461440,-5229568,-6481401,-6876142,-6479069,-6342600,-7186344,-7111813,-5725791,-3093043,-1286" Values="57.33,58.34,59.35,60.36,61.37,62.37,63.38,64.39,65.4,66.41,67.42,68.43,69.44,70.45,71.46,72.46,73.47,74.48,75.49,76.5" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        <SurfaceFill Colors="-2894893,-3947581,-5000269,-6118750,-7171438,-8224126,-9276814,-10395295,-11447983,-12500671,-13553359,-14671840,-15724528,-16777216" Values="0,7.69,15.38,23.08,30.77,38.46,46.15,53.85,61.54,69.23,76.92,84.62,92.31,100" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
       </Symbology>
       <ResampleMethod>near</ResampleMethod>
       <Surface On="True" />
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>1078259.46132931</MaxX>
-    <MinX>1075487.01823862</MinX>
-    <MaxY>1574323.74993582</MaxY>
-    <MinY>1573111.99563302</MinY>
+    <MaxX>1076757.10117611</MaxX>
+    <MinX>1074524.3373699</MinX>
+    <MaxY>1574136.83397293</MaxY>
+    <MinY>1572922.2296277</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
@@ -71,6 +142,7 @@
     <Folders>
       <TerrainDestinationFolder>.\Terrain</TerrainDestinationFolder>
       <TerrainSourceFolder>.\Terrain</TerrainSourceFolder>
+      <LandCoverDestinationFolder>.\Land Classification</LandCoverDestinationFolder>
     </Folders>
   </CurrentSettings>
 </RASMapper>

@@ -5,7 +5,7 @@
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
-    <Layer Name="Geometria2D" Type="RASGeometry" Checked="True" Filename=".\Modelacion2D.g01.hdf">
+    <Layer Name="Geometria2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\Modelacion2D.g01.hdf">
       <Layer Type="RASRiver">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -18,7 +18,7 @@
       <Layer Type="RASStorageArea">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
-      <Layer Type="RASD2FlowArea" Checked="True" Expanded="True">
+      <Layer Type="RASD2FlowArea" Checked="True">
         <DataColumnGroupVisibilities>
           <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
         </DataColumnGroupVisibilities>
@@ -72,7 +72,7 @@
   </Geometries>
   <EventConditions />
   <Results />
-  <MapLayers Checked="True" Expanded="True">
+  <MapLayers Checked="True">
     <Layer Name="Google Terrain" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Terrain.xml">
       <Symbology>
         <SurfaceFill Colors="-1,-16777216" Values="0,100" Stretched="True" AlphaTag="79" UseDatasetMinMax="False" RegenerateForScreen="True" />
@@ -87,9 +87,9 @@
     </Layer>
     <Layer Name="LandCover" Type="LandCoverLayer" Filename=".\Land Classification\LandCover.hdf" SelectedParameterForSurfaceFillLabel="ManningsN">
       <Symbology>
-        <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="" />
+        <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="0" />
       </Symbology>
-      <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="" />
+      <ColorByteMap Type="System.Int32" Alpha="64" Values="1,2,3,4,5,6,7,8,9,10,11" Colors="-10928339,-7314392,-8280713,-15580728,-14488072,-5551632,-4088951,-10062800,-9094075,-6286156,-2455924" ValuesExcludeLegend="0" />
       <Layer Name="Classification Polygons" Type="LandCoverClassificationLayer" Filename=".\Land Classification\LandCover.hdf" />
     </Layer>
   </MapLayers>

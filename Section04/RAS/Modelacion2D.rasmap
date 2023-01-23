@@ -70,7 +70,9 @@
       </Layer>
     </Layer>
   </Geometries>
-  <EventConditions />
+  <EventConditions>
+    <Layer Name="UnsteadyFlow1" Type="RASEventConditions" Filename=".\Modelacion2D.u01.hdf" />
+  </EventConditions>
   <Results />
   <MapLayers Checked="True">
     <Layer Name="Google Terrain" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Terrain.xml">
@@ -96,17 +98,17 @@
   <Terrains Checked="True" Expanded="True">
     <Layer Name="Terrain" Type="TerrainLayer" Checked="True" Filename=".\Terrain\Terrain.hdf">
       <Symbology>
-        <SurfaceFill Colors="-2894893,-3947581,-5000269,-6118750,-7171438,-8224126,-9276814,-10395295,-11447983,-12500671,-13553359,-14671840,-15724528,-16777216" Values="0,7.69,15.38,23.08,30.77,38.46,46.15,53.85,61.54,69.23,76.92,84.62,92.31,100" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        <SurfaceFill Colors="-1286,-4474696,-8160903,-6862005,-6216668,-7140083,-5888512,-1802496,-5137920,-14187008,-10309376,-1313536,-4659122,-10039894" Values="0,7.69,15.38,23.08,30.77,38.46,46.15,53.85,61.54,69.23,76.92,84.62,92.31,100" Stretched="True" AlphaTag="115" UseDatasetMinMax="False" RegenerateForScreen="True" />
       </Symbology>
       <ResampleMethod>near</ResampleMethod>
       <Surface On="True" />
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>1076705.01385897</MaxX>
-    <MinX>1076613.58464422</MinX>
-    <MaxY>1573714.45957535</MaxY>
-    <MinY>1573473.41891828</MinY>
+    <MaxX>1078893.627</MaxX>
+    <MinX>1072289.627</MinX>
+    <MaxY>1575986.938</MaxY>
+    <MinY>1570526.938</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>

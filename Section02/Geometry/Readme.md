@@ -177,7 +177,7 @@ La herramienta dispone de una gran variedad de opciones para la edición de la g
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2022.11 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2022.12 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  4.0  |
-| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+| 2022.12 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
 ### Licencia, cláusulas y condiciones de uso
 

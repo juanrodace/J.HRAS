@@ -81,7 +81,7 @@ A continuación se presenta el proceso recomendado para trazar las líneas para 
 |:-------:|-------------------------------------------------------------------|:-------------------------------------------:|:-----:|
 | 2023.01 | Versión inicial con definición de estructura general y contenido. | [juanrodace](https://github.com/juanrodace) |  1.0  |
 | 2023.01 | Inclusión de conceptos, procedimientos, esquemas y gráficos.      | [juanrodace](https://github.com/juanrodace) |  2.0  |
-| 2023.01 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |       |
+| 2023.02 | Desarrollo de contenido multimedia.                               | [juanrodace](https://github.com/juanrodace) |  1.5  |
 
 ### Licencia, cláusulas y condiciones de uso
 

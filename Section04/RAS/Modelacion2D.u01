@@ -5,8 +5,6 @@ Información flujo no permanente 2D
 END FILE DESCRIPTION:
 Use Restart= 0 
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCUpstream1                     ,                                
-Friction Slope=0.0015,-1
-Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCDownstream1                   ,                                
 Interval=1MIN
 Flow Hydrograph= 7201 
     1.84    1.84    1.84    1.84    1.84    1.84    1.84    1.84    1.84    1.84
@@ -734,10 +732,12 @@ Stage Hydrograph TW Check=0
 Flow Hydrograph Slope= 0.0014 
 DSS Path=
 Use DSS=False
-Use Fixed Start Time=True
-Fixed Start Date/Time=01jan2023,00:00
+Use Fixed Start Time=False
+Fixed Start Date/Time=,
 Is Critical Boundary=False
 Critical Boundary Flow=
+Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCDownstream1                   ,                                
+Friction Slope=0.0015,0
 Met Point Raster Parameters=,,,,
 Precipitation Mode=Disable
 Wind Mode=No Wind Forces
@@ -778,17 +778,17 @@ Met BC=Air Pressure|Constant Value=1013.2
 Met BC=Air Pressure|Constant Units=mb
 Met BC=Air Pressure|Point Interpolation=Inv Distance
 Met BC=Air Pressure|Gridded Source=DSS
-Non-Newtonian Method= 0 , 
+Non-Newtonian Method= 0 ,  
 Non-Newtonian Constant Vol Conc=0
-Non-Newtonian Yield Method= 0 , 
+Non-Newtonian Yield Method= 0 ,  
 Non-Newtonian Yield Coef=0, 0
 User Yeild=   0
-Non-Newtonian Sed Visc= 0 , 
+Non-Newtonian Sed Visc= 0 ,  
 Non-Newtonian Obrian B=0
 User Viscosity=0
 User Viscosity Ratio=0
 Herschel-Bulkley Coef=0, 0
-Clastic Method= 0 , 
+Clastic Method= 0 ,  
 Coulomb Phi=0
 Voellmy X=0
 Non-Newtonian Hindered FV= 0 

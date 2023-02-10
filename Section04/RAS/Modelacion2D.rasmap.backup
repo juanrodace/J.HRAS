@@ -1,8 +1,10 @@
 <RASMapper>
   <Version>2.0.0</Version>
   <RASProjectionFilename Filename=".\ProjectionFile\GAUSS_BTA_MAGNA.prj" />
-  <Features>
-    <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
+  <Features Checked="True" Expanded="True">
+    <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Checked="True" Filename=".\Features\Profile Lines.shp">
+      <PlotOption Name="Stationing Tick Marks" />
+    </Layer>
   </Features>
   <Geometries Checked="True" Expanded="True">
     <Layer Name="Geometria2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\Modelacion2D.g01.hdf">
@@ -18,12 +20,12 @@
       <Layer Type="RASStorageArea">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
-      <Layer Type="RASD2FlowArea" Checked="True">
+      <Layer Type="RASD2FlowArea" Expanded="True">
         <DataColumnGroupVisibilities>
           <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
         </DataColumnGroupVisibilities>
       </Layer>
-      <Layer Type="MeshPerimeterLayer" Checked="True">
+      <Layer Type="MeshPerimeterLayer">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
         <DataColumnGroupVisibilities>
           <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
@@ -51,8 +53,10 @@
       <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
       <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
-      <Layer Type="RASBoundaryConditionLines" Checked="True" />
-      <Layer Type="FinalNValueLayer">
+      <Layer Type="FinalNValueLayer" Checked="True">
+        <Symbology>
+          <SurfaceFill Colors="-16711681,-16728065,-16776961,-16744448,-256,-23296,-65536" Values="0.01,0.04,0.07,0.11,0.14,0.17,0.2" Stretched="True" AlphaTag="143" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
         <ResampleMethod>near</ResampleMethod>
         <Surface On="True" />
       </Layer>
@@ -70,8 +74,109 @@
       </Layer>
     </Layer>
   </Geometries>
-  <EventConditions />
-  <Results />
+  <EventConditions>
+    <Layer Name="UnsteadyFlow1" Type="RASEventConditions" Filename=".\Modelacion2D.u01.hdf" />
+  </EventConditions>
+  <Results Checked="True" Expanded="True">
+    <Layer Name="TR-100" Type="RASResults" Checked="True" Expanded="True" Filename=".\Modelacion2D.p01.hdf">
+      <Layer Name="Event Conditions" Type="RASEventConditions" Filename=".\Modelacion2D.p01.hdf">
+        <Layer Name="Wind Layer" Type="ResultWindLayer" Filename=".\Modelacion2D.p01.hdf">
+          <ResampleMethod>near</ResampleMethod>
+          <Surface On="True" />
+          <Metadata BandIndex="0" SubDataset="" />
+        </Layer>
+      </Layer>
+      <Layer Type="RASGeometry" Filename=".\Modelacion2D.p01.hdf">
+        <Layer Type="RASXS" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+        <Layer Type="RASD2FlowArea">
+          <DataColumnGroupVisibilities>
+            <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
+          </DataColumnGroupVisibilities>
+        </Layer>
+        <Layer Type="MeshPerimeterLayer">
+          <DataColumnGroupVisibilities>
+            <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
+          </DataColumnGroupVisibilities>
+        </Layer>
+        <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
+        <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+        <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+        <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+        <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+        <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+        <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+        <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+        <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+        <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+        <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+        <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+        <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+        <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+        <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+        <Layer Type="FinalNValueLayer">
+          <ResampleMethod>near</ResampleMethod>
+          <Surface On="True" />
+        </Layer>
+        <Layer Name="TEMP N-Value Rasterizer" Type="InterpretationRasterizerLayer">
+          <ResampleMethod>near</ResampleMethod>
+          <Surface On="True" />
+        </Layer>
+        <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+          <ResampleMethod>near</ResampleMethod>
+          <Surface On="True" />
+        </Layer>
+        <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+          <ResampleMethod>near</ResampleMethod>
+          <Surface On="True" />
+        </Layer>
+      </Layer>
+      <Layer Name="Depth" Type="RASResultsMap" Checked="True">
+        <Symbology>
+          <HillShade On="True" Azimuth="315" Zenith="45" ZFactor="5" />
+          <SurfaceFill Colors="-16711681,-16718862,-16726299,-16733480,-16740661,-16748097,-16755278,-16762459,-16769896,-16777077" Values="0,1.67,3.33,5,6.67,8.33,10,11.67,13.33,15" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <MapParameters MapType="depth" ProfileIndex="9" ProfileName="01JAN2023 09:00:00" />
+      </Layer>
+      <Layer Name="Velocity" Type="RASResultsMap">
+        <Symbology>
+          <SurfaceFill Colors="-16776961,-10066177,-3355393,-13108,-39322,-65536" Values="0,20,40,60,80,100" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
+        <MapParameters MapType="velocity" ProfileIndex="12" ProfileName="01JAN2023 12:00:00" />
+      </Layer>
+      <Layer Name="WSE" Type="RASResultsMap">
+        <Symbology>
+          <SurfaceFill Colors="-8388864,-16744448,-256,-23296,-65536,-16181,-65281" Values="61.6363258361816,62.7378559112549,63.8393859863281,64.9409160614014,66.0424461364746,67.1439762115479,68.2455062866211" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <MapParameters MapType="elevation" ProfileIndex="10" ProfileName="01JAN2023 10:00:00" />
+      </Layer>
+      <Layer Name="Shear Stress" Type="RASResultsMap">
+        <Symbology>
+          <SurfaceFill Colors="-65536,-40192,-18688,-4864,-3355597,-8355712" Values="0,20,40,60,80,100" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <PlotOption Name="Draw Map Values" />
+        <MapParameters MapType="Shear" LayerName="Shear Stress" Terrain="Terrain" ProfileIndex="9" ProfileName="01JAN2023 09:00:00" ArrivalDepth="0" />
+      </Layer>
+      <Layer Name="Depth" Type="RASResultsMap" Filename=".\TR-100\Inundation Boundary (Max Value_0).shp">
+        <MapParameters MapType="depth" LayerName="Inundation Boundary" OutputMode="Stored Polygon Specified Depth" StoredFilename=".\TR-100\Inundation Boundary (Max Value_0).shp" Terrain="Terrain" ProfileIndex="2147483647" ProfileName="Max" ArrivalDepth="0" />
+      </Layer>
+      <Layer Name="Stream Power" Type="RASResultsMap">
+        <Symbology>
+          <SurfaceFill Colors="-1012516,-2338616,-6286156,-8897336,-16096016,-16725761,-16725856,-16725996,-5578496,-330496,-23296,-65536,-7667712" Values="-20,0,10,20,30,40,50,60,70,80,90,100,120" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <MapParameters MapType="stream power" LayerName="Stream Power" Terrain="Terrain" ProfileIndex="8" ProfileName="01JAN2023 08:00:00" ArrivalDepth="0" />
+      </Layer>
+      <Layer Name="Froude" Type="RASResultsMap">
+        <MapParameters MapType="froude" LayerName="Froude" Terrain="Terrain" ProfileIndex="9" ProfileName="01JAN2023 09:00:00" ArrivalDepth="0" />
+      </Layer>
+    </Layer>
+  </Results>
   <MapLayers Checked="True">
     <Layer Name="Google Terrain" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Terrain.xml">
       <Symbology>
@@ -96,18 +201,22 @@
   <Terrains Checked="True" Expanded="True">
     <Layer Name="Terrain" Type="TerrainLayer" Checked="True" Filename=".\Terrain\Terrain.hdf">
       <Symbology>
-        <SurfaceFill Colors="-2894893,-3947581,-5000269,-6118750,-7171438,-8224126,-9276814,-10395295,-11447983,-12500671,-13553359,-14671840,-15724528,-16777216" Values="0,7.69,15.38,23.08,30.77,38.46,46.15,53.85,61.54,69.23,76.92,84.62,92.31,100" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        <HillShade On="True" Azimuth="315" Zenith="45" ZFactor="5" />
+        <SurfaceFill Colors="-2894893,-4408132,-5987164,-7500403,-9079435,-10592674,-12171706,-13684945,-15263977,-16777216" Values="0,11.11,22.22,33.33,44.44,55.56,66.67,77.78,88.89,100" Stretched="True" AlphaTag="115" UseDatasetMinMax="False" RegenerateForScreen="True" />
       </Symbology>
       <ResampleMethod>near</ResampleMethod>
       <Surface On="True" />
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>1076705.01385897</MaxX>
-    <MinX>1076613.58464422</MinX>
-    <MaxY>1573714.45957535</MaxY>
-    <MinY>1573473.41891828</MinY>
+    <MaxX>1076944.72454503</MaxX>
+    <MinX>1074789.72454503</MinX>
+    <MaxY>1574145.84073209</MaxY>
+    <MinY>1572925.84073209</MinY>
   </CurrentView>
+  <LayerValues>
+    <LayerValue MapTip="True" Name="Froude (TR-100)" ID="F" LayerName="Froude" LayerParentIdentifiers="" />
+  </LayerValues>
   <VelocitySettings>
     <Density>1.5</Density>
     <Lifetime>100</Lifetime>
@@ -122,6 +231,7 @@
   </AnimationSettings>
   <Units>SI Units</Units>
   <RenderMode>sloping</RenderMode>
+  <UseDepthWeightedFaces>true</UseDepthWeightedFaces>
   <ReduceShallowToHorizontal>true</ReduceShallowToHorizontal>
   <MarksWarpMethod>False</MarksWarpMethod>
   <CurrentSettings>

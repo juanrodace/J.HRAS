@@ -25,7 +25,7 @@ Ending Time:     05Jan2023 2400
                 #                                              #
                 #          HEC-RAS 6.3.1 October 2022          #
                 #                                              #
-                #             28JAN23 at 23:30:46              #
+                #             30JAN23 at 11:19:13              #
                 #                                              #
                 ################################################
                 
@@ -49,22 +49,22 @@ Ending Time:     05Jan2023 2400
            *******    ************      **********      **********     ***********           *****   *************
  
  
-       Perimeter 1           12.53           1384.          11796.          10424.       -0.225390        0.001911
+       Perimeter 1           12.53           320.9          11796.          11488.       -0.099992        0.000848
 
 
 
                  ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
 
 Total Boundary Flux of Water In           11796.
-Total Boundary Flux of Water Out          10424.
+Total Boundary Flux of Water Out          11488.
 
 Starting Volume                            12.53
-Ending Volume                              1384.
+Ending Volume                              320.9
 
 
                              Error   Percent Error
                              *****   *************
-                         -0.225390        0.001909
+                         -0.099992        0.000847
 
 
 

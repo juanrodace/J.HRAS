@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<br><img alt="J.HRAS" src="../.icons/0_HRAS.png" width="300px">
+<br><img alt="J.HRAS" src="../.icons/0_HRAS.svg" width="400px">
 <br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
 <b>Sección 1 - Introducción y fundamentos</b><br>
 </div>

@@ -174,3 +174,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^2]: Hidráulica de tuberías y canales. Rocha Arturo.
 [^3]: Open Channel Hydraulics. Chow, Ven Te. 2nd Ed., Blackburn Press. 2009.
 
+<div align="center"><a href="../../HowToGetCertified.md" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBotonCertificado.png" alt="J.HRAS" width="260" border="0" /></a></div>

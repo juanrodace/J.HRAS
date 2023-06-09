@@ -1,1 +1,0 @@
-Esta carpeta contiene scripts generales de Python en formato .py.

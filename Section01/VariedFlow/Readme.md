@@ -198,4 +198,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 [^3]: [Guide for selecting Manning's roughness coefficients for natural channels and flood plains. Paper 2339. USGS.](https://pubs.usgs.gov/wsp/2339/report.pdf)
 [^4]: [Roughness Characteristics of Natural Channels. Paper 1849. USGS.](https://pubs.usgs.gov/wsp/wsp_1849/pdf/wsp_1849.pdf)
 
-<div align="center"><a href="../../HowToGetCertified.md" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBotonCertificado.png" alt="J.HRAS" width="260" border="0" /></a></div>
+<div align="center"><a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/LC_SA_MN.LC_FRM_ADM_EC_CMP.GBL" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBotonCertificado.png" alt="J.HRAS" width="260" border="0" /></a></div>

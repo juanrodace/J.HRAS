@@ -18,4 +18,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../Readme.md) | [Siguiente:arrow_forward:](Manning/Readme.md) |
 |------------------------------------------|--------------------------------|-----------------------------------------------|
 
-<div align="center"><a href="HowToGetCertified.md" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBannerCertificado.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/LC_SA_MN.LC_FRM_ADM_EC_CMP.GBL" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBannerCertificado.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>

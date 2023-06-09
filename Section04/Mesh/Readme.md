@@ -131,7 +131,7 @@ A continuación se presenta el proceso recomendado para el refinamiento de la ma
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../MDT/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Hydraulic/Readme.md) |
+| [:arrow_backward:Anterior](../MDT/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/5) | [Siguiente:arrow_forward:](../Hydraulic/Readme.md) |
 |----------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

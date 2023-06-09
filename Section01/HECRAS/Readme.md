@@ -134,7 +134,7 @@ El usuario interactúa con HEC-RAS a través de una interfaz gráfica de usuario
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../HydraulicSystems) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/7) | [Siguiente:arrow_forward:](../../Section02/Readme.md) |
+| [:arrow_backward:Anterior](../HydraulicSystems) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](../../Section02/Readme.md) |
 |-------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

@@ -104,7 +104,7 @@ A continuación se describen los pasos sugeridos para realizar la simulación un
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Topography/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Simulation_1D_UF/Readme.md) |
+| [:arrow_backward:Anterior](../Topography/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../Simulation_1D_UF/Readme.md) |
 |-----------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

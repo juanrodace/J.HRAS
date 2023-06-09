@@ -89,7 +89,7 @@ En la siguiente imagen se muestra la asociación realizada para el ejemplo del c
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Confluence/Readme.md) |
+| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](../Confluence/Readme.md) |
 |------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

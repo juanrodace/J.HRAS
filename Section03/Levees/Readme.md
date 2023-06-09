@@ -79,7 +79,7 @@ En la ventana de información geometrica se podrá ver la definición de diques 
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Confluence/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Structures/Readme.md) |
+| [:arrow_backward:Anterior](../Confluence/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](../Structures/Readme.md) |
 |-----------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

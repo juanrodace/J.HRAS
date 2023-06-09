@@ -163,7 +163,7 @@ Al igual que la energía específica, esta ecuación nos permite evaluar la vari
 | 2022.08 | Inclusión conceptos.                                              | [juanrodace](https://github.com/juanrodace) |  4.0  |
 | 2022.11 | Desarrollo contenido multimedia.                                  | [juanrodace](https://github.com/juanrodace) |  2.0  |
 
-| [:arrow_backward:Anterior](../FundamentalConcepts) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/3) | [Siguiente:arrow_forward:](../VariedFlow) |
+| [:arrow_backward:Anterior](../FundamentalConcepts) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda](https://github.com/juanrodace/J.HRAS/discussions/2) | [Siguiente:arrow_forward:](../VariedFlow) |
 |-------------------------------------------------|-----------------------------------|------------------------------------------------------------------------|-------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../License.md)._

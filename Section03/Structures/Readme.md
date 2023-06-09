@@ -173,7 +173,7 @@ En la ventana de edición geométrica, también podrá visualizar la estructura 
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Levees/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Scour/Readme.md) |
+| [:arrow_backward:Anterior](../Levees/Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/4) | [Siguiente:arrow_forward:](../Scour/Readme.md) |
 |-------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

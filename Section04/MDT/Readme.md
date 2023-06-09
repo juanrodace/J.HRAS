@@ -101,7 +101,7 @@ Una característica adicional de RAS Mapper, es la inclusión de mapas e imágen
 
 ### Licencia, cláusulas y condiciones de uso
 
-| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/8) | [Siguiente:arrow_forward:](../Mesh/Readme.md) |
+| [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda/Colabora](https://github.com/juanrodace/J.HRAS/discussions/5) | [Siguiente:arrow_forward:](../Mesh/Readme.md) |
 |------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------|
 
 _J.HRAS es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](https://github.com/juanrodace/J.HRAS/wiki/License)._

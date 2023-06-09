@@ -1,5 +1,7 @@
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>
+
 <div align="center">
-<br><img alt="J.HRAS" src="../.icons/0_HRAS.png" width="250px">
+<br><img alt="J.HRAS" src="../.icons/0_HRAS.png" width="300px">
 <br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
 <b>Sección 2 - Modelación Hidráulica Básica</b><br>
 </div>
@@ -15,3 +17,5 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:arrow_backward:Anterior](../Readme.md) | [:house: Inicio](../Readme.md) | [Siguiente:arrow_forward:](Geometry/Readme.md) |
 |------------------------------------------|--------------------------------|------------------------------------------------|
+
+<div align="center"><a href="HowToGetCertified.md" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBannerCertificado.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>

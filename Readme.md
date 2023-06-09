@@ -1,6 +1,9 @@
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+
+
 <div align="center">
 <br>
-<img alt="J.HRAS" src=".icons/0_HRAS.png" width="250px">
+<img alt="J.HRAS" src=".icons/0_HRAS.png" width="300px">
 <br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
 by Juan Rodriguez <a href="https://github.com/juanrodace/"><i>(juanrodace)</i></a><br><br>
 <br></div>
@@ -117,4 +120,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 ##
 
-<div align="center"><a href="http://www.escuelaing.edu.co" target="_blank"><img src=".icons/Banner1.svg" alt="Support by" width="100%" border="0" /></a><sub><br>Este curso ha sido desarrollado con el apoyo de la Universidad Escuela Colombiana de Ingeniería Julio Garavito. Encuentra más contenidos en https://github.com/uescuelaing</sub><br><br></div>
+<div align="center"><a href="HowToGetCertified.md" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBannerCertificado.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>

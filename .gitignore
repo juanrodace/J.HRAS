@@ -12,6 +12,13 @@
 venv/
 venvArcGISDesktop10.2.2/
 Lib/
+.gitignore/
+.doc_aux/
+.mp4/
+**/*.vsdx
+**/*.docx
+**/*.pptx
+**/*.txt
 #.refs/GitHubRefs/
 
 # Byte-compiled / optimized / DLL files

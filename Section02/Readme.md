@@ -13,7 +13,7 @@ juan.rodrigueza@escuelaing.edu.co
 
 <div align="center">
     <a href="https://youtu.be/LL9Jb_bopxM">
-        <img src="../.icons/Video_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/>
+        <img src="../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/>
     </a>
 </div>
 

@@ -5,7 +5,6 @@
 <br>
 <img alt="J.HRAS" src=".icons/0_HRAS.svg" width="600px">
 <br><b>Universidad Escuela Colombiana de Ingeniería Julio Garavito<br>
-Modelación hidráulica a superficie libre con HEC-RAS</b><br>
 <a href="https://github.com/juanrodace/">Juan David Rodriguez Acevedo</a><br>
 Profesor del Centro de Estudios Hidráulicos<br>
 juan.rodrigueza@escuelaing.edu.co
@@ -68,11 +67,6 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 * Contar con conexión a internet.
 * Software de modelación hidráulica HEC-RAS.
 * Software QGIS o similar.
-
-##
-
-<div align="center"><a href="Section01/Readme.md"><img src=".icons/Start.png" alt="INICIO" width="210" border="10" /></a></div>
-
 
 ## Contenido
 ### Sección 1. Introducción y fundamentos generales

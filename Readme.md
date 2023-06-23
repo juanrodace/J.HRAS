@@ -4,7 +4,7 @@
 <div align="center">
 <br>
 <img alt="J.HRAS" src=".icons/0_HRAS.svg" width="600px">
-<br><b>Universidad Escuela Colombiana de Ingeniería Julio Garavito<br>
+<br><b>Universidad Escuela Colombiana de Ingeniería Julio Garavito</b><br>
 <a href="https://github.com/juanrodace/">Juan David Rodriguez Acevedo</a><br>
 Profesor del Centro de Estudios Hidráulicos<br>
 juan.rodrigueza@escuelaing.edu.co
@@ -14,7 +14,7 @@ juan.rodrigueza@escuelaing.edu.co
 <div align="center">
     <a href="https://youtu.be/kWatliDj6Gc">
         <img src=".icons/Video_Inicio.png" alt="IMAGE ALT TEXT HERE" width="800"/>
-    </a>
+    </a><br>
 </div>
 
 La modelación hidráulica pretende reproducir determinados fenómenos o procesos relacionados con el flujo o transporte del agua. Sus resultados se emplean en el ámbito de la ingeniería para tratar diferentes aspectos, como los relacionados con el transporte y distribución del agua, la intervención de cauces, el desarrollo de estructuras o vías, la hidráulica fluvial, entre otros. Los sistemas computacionales son hoy en día una poderosa herramienta en la modelación numérica, permitiendo reducir el tiempo y mejorar la calidad de los estudios hidráulicos en la ingeniería. HEC-RAS es quizás una de las herramientas más aprobadas y utilizadas desde el punto de vista práctico, ya que además de contar con modelos 1D y 2D, tiene la ventaja de ser un software de libre acceso, volviéndolo muy accesible por los diferentes usuarios a través de todo el mundo.
@@ -69,7 +69,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 * Software QGIS o similar.
 
 ## Contenido
-### Sección 1. Introducción y fundamentos generales
+### [Sección 1](Section01/Readme.md). Introducción y fundamentos generales
 
 | Microcontenido                                                                            | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | [Flujo no permanente](Section01/UnsteadyFlow/Readme.md)                                   | En esta clase se estudian los conceptos básicos y ecuaciones del flujo no permanente en sistemas hidráulicos a superficie libre.                                                                                                                                                                                                                                                                                                                                             |
 | [Sistemas hidráulicos y modelación.](Section01/HydraulicSystems/Readme.md)                | En esta clase se presentan los conceptos básicos de la gestión y planificación de sistemas de recursos hídricos, sus objetivos, características y aspectos. Así mismo se presenta la relación de los estudios o evaluación hidráulica en la planificación y gestión integral del recurso. Igualmente, se presentan los conceptos generales asociados a los estudios hidráulicos y modelación a tener en cuenta antes de iniciar con el uso de una herramienta computacional. |
 | [HEC-RAS. Generalidades, usos y estructura.](Section01/HECRAS/Readme.md)                  | En esta clase se presentan las generalidades del software de modelación hidráulica desarrollado por el Hydrological Engineering Center, el cual es uno de los programas de referencia dentro de su campo. Así mismo, su obtención, descarga, instalación, características básicas, uso generalizado, actualización y estructura.                                                                                                                                             |
-### Sección 2. Modelación hidráulica básica
+### [Sección 2](Section02/Readme.md). Modelación hidráulica básica
 
 | Microcontenido                                                                                          | Detalle                                                                                                                                                                                                                                                                                                                      | 
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | [Visualización   de resultados.](Section02/Results/Readme.md)                                           | En esta clase se presentan las diferentes opciones de visualización de los resultados de un modelo unidimensional (1D) incluyendo las visualizaciones en tablas y visualizaciones gráficas. Igualmente, se presentan los errores, avisos (warnings) y notas (notes) comunes que pueden aparecer en el proceso de simulación. |
 
 
-### Sección 3. Modelación con opciones avanzadas
+### [Sección 3](Section03/Readme.md). Modelación con opciones avanzadas
 
 | Microcontenido                                                 | Detalle                                                                                                                                                                                            | 
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ El curso virtual tendrá un enfoque teórico-práctico. La parte teórica compre
 | [Socavación.](Section03/Scour/Readme.md)                       | En esta clase se presentan la opción de simulación y cálculo de la socavación local en puentes del sistema hidráulico.                                                                             |
 
 
-### Sección 4. Modelación hidráulica bidimensional
+### [Sección 4](Section04/Readme.md). Modelación hidráulica bidimensional
 
 | Microcontenido                                                          | Detalle                                                                                                                                                                        | 
 |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

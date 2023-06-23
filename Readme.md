@@ -3,12 +3,20 @@
 
 <div align="center">
 <br>
-<img alt="J.HRAS" src=".icons/0_HRAS.svg" width="500px">
-<br><b>Modelación hidráulica a superficie libre con HEC-RAS</b><br>
-by Juan Rodriguez <a href="https://github.com/juanrodace/"><i>(juanrodace)</i></a><br><br>
+<img alt="J.HRAS" src=".icons/0_HRAS.svg" width="600px">
+<br><b>Universidad Escuela Colombiana de Ingeniería Julio Garavito<br>
+Modelación hidráulica a superficie libre con HEC-RAS</b><br>
+<a href="https://github.com/juanrodace/">Juan David Rodriguez Acevedo</a><br>
+Profesor del Centro de Estudios Hidráulicos<br>
+juan.rodrigueza@escuelaing.edu.co
+<br>
 <br></div>
 
-<div align="center"><a href="https://web.microsoftstream.com/video/f7116839-850a-4fe6-a783-a7a9a9d57585" target="_blank"><img src=".icons/Video_0.png" alt="IMAGE ALT TEXT HERE" width="370" border="10" /></a><br></div>
+<div align="center">
+    <a href="https://youtu.be/kWatliDj6Gc">
+        <img src=".icons/Video_Inicio.png" alt="IMAGE ALT TEXT HERE" width="800"/>
+    </a>
+</div>
 
 La modelación hidráulica pretende reproducir determinados fenómenos o procesos relacionados con el flujo o transporte del agua. Sus resultados se emplean en el ámbito de la ingeniería para tratar diferentes aspectos, como los relacionados con el transporte y distribución del agua, la intervención de cauces, el desarrollo de estructuras o vías, la hidráulica fluvial, entre otros. Los sistemas computacionales son hoy en día una poderosa herramienta en la modelación numérica, permitiendo reducir el tiempo y mejorar la calidad de los estudios hidráulicos en la ingeniería. HEC-RAS es quizás una de las herramientas más aprobadas y utilizadas desde el punto de vista práctico, ya que además de contar con modelos 1D y 2D, tiene la ventaja de ser un software de libre acceso, volviéndolo muy accesible por los diferentes usuarios a través de todo el mundo.
 
@@ -120,5 +128,8 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:sun_with_face: Iniciar curso](Section01/Readme.md) | [:infinity: Otros cursos](https://github.com/juanrodace) | [:notebook: Referencias](.refs/Referencias.md) |
 |------------------------------------------------------|----------------------------------------------------------|------------------------------------------------|
+___
 
 <div align="center"><a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/LC_SA_MN.LC_FRM_ADM_EC_CMP.GBL" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBannerCertificado.jpg" alt="J.HRAS" width="100%" border="0" /></a></div>
+
+<div align="center"><a href="http://www.escuelaing.edu.co" target="_blank"><img src=".icons/Banner1.svg" alt="Support by" width="100%" border="0" /></a><sub><br>Este curso guía ha sido desarrollado con el apoyo de la Escuela Colombiana de Ingeniería - Julio Garavito. Encuentra más contenidos en https://github.com/uescuelaing</sub><br><br></div>

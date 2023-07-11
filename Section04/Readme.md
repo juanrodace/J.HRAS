@@ -18,7 +18,7 @@ juan.rodrigueza@escuelaing.edu.co
 </div>
 
 ## Modelación Hidráulica Bidimensional 2D
-En esta sección se presenta las principales funciones del software HEC-RAS y el RAS Mapper para la modelación bidimensional de canales naturales y artificiales. Esto incluye el modelo de terreno, la geometría, definición de la malla,  las condiciones de flujo y condiciones hidráulicas y de frontera, las opciones de simulación, la visualización de resultados y la generación de mapas.
+En esta sección se presenta las principales funciones del software HEC-RAS y el RAS Mapper para la modelación bidimensional de canales naturales y artificiales. Esto incluye el modelo de terreno, la geometría, definición de la malla, las condiciones de flujo y condiciones hidráulicas y de frontera, las opciones de simulación, la visualización de resultados y la generación de mapas.
 
 ##
 

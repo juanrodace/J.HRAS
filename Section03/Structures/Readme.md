@@ -14,9 +14,9 @@ juan.rodrigueza@escuelaing.edu.co
 <br></div>
 
 <div align="center">
-    <a href="https://youtu.be/7mn0G_ZEws8">
+    <a href="https://youtu.be/c90XDnRsNX8">
         <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/>
-    </a>Video Actividad - Parte 1
+    </a><br>Video Actividad - Parte 1<br>
 </div>
 
 ##
@@ -94,9 +94,9 @@ Igualmente, para el caso de los puentes, al dar clic en el botón <kbd>**Pier**<
 
 ##
 <div align="center">
-    <a href="https://youtu.be/7mn0G_ZEws8">
+    <a href="https://youtu.be/xwvcia1icZg">
         <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/>
-    </a> Video Actividad - Parte 2
+    </a> <br> Video Actividad - Parte 2<br>
 </div>
 ##
 

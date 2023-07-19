@@ -14,7 +14,7 @@ juan.rodrigueza@escuelaing.edu.co
 <br></div>
 
 <div align="center">
-    <a href="https://youtu.be/NZGZlJ6p5-A">
+    <a href="https://youtu.be/gkG5rwh4Vm4">
         <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/>
     </a>
 </div>

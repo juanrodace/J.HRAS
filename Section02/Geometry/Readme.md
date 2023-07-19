@@ -14,9 +14,9 @@ juan.rodrigueza@escuelaing.edu.co
 <br></div>
 
 <div align="center">
-    <a href="https://youtu.be/4z8Bm_FQp0k">
-        <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/><br>
-    </a> Video Actividad - Parte 1
+    <a href="https://youtu.be/4eqGhkOSpoc">
+        <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/></a><br>
+    Video Actividad - Parte 1<br>
 </div>
 
 ##
@@ -167,9 +167,9 @@ En esta ocasión utilizaremos la segunda opción. Al dar clic, se abrirá la ven
 
 ##
 <div align="center">
-    <a href="https://youtu.be/NQFHHPzXxxU">
-        <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/><br>
-    </a> Video Actividad - Parte 2
+    <a href="https://youtu.be/7XgHfPA4Ifg">
+        <img src="../../.icons/Inicio_Actividad.png" alt="IMAGE ALT TEXT HERE" width="800"/></a><br>
+     Video Actividad - Parte 2<br>
 </div>
 
 ##
